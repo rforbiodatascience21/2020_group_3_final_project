@@ -16,3 +16,5 @@ complete_data <- bind_cols(x,y)
 
 # Writing csv
 write.csv(complete_data,"/cloud/project/data/chiaretti.csv", row.names = FALSE)
+
+View(complete_data)
