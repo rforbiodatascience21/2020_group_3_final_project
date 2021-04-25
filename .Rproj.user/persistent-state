@@ -1,10 +1,25 @@
+<<<<<<< HEAD
 activeClientUrl="https://7e974f8c1d2243aba32f267e04e29e96.app.rstudio.cloud/"
+=======
+<<<<<<< HEAD
+activeClientUrl="https://b0cc7874a1df4e02a6867d633e873bbf.app.rstudio.cloud/"
+portToken="f6624e20c86e"
+=======
+activeClientUrl="https://c167c476f5224de196c02bfc3c05f2d1.app.rstudio.cloud/"
+>>>>>>> 3926b2907c847a30c76d3e87a9a83f0b792fcb9b
 build-last-errors="[]"
 build-last-errors-base-dir=""
 build-last-outputs="[]"
 compile_pdf_state="{\"tab_visible\":false,\"running\":false,\"target_file\":\"\",\"output\":\"\",\"errors\":[]}"
 files.monitored-path=""
 find-in-files-state="{\"handle\":\"\",\"input\":\"\",\"path\":\"\",\"regex\":false,\"ignoreCase\":false,\"results\":{\"file\":[],\"line\":[],\"lineValue\":[],\"matchOn\":[],\"matchOff\":[],\"replaceMatchOn\":[],\"replaceMatchOff\":[]},\"running\":false,\"replace\":false,\"preview\":false,\"gitFlag\":false,\"replacePattern\":\"\"}"
+<<<<<<< HEAD
 imageDirtyState="1"
 portToken="16bfeae4ced4"
 saveActionState="-1"
+=======
+imageDirtyState="0"
+portToken="37e8a4f1de32"
+saveActionState="0"
+>>>>>>> a7c9947c0bdff649b84b7942a7f37fe9784adfe8
+>>>>>>> 3926b2907c847a30c76d3e87a9a83f0b792fcb9b

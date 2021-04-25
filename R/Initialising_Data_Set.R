@@ -1,7 +1,8 @@
 # Converting Rdata-file to CSV
 
 # Loading data
-load("chiaretti.RData")
+library(tidyverse)
+load("/cloud/project/data/chiaretti.RData")
 
 #Extracting variables
 x <- chiaretti %>%
@@ -15,5 +16,6 @@ y <- chiaretti %>%
 complete_data <- bind_cols(x,y)
 
 # Writing csv
-write.csv(complete_data,"//Cloud//project//data","chiaretti.csv", row.names = FALSE)
+write.csv(complete_data,"/cloud/project/data/chiaretti.csv", row.names = FALSE)
+
 View(complete_data)
