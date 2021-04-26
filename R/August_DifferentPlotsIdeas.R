@@ -7,45 +7,40 @@ library(tidyverse)
 library(dplyr)
 
 # Loading data
-data("chiaretti", package = "datamicroarray")
+data <- read_tsv("/cloud/project/data/nhgh.tsv")
 
-# Extracting variables
-x <- chiaretti %>%
-  pluck("x") %>%
-  as_tibble()
-
-# Extracting target values
-y <- chiaretti %>%
-  pluck("y") %>%
-  as_tibble() %>%
-
-complete_data <- bind_cols(x,y)
+data_clean <- data %>%
+  drop_na()
 
 # Making boxplot
-ggplot(data = complete_data,
-       mapping = aes(x = value,
-                     y = `1000_at`,
-                     fill = value)) +
+ggplot(data = data,
+       mapping = aes(x = re,
+                     y = bmi,
+                     fill = sex)) +
   geom_boxplot()
 
-ggplot(data = complete_data,
-       mapping = aes(x = `1000_at`,
-                     y = `1001_at`,
-                     fill = value,
-                     color = value)) +
+# Scatter plot
+ggplot(data = data,
+       mapping = aes(x = waist,
+                     y = bmi,
+                     fill = sex,
+                     color = sex)) +
   geom_point()
 
-ggplot(data = complete_data,
-       mapping = aes(x = `1002_f_at`,
-                     fill = value)) +
+# Density
+ggplot(data = data,
+       mapping = aes(x = bmi,
+                     fill = re)) +
   geom_density()+
-  labs(x="NH4", y="density")
+  labs(x="BMI", y="density")
 
-ggplot(data = complete_data,
-       mapping = aes(x = `1000_at`,
-                     y = `1001_at`,
-                     color=value)) +
+# LM
+ggplot(data = data,
+       mapping = aes(x = waist,
+                     y = bmi,
+                     fill = sex,
+                     color=sex)) +
   geom_point() +
   geom_smooth(method='lm', formula= y~x, se=F) +
-  labs(x="CODt", y="CODs")
+  labs(x="waist", y="BMI")
 
