@@ -11,13 +11,9 @@ source(file = "R/99_project_functions.R")
 
 
 # Load data ---------------------------------------------------------------
-my_data_raw <- read_tsv(file = "data/_raw/my_raw_data.tsv")
-
+my_data_raw <- read_tsv(file = "/cloud/project/data/nhgh.tsv")
+View(my_data_raw)
 
 # Wrangle data ------------------------------------------------------------
-my_data <- my_data_raw # %>% ...
-
-
-# Write data --------------------------------------------------------------
-write_tsv(x = my_data,
-          file = "data/01_my_data.tsv")
+my_data <- my_data_raw  %>% 
+  drop_na()
