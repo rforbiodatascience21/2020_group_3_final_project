@@ -12,7 +12,6 @@ source(file = "R/99_project_functions.R")
 
 # Load data ---------------------------------------------------------------
 data_raw <- read_tsv(file = "/cloud/project/data/nhgh.tsv")
-View(data_raw)
 
 # Wrangle data ------------------------------------------------------------
 data <- data_raw  %>% 
