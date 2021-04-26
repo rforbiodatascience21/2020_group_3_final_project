@@ -33,11 +33,17 @@ table_clean %>%
 #normal range for the hemoglobin A1c level is between 4% and 5.6%. Hemoglobin A1c levels between 5.7% and 6.4% mean you have a higher chance of getting diabetes. Levels of 6.5% or higher mean you have diabetes.
 #Table displaying basic statistics (mean, std, percentiles) 
 
+#the average age, weight, bmi and glycohemoglobin for people with diabetes
+table_clean %>%
+  filter(dx == '1') %>%
+  summarize(average_age = mean(age), average_weight = mean(wt), 
+            average_bmi = mean(bmi), average_gh = mean(gh))
 
-
-
-
-
+#number of people with untreated diabetes 
+table_clean %>%
+  filter(dx == '1') %>%
+  filter(tx == '0') %>%
+  count()
 
 
 
