@@ -7,14 +7,6 @@ table <- read.table(file = '/cloud/project/data/nhgh.tsv', sep = '\t', header = 
 table_clean <- table %>%
   drop_na()
 
-
-
-ggplot(data = table_clean,
-       mapping = aes(x = income,
-                     y = mean(bmi),
-                     fill = sex,
-                     color = sex)) +
-  geom_point()
 #BMI depending on the income
 table_clean <- table_clean %>% 
   mutate(BMI_class = case_when(bmi < 18.5 ~ "Underweight",
@@ -25,6 +17,14 @@ table_clean <- table_clean %>%
                                40 <= bmi ~ "Morbid obesity"))
 
 table_clean %>%
+  ggplot(aes(x = income, fill=factor(BMI_class, levels=c("Underweight","Normal weight", "Overweight","Obese", "Severe obesity", "Morbid obesity")))) +
+  geom_bar(position = "stack") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(fill = "Categories")
+
+#BMI Class distribution among diabetic people
+table_clean %>%
+  filter(dx == "1") %>%
   ggplot(aes(x = income, fill=factor(BMI_class, levels=c("Underweight","Normal weight", "Overweight","Obese", "Severe obesity", "Morbid obesity")))) +
   geom_bar(position = "stack") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
