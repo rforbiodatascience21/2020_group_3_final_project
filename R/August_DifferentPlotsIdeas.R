@@ -82,3 +82,10 @@ ggplot(data = data,
   geom_smooth(method='lm', formula= y~x, se=F) +
   labs(x="waist", y="BMI")
 
+ggplot(data = data,
+       mapping = aes(sample = waist,
+                     colour = factor(re))) +
+  stat_qq() +
+  stat_qq_line()
+
+
