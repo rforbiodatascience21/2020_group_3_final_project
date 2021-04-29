@@ -5,6 +5,7 @@ library(devtools)
 library(datamicroarray)
 library(tidyverse)
 library(dplyr)
+library(tidymodels)
 
 # Loading data
 data <- read_tsv("/cloud/project/data/nhgh.tsv")
@@ -146,3 +147,71 @@ pca_fit %>%
     limits = c(0, 0.1)) +
   theme_minimal(base_size = 12,
                 base_family = "") 
+
+# K-means
+labelled_points <- data_clean_bmi %>%
+  select(dx, wt, bmi) %>%
+  mutate(x1 = (wt - mean(wt)) / (var(wt) ** (1 / 2)),
+         x2 = (bmi - mean(bmi)) / (var(bmi) ** (1 / 2))) %>%
+  unnest(cols = c(x1,x2))
+
+ggplot(labelled_points, aes(x1, x2, color = dx)) +
+  geom_point(alpha = 0.3)
+
+points <- labelled_points %>% 
+  select(-dx)
+
+kclust <- kmeans(points, centers = 2)
+kclust
+summary(kclust)
+augment(kclust, points)
+
+tidy(kclust)
+
+glance(kclust)
+
+
+kclusts <- 
+  tibble(k = 1:9) %>%
+  mutate(
+    kclust = map(k, ~kmeans(points, .x)),
+    tidied = map(kclust, tidy),
+    glanced = map(kclust, glance),
+    augmented = map(kclust, augment, points)
+  )
+
+clusters <- 
+  kclusts %>%
+  unnest(cols = c(tidied))
+
+assignments <- 
+  kclusts %>% 
+  unnest(cols = c(augmented))
+
+clusterings <- 
+  kclusts %>%
+  unnest(cols = c(glanced))
+
+p1 <- 
+  ggplot(assignments, aes(x = x1, y = x2)) +
+  geom_point(aes(color = .cluster), alpha = 0.8) + 
+  facet_wrap(~ k)
+p1
+
+p2 <- p1 + geom_point(data = clusters, size = 10, shape = "x")
+p2
+
+
+ggplot(clusterings, aes(k, tot.withinss)) +
+  geom_line() +
+  geom_point()
+
+
+
+
+
+
+
+
+
+
