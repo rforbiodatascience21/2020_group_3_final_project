@@ -82,10 +82,67 @@ ggplot(data = data,
   geom_smooth(method='lm', formula= y~x, se=F) +
   labs(x="waist", y="BMI")
 
+# QQ-plot
 ggplot(data = data,
        mapping = aes(sample = waist,
                      colour = factor(re))) +
   stat_qq() +
   stat_qq_line()
 
+# PCA plot
 
+pca_fit <- data %>% 
+  select(where(is.numeric)) %>% # retain only numeric columns
+  prcomp(scale = TRUE)
+
+pca_fit %>%
+  augment(data) %>%
+  ggplot(aes(.fittedPC1,
+             .fittedPC2,
+             color = dx)) + 
+  geom_point(size = 1.5) +
+  theme_classic() +
+  theme(legend.position = "bottom")
+
+pca_fit %>%
+  tidy(matrix = "rotation")
+
+arrow_style <- arrow(
+  angle = 20, ends = "first", type = "closed", length = grid::unit(8, "pt")
+)
+
+pca_fit %>%
+  tidy(matrix = "rotation") %>%
+  pivot_wider(names_from = "PC",
+              names_prefix = "PC",
+              values_from = "value") %>%
+  ggplot(aes(PC1, PC2)) +
+  geom_segment(xend = 0,
+               yend = 0,
+               arrow = arrow_style) +
+  geom_text(
+    aes(label = column),
+    hjust = 1,
+    nudge_x = -0.02, 
+    color = "#904C2F"
+  ) +
+  theme_minimal() +
+  coord_fixed() # fix aspect ratio to 1:1
+
+pca_fit %>%
+  tidy(matrix = "eigenvalues")
+
+pca_fit %>%
+  tidy(matrix = "eigenvalues") %>%
+  filter(PC <= 10) %>%
+  ggplot(aes(PC,
+             percent)) +
+  geom_col(fill = "#56B4E9",
+           alpha = 0.8) +
+  scale_x_continuous(breaks = 1:9) +
+  scale_y_continuous(
+    labels = scales::percent_format(),
+    expand = expansion(mult = c(0, 0.4)),
+    limits = c(0, 0.1)) +
+  theme_minimal(base_size = 12,
+                base_family = "") 
