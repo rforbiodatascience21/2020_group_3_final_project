@@ -33,6 +33,7 @@ my_data_clean <- my_data_clean %>%
                                  unit == "y" ~ Dur_disease * 365)) %>%
   select(-unit)
 
+
 # Write data --------------------------------------------------------------
 #write_tsv(x = my_data_clean,
 #          file = "data/02_my_data_clean.tsv")
