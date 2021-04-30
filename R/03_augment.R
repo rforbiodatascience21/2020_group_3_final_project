@@ -59,19 +59,17 @@ data <- my_data_clean_aug %>%
          -second_disease,
          -third_disease)
 
-<<<<<<< HEAD
+
 
 bmi <- my_data_clean_aug %>%
   select(BMI)
 
 disease_BMI <- full_join(x = diseases,
                          y = bmi)
-=======
 Tibble1 <- my_data_clean_aug %>%
   select(BMI,`Insulin taken`)
 Tibble2 <- my_data_clean_aug %>%
   select(BMI, `Impaired glucose metabolism`)
->>>>>>> 9554ab383e3c1cba88160a141ee86a934e8934c4
 
 DemonstratingJoin <- full_join(x = Tibble1,
                                y = Tibble2,

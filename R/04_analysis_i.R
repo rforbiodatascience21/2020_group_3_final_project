@@ -15,7 +15,11 @@ my_data_clean_aug <- read_tsv(file = "data/03_my_data_clean_aug.tsv")
 
 
 # Wrangle data ------------------------------------------------------------
-my_data_clean_aug %>% ...
+
+dim(my_data_clean_aug)
+
+my_data_clean_aug %>%
+  count(my_data_clean_aug)
 
 
 # Model data
@@ -23,8 +27,10 @@ my_data_clean_aug %>% ...
 
 
 # Visualise data ----------------------------------------------------------
-my_data_clean_aug %>% ...
-
+my_data_clean_aug %>% ggplot(
+  aes(x = BMI,
+      y = Weight )) +
+  geom_boxplot()
 
 # Write data --------------------------------------------------------------
 write_tsv(...)
