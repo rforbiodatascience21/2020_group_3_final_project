@@ -1,4 +1,4 @@
-#i was just curious lol 
+# lr model
 
 library("tidyverse")
 
@@ -50,52 +50,50 @@ diabetes_train_preprocessed <- diabetes_recipe %>%
   juice()
 diabetes_train_preprocessed
 
-rf_model <- 
+lr_model <- 
   # specify that the model is a random forest
-  rand_forest() %>%
-  # specify that the `mtry` parameter needs to be tuned
-  set_args(mtry = tune()) %>%
+  logistic_reg() %>%
   # select the engine/package that underlies the model
-  set_engine("ranger", importance = "impurity") %>%
+  set_engine("glm") %>%
   # choose either the continuous regression or binary classification mode
-  set_mode("classification") 
+  set_mode("classification")
 
-rf_workflow <- workflow() %>%
+lr_workflow <- workflow() %>%
   # add the recipe
   add_recipe(diabetes_recipe) %>%
   # add the model
-  add_model(rf_model)
+  add_model(lr_model)
 
 # specify which values eant to try
-rf_grid <- expand.grid(mtry = c(3, 4, 5))
+lr_grid <- expand.grid(mtry = c(3, 4, 5))
 # extract results
-rf_tune_results <- rf_workflow %>%
+lr_tune_results <- lr_workflow %>%
   tune_grid(resamples = diabetes_cv, #CV object
-            grid = rf_grid, # grid of values to try
+            grid = lr_grid, # grid of values to try
             metrics = metric_set(accuracy, roc_auc) # metrics we care about
   )
-rf_tune_results %>%
+lr_tune_results %>%
   collect_metrics()
 
-param_final <- rf_tune_results %>%
+param_final <- lr_tune_results %>%
   select_best(metric = "accuracy")
 param_final
 
-rf_workflow <- rf_workflow %>%
+lr_workflow <- lr_workflow %>%
   finalize_workflow(param_final)
 
-rf_fit <- rf_workflow %>%
+lr_fit <- lr_workflow %>%
   # fit on the training set and evaluate on test set
   last_fit(diabetes_split)
-rf_fit
+lr_fit
 
-test_performance <- rf_fit %>% collect_metrics()
+test_performance <- lr_fit %>% collect_metrics()
 test_performance
 
-test_predictions <- rf_fit %>% collect_predictions()
+test_predictions <- lr_fit %>% collect_predictions()
 test_predictions
 
-final_model <- fit(rf_workflow, table_clean)
+final_model <- fit(lr_workflow, table_clean)
 
 new_example <- tribble(~age, ~wt, ~gh, ~tri, ~bmi,
                        60.16667, 116.8, 6.0, 29.6, 42.39)
