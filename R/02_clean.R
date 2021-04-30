@@ -5,6 +5,7 @@ rm(list = ls())
 # Load libraries ----------------------------------------------------------
 library("tidyverse")
 library("dplyr")
+library("tidyr")
 
 
 # Define functions --------------------------------------------------------
@@ -18,7 +19,11 @@ my_data_clean <- my_data %>%
                          Age == "Less then 5" ~ "< 5"),
          HbA1c = case_when(HbA1c == "Over 7.5%" ~"> 7.5%",
                            HbA1c == "Less then 7.5%" ~"< 7.5%"),
-         BMI = round(BMI,1))
+         BMI = round(BMI,1),
+         Dur_disease = str_extract(`Duration of disease`,"\\d+\\.?\\d*"),
+         unit = str_replace(`Duration of disease`, Dur_disease,"")) %>%
+  select(-`Duration of disease`)
+
 
 
 
