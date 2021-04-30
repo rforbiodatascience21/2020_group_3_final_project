@@ -57,7 +57,3 @@ Tibble2 <- my_data_clean_aug %>%
 DemonstratingJoin <- full_join(x = Tibble1,
                          y = Tibble2,
                          by = "BMI")
-
-# Write data --------------------------------------------------------------
-write_tsv(x = my_data_clean_aug,
-          file = "data/03_my_data_clean_aug.tsv")
