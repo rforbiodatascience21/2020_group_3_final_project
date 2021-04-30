@@ -16,7 +16,7 @@ my_data_clean <- read_tsv(file = "data/02_my_data_clean.tsv")
 
 # Wrangle data ------------------------------------------------------------
 my_data_clean_aug <- my_data_clean %>%
-  Dur_disease = str_extract(`Duration of disease`,"\\d+\\.?\\d*"),
+  mutate(Dur_disease = str_extract(`Duration of disease`,"\\d+\\.?\\d*"),
   unit = str_replace(`Duration of disease`, Dur_disease,"")) %>%
   select(-`Duration of disease`)
 
@@ -38,6 +38,25 @@ my_data_clean_aug <- my_data_clean %>%
          third_disease = replace_na(third_disease, "none")) %>%
   select(-unit)
 
+# Splitting data
+diseases <- my_data_clean_aug %>%
+  select(first_disease,
+         second_disease,
+         third_disease)
+
+data <- my_data_clean_aug %>%
+  select(-first_disease,
+         -second_disease,
+         -third_disease)
+
+Tibble1 <- my_data_clean_aug %>%
+  select(BMI,`Insulin taken`)
+Tibble2 <- my_data_clean_aug %>%
+  select(BMI, `Impaired glucose metabolism`)
+
+DemonstratingJoin <- full_join(x = Tibble1,
+                         y = Tibble2,
+                         by = "BMI")
 
 # Write data --------------------------------------------------------------
 write_tsv(x = my_data_clean_aug,
