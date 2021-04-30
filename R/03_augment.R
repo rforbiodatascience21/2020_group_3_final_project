@@ -38,7 +38,7 @@ my_data_clean_aug <- my_data_clean %>%
          third_disease = replace_na(third_disease, "none")) %>%
   select(-unit)
 
-<<<<<<< HEAD
+
 Tibble1 <- my_data_clean_aug %>%
   select(BMI,`Insulin taken`)
 Tibble2 <- my_data_clean_aug %>%
@@ -57,7 +57,7 @@ data <- my_data_clean_aug %>%
   select(-first_disease,
          -second_disease,
          -third_disease)
->>>>>>> 2388f79efc0079542319466750c7929b19d7b676
+
 
 bmi <- my_data_clean_aug %>%
   select(BMI)
