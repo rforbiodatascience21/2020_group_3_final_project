@@ -43,37 +43,17 @@ diseases <- my_data_clean_aug %>%
   select(first_disease,
          second_disease,
          third_disease)
+
 data <- my_data_clean_aug %>%
   select(-first_disease,
          -second_disease,
          -third_disease)
 
-bmi <- my_data_clean_aug %>%
-  select(BMI)
-
-disease_BMI <- full_join(x = diseases,
-                         y = bmi)
 Tibble1 <- my_data_clean_aug %>%
   select(BMI,`Insulin taken`)
 Tibble2 <- my_data_clean_aug %>%
   select(BMI, `Impaired glucose metabolism`)
 
-
-
 DemonstratingJoin <- full_join(x = Tibble1,
                                y = Tibble2,
                                by = "BMI")
-
-
-
-bmi <- my_data_clean_aug %>%
-  select(BMI)
-
-
-
-disease_BMI <- full_join(x = diseases,
-                         y = bmi)
-
-# Write data --------------------------------------------------------------
-write_tsv(x = my_data_clean_aug,
-          file = "data/03_my_data_clean_aug.tsv")
