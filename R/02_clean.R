@@ -31,8 +31,16 @@ my_data_clean <- my_data_clean %>%
                                  unit == "w" ~ Dur_disease * 7,
                                  unit == "m" ~ Dur_disease * 30,
                                  unit == "y" ~ Dur_disease * 365)) %>%
+  separate(`Other diease`,
+           into = c("first_disease",
+                    "second_disease",
+                    "third_disease"),
+           sep = ",") %>%
+  mutate(first_disease = case_when(first_disease == "no" ~ "none",
+                                   first_disease != "no" ~ first_disease),
+         second_disease = replace_na(second_disease, "none"),
+         third_disease = replace_na(third_disease, "none")) %>%
   select(-unit)
-
 
 
 # Write data --------------------------------------------------------------
