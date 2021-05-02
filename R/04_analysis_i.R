@@ -39,10 +39,6 @@ View(my_data_clean_aug)
 
 bar_char_dur_disease_female <- my_data_clean_aug %>%
   filter(first_disease != "none" & Sex == "Female") %>%
-  mutate(disease = factor(first_disease), 
-         state = fct_reorder(first_disease,
-                             Dur_disease) %>%
-           fct_rev()) %>% 
   ggplot(mapping = aes(x = first_disease,
                        y = Dur_disease,
                        fill = `Area of Residence`)) + 
@@ -55,10 +51,6 @@ bar_char_dur_disease_female <- my_data_clean_aug %>%
 
 bar_char_dur_disease_male <- my_data_clean_aug %>%
   filter(first_disease != "none" & Sex == "Male") %>%
-  mutate(disease = factor(first_disease), 
-         state = fct_reorder(first_disease,
-                             Dur_disease) %>%
-           fct_rev()) %>% 
   ggplot(mapping = aes(x = first_disease,
                        y = Dur_disease,
                        fill = `Area of Residence`)) + 
