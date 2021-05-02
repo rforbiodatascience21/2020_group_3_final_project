@@ -72,23 +72,25 @@ bar_char_dur_disease_male <- my_data_clean_aug %>%
 # Using patchwork to show both plots.
 bar_char_dur_disease_female/bar_char_dur_disease_male
 
+# Simple linear regression duration of disease and BMI
+ggplot(data = my_data_clean_aug,
+       mapping = aes(x = Dur_disease,
+                     y = BMI,
+                     color = `Area of Residence`)) +
+  geom_point() +
+  geom_smooth(method='lm', formula= y~x, se=F) +
+  labs(x="Duration of type 1 diabetes", y="BMI")
 
-#my_data_clean_aug %>% 
-#  ggplot(mapping = aes(x = Dur_disease
-#                        y = Dur_disease,
-#                       fill = `Area of Residence`))
-    
-#    aes(urbanpop, rate, color = crime)) + 
-#  facet_wrap(~crime, scales = "free_y", ncol = 1) +
-#  geom_point() + 
-#  geom_smooth(se = FALSE, method = "lm") +
-#  theme_bw() + 
-#  labs(x = "Percentage Urban Population",
-#       y = "Arrest Rate per 100,000 people",
-#       title = "Arrest rate vs percentage urban population") +
-#  theme(legend.title = element_blank(),
-#        legend.position = "bottom")
+# PCA
 
+diabetes_1_pca <- my_data_clean_aug %>%
+  drop_na() %>%
+  nest() %>% 
+  mutate(pca = map(data, ~ prcomp(.x %>% select(where(is.numeric)), 
+                                  center = TRUE, scale = TRUE)),
+         pca_aug = map2(pca, data, ~augment(.x, data = .y)))
+
+diabetes_1_pca
 # Visualise data ----------------------------------------------------------
 my_data_clean_aug %>% ggplot(
   aes(x = BMI,
