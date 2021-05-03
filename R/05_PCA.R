@@ -42,11 +42,11 @@ p1 <- pca_fit %>%
 
 # define arrow style for plotting
 arrow_style <- arrow(
-  angle = 20, ends = "first", type = "closed", length = grid::unit(8, "pt")
+  angle = 20, ends = "first", type = "closed", length = grid::unit(4, "pt")
 )
 
 # Plotting the directions
-p2 <- pca_fit %>%
+p2a <- pca_fit %>%
   tidy(matrix = "rotation") %>%
   pivot_wider(names_from = "PC",
               names_prefix = "PC",
@@ -59,11 +59,81 @@ p2 <- pca_fit %>%
   geom_text(
     aes(label = column),
     hjust = 1, nudge_x = -0.02, 
-    color = "#904C2F"
+    color = "purple",
+    size = 3
   ) +
-  xlim(-1.25, .5) + ylim(-.5, 1) +
+  geom_text_repel(aes(label = "") , size =3) +
+  xlim(-.6, .6) + ylim(-.5, .5) +
   coord_fixed() + 
   theme_minimal_grid(12)
+p2a
+p2b <- pca_fit %>%
+  tidy(matrix = "rotation") %>%
+  pivot_wider(names_from = "PC",
+              names_prefix = "PC",
+              values_from = "value") %>%
+  ggplot(aes(x = PC1,
+             y = PC3)) +
+  geom_segment(xend = 0,
+               yend = 0,
+               arrow = arrow_style) +
+  geom_text(
+    aes(label = column),
+    hjust = 1, nudge_x = -0.02, 
+    color = "purple",
+    size = 3
+  ) +
+  xlim(-.6, .6) + ylim(-.5, .5) +
+  coord_fixed() + 
+  theme_minimal_grid(12)
+p2b
+p2c <- pca_fit %>%
+  tidy(matrix = "rotation") %>%
+  pivot_wider(names_from = "PC",
+              names_prefix = "PC",
+              values_from = "value") %>%
+  ggplot(aes(x = PC1,
+             y = PC4)) +
+  geom_segment(xend = 0,
+               yend = 0,
+               arrow = arrow_style) +
+  geom_text(
+    aes(label = column),
+    hjust = 1, nudge_x = -0.02, 
+    color = "purple",
+    size = 3
+  ) +
+  xlim(-.6, .6) + ylim(-.5, .5) +
+  coord_fixed() + 
+  theme_minimal_grid(12)
+p2c
+p2d <- pca_fit %>%
+  tidy(matrix = "rotation") %>%
+  pivot_wider(names_from = "PC",
+              names_prefix = "PC",
+              values_from = "value") %>%
+  ggplot(aes(x = PC1,
+             y = PC5)) +
+  geom_segment(xend = 0,
+               yend = 0,
+               arrow = arrow_style) +
+  geom_text(
+    aes(label = column),
+    hjust = 1, nudge_x = -0.02, 
+    color = "purple",
+    size = 3
+  ) +
+  xlim(-.6, .6) + ylim(-.5, .5) +
+  coord_fixed() + 
+  theme_minimal_grid(12)
+p2d
+p2e <- ((p2a + p2b) / (p2c + p2d)) +
+  plot_annotation(
+    title = "PCA - Directions (T1-Diabetes)") +
+  plot_layout(guides = "collect") &
+  theme(legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5))
+p2e
 
 p3 <- pca_fit %>%
   augment(my_data_clean_aug) %>%
@@ -155,6 +225,10 @@ p7
 # Write data --------------------------------------------------------------
 #write_tsv(...)
 ggsave(plot = p1, filename = "results/05_PCA_varExplained.png")
-ggsave(plot = p2, filename = "results/05_PCA_directions.png")
+ggsave(plot = p2a, filename = "results/05_PCA_directions_a.png")
+ggsave(plot = p2b, filename = "results/05_PCA_directions_b.png")
+ggsave(plot = p2c, filename = "results/05_PCA_directions_c.png")
+ggsave(plot = p2d, filename = "results/05_PCA_directions_d.png")
+ggsave(plot = p2e, filename = "results/05_PCA_directions.png")
 ggsave(plot = p7, filename = "results/05_PCA_scatter.png")
 
