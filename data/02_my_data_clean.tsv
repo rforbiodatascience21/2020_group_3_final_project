@@ -1,307 +1,307 @@
-Age	Sex	Area of Residence	HbA1c	Height	Weight	BMI	Other diease	Adequate Nutrition	Education of Mother	Standardized growth-rate in infancy	Standardized birth weight	Autoantibodies	Impaired glucose metabolism	Insulin taken	How Taken	Family History affected in Type 1 Diabetes	Family History affected in Type 2 Diabetes	Hypoglycemis	pancreatic disease affected in child	Affected	Dur_disease	unit
-> 15	Female	Suburban	> 7.5%	1.5	56	24.9	no	No	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	Yes	No	Yes	Yes	yes	1460	y
-> 15	Female	Suburban	> 7.5%	1.48	58	26.5	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	7	w
-< 11	Female	Urban	> 7.5%	1.2	46	31.9	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	No	No	yes	9	d
-< 15	Female	Suburban	> 7.5%	1.65	50	18.4	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	No	No	yes	7	w
-< 15	Female	Suburban	> 7.5%	1.61	59	22.8	liver problem	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	30	m
-< 15	Male	Rural	> 7.5%	1.32	26	14.9	heart, head problem	No	No	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	547.5	y
-> 15	Female	Rural	> 7.5%	1.4	45	23	ear problem	No	No	Lowest quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	5840	y
-> 15	Female	Rural	> 7.5%	1.55	50	20.8	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	2190	y
-> 15	Female	Suburban	> 7.5%	1.61	54	20.8	leg problem	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	y
-> 15	Female	Suburban	> 7.5%	1.59	50	19.8	eye problem	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	3650	y
-> 15	Male	Suburban	> 7.5%	1.62	52	19.8	none	Yes	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	No	yes	2920	y
-> 15	Female	Suburban	< 7.5%	1.64	52	19.3	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	3285	y
-> 15	Male	Suburban	< 7.5%	1.71	52	17.8	none	Yes	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	2190	y
-> 15	Female	Rural	< 7.5%	1.59	53	21	eye problem	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	2920	y
-< 11	Male	Rural	> 7.5%	1.5	48	21.3	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	Yes	yes	1460	y
-> 15	Female	Suburban	> 7.5%	1.62	60	22.9	Thyroid problem	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	912.5	y
-< 15	Female	Suburban	> 7.5%	1.58	69	27.6	Allergic  problem	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	No	yes	1095	y
-> 15	Male	Rural	> 7.5%	1.61	49	18.9	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	Yes	yes	2190	y
-> 15	Female	Suburban	< 7.5%	1.44	55	26.5	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	2555	y
-> 15	Male	Suburban	> 7.5%	1.63	53	19.9	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	No	yes	730	y
-> 15	Male	Suburban	> 7.5%	1.61	46	17.7	body pain	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	730	y
-> 15	Female	Urban	> 7.5%	1.53	68	29	Thyroid problem	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes	4015	y
-> 15	Female	Urban	> 7.5%	1.57	47	19.1	kidney, head pain	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	1642.5	y
-< 11	Female	Suburban	> 7.5%	1.29	34	20.4	heartbeat problem	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	240	m
-> 15	Female	Suburban	> 7.5%	1.52	46	19.9	belly problem	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	Yes	yes	5840	y
-< 5	Female	Suburban	< 7.5%	1.32	40	23	heart problem	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	No	Yes	yes	547.5	y
-> 15	Female	Suburban	> 7.5%	1.59	60	23.7	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	1277.5	y
-> 15	Female	Suburban	< 7.5%	1.63	58	21.8	none	Yes	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	No	yes	2190	y
-> 15	Female	Rural	> 7.5%	1.5	49	21.8	body pain	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	No	yes	1277.5	y
-> 15	Female	Urban	> 7.5%	1.37	30	16	allergic problem	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	No	No	yes	1095	y
-< 11	Female	Suburban	> 7.5%	1.39	39	20.2	gastic,body pain	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	365	y
-> 15	Male	Rural	< 7.5%	1.58	62	24.8	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	No	yes	2920	y
-> 15	Female	Suburban	> 7.5%	1.58	62	24.8	head pain	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	2190	y
-> 15	Female	Suburban	> 7.5%	1.63	50	18.8	body pain	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes	2920	y
-> 15	Female	Suburban	> 7.5%	1.53	63	26.9	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	4745	y
-> 15	Male	Suburban	< 7.5%	1.76	60	19.4	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	Yes	No	No	yes	730	y
-< 15	Male	Suburban	< 7.5%	1.49	53	23.9	none	No	Yes	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	Yes	No	No	yes	365	y
-< 15	Male	Rural	< 7.5%	1.42	55	27.3	none	No	No	Middle quartiles	Lowest quartiles	No	Yes	Yes	Injection	Yes	Yes	Yes	Yes	yes	547.5	y
-> 15	Male	Suburban	> 7.5%	1.61	42	16.2	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	Yes	yes	1460	y
-> 15	Male	Rural	> 7.5%	1.71	57	19.5	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	No	yes	1460	y
-< 15	Female	Rural	> 7.5%	1.53	44	18.8	eye problem	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	1460	y
-> 15	Female	Suburban	> 7.5%	1.55	56	23.3	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	2190	y
-< 15	Female	Rural	> 7.5%	1.31	34	19.8	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	Yes	yes	7	d
-< 15	Female	Rural	> 7.5%	1.3	45	26.6	none	No	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	Yes	Yes	Yes	No	yes	2555	y
-< 5	Male	Rural	> 7.5%	1.01	14	13.7	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	150	m
-< 15	Male	Rural	> 7.5%	1.49	42	18.9	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	210	m
-> 15	Male	Urban	> 7.5%	1.42	53	26.3	Birth Defects	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	16	d
-> 15	Male	Rural	> 7.5%	1.53	47	20.1	eye problem	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	1825	y
-> 15	Female	Rural	< 7.5%	1.68	50	17.7	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	No	No	yes	1825	y
-> 15	Male	Suburban	< 7.5%	1.78	59	18.6	none	No	No	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	4380	y
-> 15	Female	Rural	< 7.5%	1.78	59	18.6	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes	150	m
-< 15	Female	Urban	> 7.5%	1.45	41	19.5	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	2920	y
-< 15	Male	Rural	> 7.5%	1.64	64	23.8	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	Yes	yes	365	y
-< 15	Male	Rural	> 7.5%	1.58	38	15.2	head pain	Yes	No	Middle quartiles	Lowest quartiles	Yes	No	Yes	Injection	No	Yes	No	Yes	yes	365	y
-< 11	Male	Suburban	> 7.5%	1.22	22	14.8	eye problem	No	No	Middle quartiles	Lowest quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	1825	y
-> 15	Male	Suburban	> 7.5%	1.32	45	25.8	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	3285	y
-> 15	Male	Rural	> 7.5%	1.58	45	18	eye problem	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	2555	y
-< 15	Female	Suburban	> 7.5%	1.57	62	25.2	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	Yes	yes	30	m
-> 15	Male	Suburban	> 7.5%	1.5	49	21.8	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	2190	y
-> 15	Female	Rural	> 7.5%	1.42	49	24.3	none	No	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	2555	y
-> 15	Female	Rural	> 7.5%	1.43	53	25.9	Head pain	No	No	Middle quartiles	Highest quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	y
-> 15	Female	Urban	> 7.5%	1.6	60	23.4	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	1460	y
-> 15	Female	Rural	> 7.5%	1.57	38	15.4	belly problem	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	1460	y
-> 15	Female	Urban	> 7.5%	1.49	36	16.2	belly problem	No	Yes	Middle quartiles	Lowest quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	y
-> 15	Male	Rural	> 7.5%	1.55	65	27.1	none	Yes	No	Middle quartiles	Lowest quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	1825	y
-> 15	Female	Suburban	< 7.5%	1.45	42	20	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	2190	y
-< 15	Female	Rural	< 7.5%	1.55	46	19.1	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	No	No	yes	210	m
-> 15	Male	Rural	> 7.5%	1.35	45	24.7	fiver problem	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	No	yes	1825	y
-> 15	Female	Urban	< 7.5%	1.52	35	15.1	head, body pain	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	1095	y
-> 15	Female	Urban	< 7.5%	1.53	39	16.7	body pain	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	1642.5	y
-> 15	Male	Rural	< 7.5%	1.68	45	15.9	Head pain	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	Yes	No	yes	2555	y
-> 15	Female	Rural	< 7.5%	1.55	57	23.7	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	2190	y
-> 15	Female	Rural	< 7.5%	1.52	85	36.8	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	4745	y
-> 15	Male	Rural	> 7.5%	1.63	40	15.1	none	No	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	2920	y
-> 15	Female	Rural	> 7.5%	1.4	30	15.3	eye, health loss	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	5475	y
-> 15	Female	Urban	< 7.5%	1.51	55	24.1	pressure problem	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	No	yes	912.5	y
-> 15	Male	Suburban	< 7.5%	1.63	62	23.3	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	Yes	yes	912.5	y
-< 11	Female	Rural	< 7.5%	1.5	46	20.4	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	365	y
-< 11	Female	Rural	< 7.5%	1.46	40	18.8	none	No	No	Lowest quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	No	yes	1460	y
-< 15	Female	Suburban	> 7.5%	1.83	85	25.4	none	No	Yes	Highest quartiles	Highest quartiles	Yes	Yes	Yes	Injection	Yes	Yes	No	No	yes	1460	y
-> 15	Female	Suburban	> 7.5%	1.58	78	31.2	head pain	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	2555	y
-< 11	Male	Suburban	< 7.5%	1.27	26	16.1	fever	No	Yes	Middle quartiles	Highest quartiles	No	No	Yes	Injection	No	Yes	No	Yes	yes	365	y
-> 15	Male	Rural	> 7.5%	1.65	60	22	fever	No	No	Middle quartiles	Lowest quartiles	Yes	No	Yes	Injection	Yes	Yes	No	Yes	yes	365	y
-< 15	Female	Rural	> 7.5%	1.42	51	25.3	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	2920	y
-< 11	Female	Rural	< 7.5%	1.21	32	21.9	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	30	m
-> 15	Female	Urban	> 7.5%	1.32	26	14.9	Thalassemia	No	Yes	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	90	m
-< 15	Female	Urban	> 7.5%	1.46	53	24.9	convulsion	No	No	Middle quartiles	Lowest quartiles	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	365	y
-> 15	Female	Urban	> 7.5%	1.62	85	32.4	head pain	No	No	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	Yes	No	Yes	yes	1825	y
-< 15	Female	Suburban	> 7.5%	1.68	61	21.6	none	Yes	No	Highest quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	Yes	No	No	yes	365	y
-< 15	Male	Suburban	> 7.5%	1.58	69	27.6	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	2190	y
-< 15	Female	Suburban	> 7.5%	1.44	46	22.2	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes	300	m
-> 15	Female	Suburban	> 7.5%	1.58	57	22.8	eye, pain problem	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	No	yes	330	m
-< 15	Female	Rural	> 7.5%	1.48	48	21.9	body,head pain	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	730	y
-> 15	Male	Urban	< 7.5%	1.62	64	24.4	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	No	No	yes	1825	y
-< 15	Female	Urban	> 7.5%	1.5	77	34.2	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	No	yes	1460	y
-> 15	Female	Rural	< 7.5%	1.2	40	27.8	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	730	y
-> 15	Male	Suburban	> 7.5%	1.58	43	17.2	belly problem	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	Yes	yes	2555	y
-< 15	Female	Urban	< 7.5%	1.45	61	29	belly problem	No	Yes	Middle quartiles	Highest quartiles	Yes	Yes	Yes	Injection	No	Yes	No	No	yes	270	m
-> 15	Female	Urban	> 7.5%	1.55	66	27.5	none	No	Yes	Middle quartiles	Highest quartiles	No	Yes	Yes	Injection	No	Yes	No	No	yes	730	y
-> 15	Male	Suburban	> 7.5%	1.65	55	20.2	none	No	No	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	2190	y
-> 15	Female	Urban	> 7.5%	1.46	34	16	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	No	yes	3285	y
-< 15	Male	Rural	> 7.5%	1.36	28	15.1	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	730	y
-> 15	Male	Suburban	> 7.5%	1.6	45	17.6	none	No	No	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	No	yes	730	y
-< 5	Female	Urban	> 7.5%	1.07	18	15.7	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes	730	y
-> 15	Female	Rural	< 7.5%	1.5	46	20.4	none	No	Yes	Lowest quartiles	Lowest quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	730	y
-> 15	Female	Rural	> 7.5%	1.56	60	24.7	eye problem	No	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	730	y
-> 15	Male	Suburban	< 7.5%	1.39	45	23.3	ear problem	No	Yes	Lowest quartiles	unkhown	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	1095	y
-< 15	Female	Rural	> 7.5%	1.56	51	21	none	No	Yes	Middle quartiles	unkhown	No	Yes	Yes	Injection	Yes	No	Yes	Yes	yes	730	y
-< 15	Female	Rural	> 7.5%	1.38	23	12.1	none	Yes	No	Lowest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes	365	y
-> 15	Female	Suburban	> 7.5%	1.52	55	23.8	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	1095	y
-> 15	Female	Rural	> 7.5%	1.51	44	19.3	none	Yes	No	Middle quartiles	unkhown	No	Yes	Yes	Injection	Yes	Yes	Yes	Yes	yes	1825	y
-< 11	Female	Rural	> 7.5%	1.48	32	14.6	none	No	No	Middle quartiles	unkhown	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes	365	y
-> 15	Male	Urban	> 7.5%	1.6	45	17.6	fever problem	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	y
-> 15	Female	Rural	< 7.5%	1.35	45	24.7	none	Yes	No	Lowest quartiles	Highest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	2190	y
-> 15	Male	Urban	> 7.5%	1.65	55	20.2	skin problem	Yes	Yes	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	1095	y
-< 11	Female	Urban	> 7.5%	1.32	35	20.1	eye, cyrocities	No	Yes	Middle quartiles	Highest quartiles	No	Yes	Yes	Injection	No	Yes	Yes	Yes	yes	240	m
-> 15	Male	Suburban	> 7.5%	1.55	45	18.7	leg pain	Yes	Yes	Lowest quartiles	Lowest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	730	y
-< 11	Female	Suburban	> 7.5%	1.43	41	20	none	Yes	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	730	y
-> 15	Female	Rural	< 7.5%	1.56	45	18.5	eye, screen problem	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	3650	y
-> 15	Male	Rural	< 7.5%	1.46	32	15	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	Yes	Yes	yes	365	y
-> 15	Female	Suburban	> 7.5%	1.48	35	16	fever problem	No	No	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	No	Yes	No	yes	2555	y
-> 15	Female	Rural	> 7.5%	1.46	38	17.8	none	Yes	No	Middle quartiles	unkhown	No	Yes	Yes	Injection	No	Yes	Yes	Yes	yes	365	y
-> 15	Male	Rural	< 7.5%	1.6	87	34	none	Yes	No	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	No	Yes	Yes	Yes	yes	4015	y
-> 15	Male	Rural	> 7.5%	1.61	52	20.1	none	No	No	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	Yes	No	No	Yes	yes	1095	y
-> 15	Male	Urban	> 7.5%	1.72	53	17.9	leg pain	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	No	yes	3285	y
-> 15	Male	Rural	> 7.5%	1.68	48	17	Brain, eye, hormon	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	5475	y
-< 11	Male	Urban	< 7.5%	1.32	27	15.5	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	Yes	Yes	yes	1460	y
-> 15	Male	Rural	> 7.5%	1.43	52	25.4	teeth, eye problem	No	No	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	Yes	Yes	Yes	yes	2920	y
-< 11	Male	Rural	> 7.5%	1.3	20	11.8	fever problem	No	No	Lowest quartiles	Lowest quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	1095	y
-< 15	Male	Suburban	> 7.5%	1.5	36	16	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	No	Yes	yes	30	m
-> 15	Female	Rural	> 7.5%	1.53	48	20.5	skin problem	Yes	Yes	Highest quartiles	Highest quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	1825	y
-> 15	Male	Suburban	> 7.5%	1.68	63	22.3	skin problem	No	Yes	Middle quartiles	unkhown	Yes	No	Yes	Injection	Yes	Yes	No	Yes	yes	240	m
-< 5	Male	Suburban	> 7.5%	1.5	50	22.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	60	m
-> 15	Female	Rural	> 7.5%	1.63	50	18.8	none	No	No	Lowest quartiles	unkhown	Yes	No	Yes	Injection	No	Yes	No	Yes	yes	3650	y
-< 11	Male	Rural	> 7.5%	1.56	50	20.5	none	Yes	No	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	150	m
-> 15	Female	Urban	< 7.5%	1.47	70	32.4	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	4745	y
-< 11	Female	Rural	> 7.5%	1.24	20	13	none	Yes	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	Yes	No	Yes	Yes	yes	15	d
-> 15	Male	Rural	< 7.5%	1.63	50	18.8	none	Yes	No	Lowest quartiles	unkhown	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	2555	y
-> 15	Male	Rural	> 7.5%	1.63	44	16.6	none	No	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	2190	y
-> 15	Female	Suburban	< 7.5%	1.6	56	21.9	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	Yes	Yes	Yes	yes	3650	y
-> 15	Female	Urban	< 7.5%	1.52	55	23.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	1095	y
-> 15	Female	Suburban	> 7.5%	1.52	71	30.7	none	Yes	No	Lowest quartiles	Lowest quartiles	Yes	No	Yes	Injection	Yes	No	No	Yes	yes	3285	y
-> 15	Male	Rural	> 7.5%	1.65	56	20.6	none	Yes	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	3139	y
-< 11	Male	Urban	> 7.5%	1.52	35	15.1	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	1460	y
-< 11	Female	Rural	> 7.5%	1.39	29	15	none	No	Yes	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes	60	m
-> 15	Male	Suburban	> 7.5%	1.6	47	18.4	kidny problem	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	4015	y
-< 11	Female	Suburban	< 7.5%	1.2	28	19.4	eye, ear problem	No	Yes	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	y
-< 11	Male	Suburban	> 7.5%	1.19	21	14.8	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	730	y
-< 15	Female	Rural	< 7.5%	1.47	46	21.3	eye, allergy	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	2190	y
-< 15	Female	Urban	> 7.5%	1.53	43	18.4	eye problem	No	Yes	Middle quartiles	Highest quartiles	Yes	Yes	Yes	Injection	Yes	No	Yes	Yes	yes	4015	y
-< 11	Female	Suburban	> 7.5%	1.44	49	23.6	none	No	Yes	Middle quartiles	Highest quartiles	Yes	Yes	Yes	Injection	No	Yes	No	No	yes	1095	y
-> 15	Female	Rural	> 7.5%	1.53	42	17.9	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes	1825	y
-< 11	Female	Urban	< 7.5%	1.14	17	13.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 5	Female	Urban	< 7.5%	0.92	10.5	12.4	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 5	Male	Urban	< 7.5%	0.92	12	14.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.19	15	10.6	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 5	Male	Urban	< 7.5%	1.07	15	13.1	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Suburban	< 7.5%	1.25	21	13.4	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.32	31	17.8	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.12	18	14.3	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-> 15	Male	Urban	< 7.5%	1.75	59	19.3	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.14	23	17.7	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.09	21	17.7	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.14	22	16.9	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.22	29	19.5	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.19	27	19.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.3	27	16	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.25	31	19.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.35	29	15.9	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.22	25	16.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.3	39	23.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.3	29	17.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.25	29	18.6	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.19	20	14.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.22	22	14.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	NA	NA
-> 15	Male	Urban	< 7.5%	1.65	73	26.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.3	31	18.3	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.17	22	16.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-> 15	Male	Urban	< 7.5%	1.52	50	21.6	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-> 15	Male	Suburban	< 7.5%	1.65	53	19.5	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Suburban	< 7.5%	1.17	20	14.6	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Suburban	< 7.5%	1.48	39	17.8	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Suburban	< 7.5%	1.19	30	21.2	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Suburban	< 7.5%	1.37	39	20.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Suburban	< 7.5%	1.25	24	15.4	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Suburban	< 7.5%	1.14	19	14.6	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Suburban	< 7.5%	1.27	25	15.5	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	NA	NA
-> 15	Male	Suburban	< 7.5%	1.55	51	21.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-> 15	Male	Suburban	< 7.5%	1.58	58	23.2	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Suburban	< 7.5%	1.3	36	21.3	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	Yes	No	No	No	NA	NA
-< 11	Male	Suburban	< 7.5%	1.3	45	26.6	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Suburban	< 7.5%	1.48	45	20.5	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.22	30	20.2	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.3	32	18.9	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.3	32	18.9	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.65	32	11.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.63	56	21.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.32	37	21.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.58	41	16.4	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.27	25	15.5	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	Yes	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.32	30	17.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.25	29	18.6	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	Yes	No	No	No	NA	NA
-> 15	Male	Urban	< 7.5%	1.55	45	18.7	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	1.09	21	17.7	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.14	20	15.4	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.22	24	16.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.19	30	21.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.37	55	29.3	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.5	70	31.1	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.09	25	21	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.25	31	19.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.25	20	12.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.01	16	15.7	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No	NA	NA
-< 15	Female	Urban	< 7.5%	1.58	45	18	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.32	35	20.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	1.25	24	15.4	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 5	Male	Urban	< 7.5%	0.94	14	15.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Female	Rural	< 7.5%	0.97	25	26.6	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 5	Female	Rural	< 7.5%	0.74	16	29.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-> 15	Female	Rural	< 7.5%	1.52	45	19.5	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 5	Female	Suburban	< 7.5%	0.53	7	24.9	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Female	Suburban	< 7.5%	1.58	38	15.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Male	Suburban	< 7.5%	0.92	24	28.4	none	Yes	Yes	Lowest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Female	Rural	< 7.5%	0.97	18	19.1	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Female	Rural	< 7.5%	0.99	22	22.4	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Female	Rural	< 7.5%	1.61	31	12	none	No	No	Highest quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 5	Male	Rural	< 7.5%	0.74	12	21.9	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 5	Male	Rural	< 7.5%	0.61	12	32.2	none	No	Yes	Middle quartiles	Highest quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Female	Rural	< 7.5%	1.52	35	15.1	none	Yes	No	Middle quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 5	Male	Rural	< 7.5%	0.61	9	24.2	none	Yes	No	Middle quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Female	Urban	< 7.5%	1.3	28	16.6	none	Yes	No	Middle quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	1.22	25	16.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 5	Male	Urban	< 7.5%	0.97	16	17	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 5	Female	Urban	< 7.5%	0.92	12	14.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.27	40	24.8	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	1.12	24	19.1	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.22	22	14.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.12	26	20.7	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	1.12	26	20.7	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Female	Urban	< 7.5%	1.14	22	16.9	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.04	18	16.6	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.52	40	17.3	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.32	35	20.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	1.3	35	20.7	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Female	Urban	< 7.5%	1.37	40	21.3	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.22	27	18.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	0.92	18	21.3	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-> 15	Male	Urban	< 7.5%	1.55	64	26.6	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 5	Male	Urban	< 7.5%	0.79	16	25.6	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.3	40	23.7	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Female	Urban	< 7.5%	1.67	48	17.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.35	50	27.4	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	0.92	25	29.5	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Male	Suburban	< 7.5%	1.25	35	22.4	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Female	Suburban	< 7.5%	1.3	22	13	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.17	30	21.9	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	1.35	35	19.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 5	Male	Suburban	< 7.5%	0.61	11	29.6	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.48	38	17.3	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.22	23	15.5	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Female	Urban	< 7.5%	1.58	45	18	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	0.61	15	40.3	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Suburban	< 7.5%	1.63	48	18.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Female	Rural	< 7.5%	1.25	25	16	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-> 15	Male	Urban	< 7.5%	1.7	54	18.7	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	1.17	26	19	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.27	28	17.4	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	0.97	25	26.6	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	0.98	40	41.6	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 5	Male	Rural	< 7.5%	0.65	18	42.6	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Suburban	< 7.5%	1.05	35	31.7	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Suburban	< 7.5%	0.96	20	21.7	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 5	Male	Suburban	< 7.5%	0.61	10	26.9	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 5	Female	Suburban	< 7.5%	0.82	12	17.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Female	Rural	< 7.5%	0.76	25	43.3	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Female	Rural	< 7.5%	0.92	30	35.4	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 15	Female	Urban	< 7.5%	1.32	45	25.8	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-> 15	Male	Suburban	< 7.5%	1.67	60	21.5	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-> 15	Male	Suburban	< 7.5%	1.67	55	19.7	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Female	Suburban	< 7.5%	1.22	40	26.9	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Rural	< 7.5%	1.27	40	24.8	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 5	Female	Suburban	< 7.5%	0.61	20	53.7	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.12	32	25.5	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	1.25	25	16	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.42	30	14.9	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.5	43	19.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	1.3	28	16.6	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	0.74	15	27.4	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Female	Urban	< 7.5%	1.48	40	18.3	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-> 15	Female	Urban	< 7.5%	1.43	35	17.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 15	Female	Urban	< 7.5%	1.63	45	16.9	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Female	Urban	< 7.5%	1.52	46	19.9	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Male	Urban	< 7.5%	1.58	50	20	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	0.92	18	21.3	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	0.74	15	27.4	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 5	Male	Urban	< 7.5%	0.44	12	62	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 5	Male	Urban	< 7.5%	0.61	12	32.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	0.74	14	25.6	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 15	Female	Urban	< 7.5%	1.43	35	17.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Female	Urban	< 7.5%	1.22	15	10.1	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 5	Male	Urban	< 7.5%	0.74	7	12.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Male	Urban	< 7.5%	1.01	12	11.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 11	Female	Suburban	< 7.5%	0.92	12	14.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 5	Female	Suburban	< 7.5%	0.61	7	18.8	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	NA	NA
-< 11	Female	Suburban	< 7.5%	0.92	12	14.2	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	NA	NA
-< 5	Female	Urban	< 7.5%	0.61	5	13.4	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No	NA	NA
+Age	Sex	Area of Residence	HbA1c	Height	Weight	BMI	Duration of disease	Other diease	Adequate Nutrition	Education of Mother	Standardized growth-rate in infancy	Standardized birth weight	Autoantibodies	Impaired glucose metabolism	Insulin taken	How Taken	Family History affected in Type 1 Diabetes	Family History affected in Type 2 Diabetes	Hypoglycemis	pancreatic disease affected in child	Affected
+> 15	Female	Suburban	> 7.5%	1.5	56	24.9	4y	no	No	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	Yes	No	Yes	Yes	yes
+> 15	Female	Suburban	> 7.5%	1.48	58	26.5	1w	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes
+< 11	Female	Urban	> 7.5%	1.2	46	31.9	9d	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	No	No	yes
+< 15	Female	Suburban	> 7.5%	1.65	50	18.4	1w	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	No	No	yes
+< 15	Female	Suburban	> 7.5%	1.61	59	22.8	1m	liver problem	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes
+< 15	Male	Rural	> 7.5%	1.32	26	14.9	1.5y	heart, head problem	No	No	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes
+> 15	Female	Rural	> 7.5%	1.4	45	23	16y	ear problem	No	No	Lowest quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Female	Rural	> 7.5%	1.55	50	20.8	6y	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Female	Suburban	> 7.5%	1.61	54	20.8	5y	leg problem	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes
+> 15	Female	Suburban	> 7.5%	1.59	50	19.8	10y	eye problem	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes
+> 15	Male	Suburban	> 7.5%	1.62	52	19.8	8y	none	Yes	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	No	yes
+> 15	Female	Suburban	< 7.5%	1.64	52	19.3	9y	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Male	Suburban	< 7.5%	1.71	52	17.8	6y	none	Yes	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Female	Rural	< 7.5%	1.59	53	21	8y	eye problem	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes
+< 11	Male	Rural	> 7.5%	1.5	48	21.3	4y	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	Yes	yes
+> 15	Female	Suburban	> 7.5%	1.62	60	22.9	2.5y	Thyroid problem	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes
+< 15	Female	Suburban	> 7.5%	1.58	69	27.6	3y	Allergic  problem	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	No	yes
+> 15	Male	Rural	> 7.5%	1.61	49	18.9	6y	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	Yes	yes
+> 15	Female	Suburban	< 7.5%	1.44	55	26.5	7y	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes
+> 15	Male	Suburban	> 7.5%	1.63	53	19.9	2y	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	No	yes
+> 15	Male	Suburban	> 7.5%	1.61	46	17.7	2y	body pain	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes
+> 15	Female	Urban	> 7.5%	1.53	68	29	11y	Thyroid problem	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes
+> 15	Female	Urban	> 7.5%	1.57	47	19.1	4.5y	kidney, head pain	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes
+< 11	Female	Suburban	> 7.5%	1.29	34	20.4	8m	heartbeat problem	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes
+> 15	Female	Suburban	> 7.5%	1.52	46	19.9	16y	belly problem	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	Yes	yes
+< 5	Female	Suburban	< 7.5%	1.32	40	23	1.5y	heart problem	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	No	Yes	yes
+> 15	Female	Suburban	> 7.5%	1.59	60	23.7	3.5y	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes
+> 15	Female	Suburban	< 7.5%	1.63	58	21.8	6y	none	Yes	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	No	yes
+> 15	Female	Rural	> 7.5%	1.5	49	21.8	3.5y	body pain	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	No	yes
+> 15	Female	Urban	> 7.5%	1.37	30	16	3y	allergic problem	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	No	No	yes
+< 11	Female	Suburban	> 7.5%	1.39	39	20.2	1y	gastic,body pain	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes
+> 15	Male	Rural	< 7.5%	1.58	62	24.8	8y	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	No	yes
+> 15	Female	Suburban	> 7.5%	1.58	62	24.8	6y	head pain	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes
+> 15	Female	Suburban	> 7.5%	1.63	50	18.8	8y	body pain	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes
+> 15	Female	Suburban	> 7.5%	1.53	63	26.9	13y	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes
+> 15	Male	Suburban	< 7.5%	1.76	60	19.4	2y	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	Yes	No	No	yes
+< 15	Male	Suburban	< 7.5%	1.49	53	23.9	1y	none	No	Yes	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	Yes	No	No	yes
+< 15	Male	Rural	< 7.5%	1.42	55	27.3	1.5y	none	No	No	Middle quartiles	Lowest quartiles	No	Yes	Yes	Injection	Yes	Yes	Yes	Yes	yes
+> 15	Male	Suburban	> 7.5%	1.61	42	16.2	4y	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	Yes	yes
+> 15	Male	Rural	> 7.5%	1.71	57	19.5	4y	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	No	yes
+< 15	Female	Rural	> 7.5%	1.53	44	18.8	4y	eye problem	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes
+> 15	Female	Suburban	> 7.5%	1.55	56	23.3	6y	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes
+< 15	Female	Rural	> 7.5%	1.31	34	19.8	7d	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	Yes	yes
+< 15	Female	Rural	> 7.5%	1.3	45	26.6	7y	none	No	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	Yes	Yes	Yes	No	yes
+< 5	Male	Rural	> 7.5%	1.01	14	13.7	5m	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes
+< 15	Male	Rural	> 7.5%	1.49	42	18.9	7m	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes
+> 15	Male	Urban	> 7.5%	1.42	53	26.3	16d	Birth Defects	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes
+> 15	Male	Rural	> 7.5%	1.53	47	20.1	5y	eye problem	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Female	Rural	< 7.5%	1.68	50	17.7	5y	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	No	No	yes
+> 15	Male	Suburban	< 7.5%	1.78	59	18.6	12y	none	No	No	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes
+> 15	Female	Rural	< 7.5%	1.78	59	18.6	5m	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes
+< 15	Female	Urban	> 7.5%	1.45	41	19.5	8y	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes
+< 15	Male	Rural	> 7.5%	1.64	64	23.8	1y	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	Yes	yes
+< 15	Male	Rural	> 7.5%	1.58	38	15.2	1y	head pain	Yes	No	Middle quartiles	Lowest quartiles	Yes	No	Yes	Injection	No	Yes	No	Yes	yes
+< 11	Male	Suburban	> 7.5%	1.22	22	14.8	5y	eye problem	No	No	Middle quartiles	Lowest quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Male	Suburban	> 7.5%	1.32	45	25.8	9y	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes
+> 15	Male	Rural	> 7.5%	1.58	45	18	7y	eye problem	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes
+< 15	Female	Suburban	> 7.5%	1.57	62	25.2	1m	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	Yes	yes
+> 15	Male	Suburban	> 7.5%	1.5	49	21.8	6y	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes
+> 15	Female	Rural	> 7.5%	1.42	49	24.3	7y	none	No	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes
+> 15	Female	Rural	> 7.5%	1.43	53	25.9	5y	Head pain	No	No	Middle quartiles	Highest quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes
+> 15	Female	Urban	> 7.5%	1.6	60	23.4	4y	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes
+> 15	Female	Rural	> 7.5%	1.57	38	15.4	4y	belly problem	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes
+> 15	Female	Urban	> 7.5%	1.49	36	16.2	5y	belly problem	No	Yes	Middle quartiles	Lowest quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes
+> 15	Male	Rural	> 7.5%	1.55	65	27.1	5y	none	Yes	No	Middle quartiles	Lowest quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes
+> 15	Female	Suburban	< 7.5%	1.45	42	20	6y	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes
+< 15	Female	Rural	< 7.5%	1.55	46	19.1	7m	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	No	No	yes
+> 15	Male	Rural	> 7.5%	1.35	45	24.7	5y	fiver problem	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	No	yes
+> 15	Female	Urban	< 7.5%	1.52	35	15.1	3y	head, body pain	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes
+> 15	Female	Urban	< 7.5%	1.53	39	16.7	4.5y	body pain	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes
+> 15	Male	Rural	< 7.5%	1.68	45	15.9	7y	Head pain	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	Yes	No	yes
+> 15	Female	Rural	< 7.5%	1.55	57	23.7	6y	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes
+> 15	Female	Rural	< 7.5%	1.52	85	36.8	13y	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes
+> 15	Male	Rural	> 7.5%	1.63	40	15.1	8y	none	No	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes
+> 15	Female	Rural	> 7.5%	1.4	30	15.3	15y	eye, health loss	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Female	Urban	< 7.5%	1.51	55	24.1	2.5y	pressure problem	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	No	yes
+> 15	Male	Suburban	< 7.5%	1.63	62	23.3	2.5y	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	Yes	yes
+< 11	Female	Rural	< 7.5%	1.5	46	20.4	1y	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes
+< 11	Female	Rural	< 7.5%	1.46	40	18.8	4y	none	No	No	Lowest quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	No	yes
+< 15	Female	Suburban	> 7.5%	1.83	85	25.4	4y	none	No	Yes	Highest quartiles	Highest quartiles	Yes	Yes	Yes	Injection	Yes	Yes	No	No	yes
+> 15	Female	Suburban	> 7.5%	1.58	78	31.2	7y	head pain	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes
+< 11	Male	Suburban	< 7.5%	1.27	26	16.1	1y	fever	No	Yes	Middle quartiles	Highest quartiles	No	No	Yes	Injection	No	Yes	No	Yes	yes
+> 15	Male	Rural	> 7.5%	1.65	60	22	1y	fever	No	No	Middle quartiles	Lowest quartiles	Yes	No	Yes	Injection	Yes	Yes	No	Yes	yes
+< 15	Female	Rural	> 7.5%	1.42	51	25.3	8y	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes
+< 11	Female	Rural	< 7.5%	1.21	32	21.9	1m	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes
+> 15	Female	Urban	> 7.5%	1.32	26	14.9	3m	Thalassemia	No	Yes	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes
+< 15	Female	Urban	> 7.5%	1.46	53	24.9	1y	convulsion	No	No	Middle quartiles	Lowest quartiles	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes
+> 15	Female	Urban	> 7.5%	1.62	85	32.4	5y	head pain	No	No	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	Yes	No	Yes	yes
+< 15	Female	Suburban	> 7.5%	1.68	61	21.6	1y	none	Yes	No	Highest quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	Yes	No	No	yes
+< 15	Male	Suburban	> 7.5%	1.58	69	27.6	6y	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes
+< 15	Female	Suburban	> 7.5%	1.44	46	22.2	10m	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes
+> 15	Female	Suburban	> 7.5%	1.58	57	22.8	11m	eye, pain problem	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	No	yes
+< 15	Female	Rural	> 7.5%	1.48	48	21.9	2y	body,head pain	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes
+> 15	Male	Urban	< 7.5%	1.62	64	24.4	5y	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	No	No	yes
+< 15	Female	Urban	> 7.5%	1.5	77	34.2	4y	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	No	yes
+> 15	Female	Rural	< 7.5%	1.2	40	27.8	2y	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes
+> 15	Male	Suburban	> 7.5%	1.58	43	17.2	7y	belly problem	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	Yes	yes
+< 15	Female	Urban	< 7.5%	1.45	61	29	9m	belly problem	No	Yes	Middle quartiles	Highest quartiles	Yes	Yes	Yes	Injection	No	Yes	No	No	yes
+> 15	Female	Urban	> 7.5%	1.55	66	27.5	2y	none	No	Yes	Middle quartiles	Highest quartiles	No	Yes	Yes	Injection	No	Yes	No	No	yes
+> 15	Male	Suburban	> 7.5%	1.65	55	20.2	6y	none	No	No	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Female	Urban	> 7.5%	1.46	34	16	9y	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	No	yes
+< 15	Male	Rural	> 7.5%	1.36	28	15.1	2y	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes
+> 15	Male	Suburban	> 7.5%	1.6	45	17.6	2y	none	No	No	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	No	yes
+< 5	Female	Urban	> 7.5%	1.07	18	15.7	2y	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes
+> 15	Female	Rural	< 7.5%	1.5	46	20.4	2y	none	No	Yes	Lowest quartiles	Lowest quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes
+> 15	Female	Rural	> 7.5%	1.56	60	24.7	2y	eye problem	No	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes
+> 15	Male	Suburban	< 7.5%	1.39	45	23.3	3y	ear problem	No	Yes	Lowest quartiles	unkhown	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes
+< 15	Female	Rural	> 7.5%	1.56	51	21	2y	none	No	Yes	Middle quartiles	unkhown	No	Yes	Yes	Injection	Yes	No	Yes	Yes	yes
+< 15	Female	Rural	> 7.5%	1.38	23	12.1	1y	none	Yes	No	Lowest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Female	Suburban	> 7.5%	1.52	55	23.8	3y	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes
+> 15	Female	Rural	> 7.5%	1.51	44	19.3	5y	none	Yes	No	Middle quartiles	unkhown	No	Yes	Yes	Injection	Yes	Yes	Yes	Yes	yes
+< 11	Female	Rural	> 7.5%	1.48	32	14.6	1y	none	No	No	Middle quartiles	unkhown	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Male	Urban	> 7.5%	1.6	45	17.6	5y	fever problem	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes
+> 15	Female	Rural	< 7.5%	1.35	45	24.7	6y	none	Yes	No	Lowest quartiles	Highest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes
+> 15	Male	Urban	> 7.5%	1.65	55	20.2	3y	skin problem	Yes	Yes	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes
+< 11	Female	Urban	> 7.5%	1.32	35	20.1	8m	eye, cyrocities	No	Yes	Middle quartiles	Highest quartiles	No	Yes	Yes	Injection	No	Yes	Yes	Yes	yes
+> 15	Male	Suburban	> 7.5%	1.55	45	18.7	2y	leg pain	Yes	Yes	Lowest quartiles	Lowest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes
+< 11	Female	Suburban	> 7.5%	1.43	41	20	2y	none	Yes	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes
+> 15	Female	Rural	< 7.5%	1.56	45	18.5	10y	eye, screen problem	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Male	Rural	< 7.5%	1.46	32	15	1y	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	Yes	Yes	yes
+> 15	Female	Suburban	> 7.5%	1.48	35	16	7y	fever problem	No	No	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	No	Yes	No	yes
+> 15	Female	Rural	> 7.5%	1.46	38	17.8	1y	none	Yes	No	Middle quartiles	unkhown	No	Yes	Yes	Injection	No	Yes	Yes	Yes	yes
+> 15	Male	Rural	< 7.5%	1.6	87	34	11y	none	Yes	No	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	No	Yes	Yes	Yes	yes
+> 15	Male	Rural	> 7.5%	1.61	52	20.1	3y	none	No	No	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	Yes	No	No	Yes	yes
+> 15	Male	Urban	> 7.5%	1.72	53	17.9	9y	leg pain	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	No	yes
+> 15	Male	Rural	> 7.5%	1.68	48	17	15y	Brain, eye, hormon	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes
+< 11	Male	Urban	< 7.5%	1.32	27	15.5	4y	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	Yes	Yes	yes
+> 15	Male	Rural	> 7.5%	1.43	52	25.4	8y	teeth, eye problem	No	No	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	Yes	Yes	Yes	yes
+< 11	Male	Rural	> 7.5%	1.3	20	11.8	3y	fever problem	No	No	Lowest quartiles	Lowest quartiles	No	No	Yes	Injection	No	No	Yes	No	yes
+< 15	Male	Suburban	> 7.5%	1.5	36	16	1m	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	No	Yes	yes
+> 15	Female	Rural	> 7.5%	1.53	48	20.5	5y	skin problem	Yes	Yes	Highest quartiles	Highest quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes
+> 15	Male	Suburban	> 7.5%	1.68	63	22.3	8m	skin problem	No	Yes	Middle quartiles	unkhown	Yes	No	Yes	Injection	Yes	Yes	No	Yes	yes
+< 5	Male	Suburban	> 7.5%	1.5	50	22.2	2m	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes
+> 15	Female	Rural	> 7.5%	1.63	50	18.8	10y	none	No	No	Lowest quartiles	unkhown	Yes	No	Yes	Injection	No	Yes	No	Yes	yes
+< 11	Male	Rural	> 7.5%	1.56	50	20.5	5m	none	Yes	No	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Female	Urban	< 7.5%	1.47	70	32.4	13y	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes
+< 11	Female	Rural	> 7.5%	1.24	20	13	15d	none	Yes	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	Yes	No	Yes	Yes	yes
+> 15	Male	Rural	< 7.5%	1.63	50	18.8	7y	none	Yes	No	Lowest quartiles	unkhown	Yes	No	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Male	Rural	> 7.5%	1.63	44	16.6	6y	none	No	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Female	Suburban	< 7.5%	1.6	56	21.9	10y	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	Yes	Yes	Yes	yes
+> 15	Female	Urban	< 7.5%	1.52	55	23.8	3y	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes
+> 15	Female	Suburban	> 7.5%	1.52	71	30.7	9y	none	Yes	No	Lowest quartiles	Lowest quartiles	Yes	No	Yes	Injection	Yes	No	No	Yes	yes
+> 15	Male	Rural	> 7.5%	1.65	56	20.6	8.6y	none	Yes	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	No	No	Yes	Yes	yes
+< 11	Male	Urban	> 7.5%	1.52	35	15.1	4y	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes
+< 11	Female	Rural	> 7.5%	1.39	29	15	2m	none	No	Yes	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes
+> 15	Male	Suburban	> 7.5%	1.6	47	18.4	11y	kidny problem	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes
+< 11	Female	Suburban	< 7.5%	1.2	28	19.4	5y	eye, ear problem	No	Yes	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes
+< 11	Male	Suburban	> 7.5%	1.19	21	14.8	2y	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes
+< 15	Female	Rural	< 7.5%	1.47	46	21.3	6y	eye, allergy	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes
+< 15	Female	Urban	> 7.5%	1.53	43	18.4	11y	eye problem	No	Yes	Middle quartiles	Highest quartiles	Yes	Yes	Yes	Injection	Yes	No	Yes	Yes	yes
+< 11	Female	Suburban	> 7.5%	1.44	49	23.6	3y	none	No	Yes	Middle quartiles	Highest quartiles	Yes	Yes	Yes	Injection	No	Yes	No	No	yes
+> 15	Female	Rural	> 7.5%	1.53	42	17.9	5y	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes
+< 11	Female	Urban	< 7.5%	1.14	17	13.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 5	Female	Urban	< 7.5%	0.92	10.5	12.4	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 5	Male	Urban	< 7.5%	0.92	12	14.2	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.19	15	10.6	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 5	Male	Urban	< 7.5%	1.07	15	13.1	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Male	Suburban	< 7.5%	1.25	21	13.4	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.32	31	17.8	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.12	18	14.3	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+> 15	Male	Urban	< 7.5%	1.75	59	19.3	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.14	23	17.7	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.09	21	17.7	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No
+< 11	Male	Urban	< 7.5%	1.14	22	16.9	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.22	29	19.5	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.19	27	19.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Male	Urban	< 7.5%	1.3	27	16	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.25	31	19.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Male	Urban	< 7.5%	1.35	29	15.9	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.22	25	16.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Male	Urban	< 7.5%	1.3	39	23.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.3	29	17.2	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 15	Male	Urban	< 7.5%	1.25	29	18.6	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.19	20	14.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.22	22	14.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No
+> 15	Male	Urban	< 7.5%	1.65	73	26.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.3	31	18.3	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.17	22	16.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+> 15	Male	Urban	< 7.5%	1.52	50	21.6	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+> 15	Male	Suburban	< 7.5%	1.65	53	19.5	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 11	Male	Suburban	< 7.5%	1.17	20	14.6	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 15	Male	Suburban	< 7.5%	1.48	39	17.8	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 11	Male	Suburban	< 7.5%	1.19	30	21.2	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 15	Male	Suburban	< 7.5%	1.37	39	20.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 11	Male	Suburban	< 7.5%	1.25	24	15.4	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 11	Male	Suburban	< 7.5%	1.14	19	14.6	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 11	Male	Suburban	< 7.5%	1.27	25	15.5	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No
+> 15	Male	Suburban	< 7.5%	1.55	51	21.2	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+> 15	Male	Suburban	< 7.5%	1.58	58	23.2	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 11	Male	Suburban	< 7.5%	1.3	36	21.3	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	Yes	No	No	No
+< 11	Male	Suburban	< 7.5%	1.3	45	26.6	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 15	Male	Suburban	< 7.5%	1.48	45	20.5	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.22	30	20.2	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.3	32	18.9	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.3	32	18.9	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 15	Male	Urban	< 7.5%	1.65	32	11.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No
+< 15	Male	Urban	< 7.5%	1.63	56	21.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 15	Male	Urban	< 7.5%	1.32	37	21.2	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No
+< 15	Male	Urban	< 7.5%	1.58	41	16.4	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.27	25	15.5	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	Yes	No	No	No
+< 15	Male	Urban	< 7.5%	1.32	30	17.2	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No
+< 15	Male	Urban	< 7.5%	1.25	29	18.6	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	Yes	No	No	No
+> 15	Male	Urban	< 7.5%	1.55	45	18.7	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Female	Urban	< 7.5%	1.09	21	17.7	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.14	20	15.4	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.22	24	16.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.19	30	21.2	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.37	55	29.3	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Male	Urban	< 7.5%	1.5	70	31.1	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.09	25	21	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.25	31	19.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.25	20	12.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.01	16	15.7	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No
+< 15	Female	Urban	< 7.5%	1.58	45	18	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Male	Urban	< 7.5%	1.32	35	20.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Female	Urban	< 7.5%	1.25	24	15.4	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 5	Male	Urban	< 7.5%	0.94	14	15.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Female	Rural	< 7.5%	0.97	25	26.6	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 5	Female	Rural	< 7.5%	0.74	16	29.2	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+> 15	Female	Rural	< 7.5%	1.52	45	19.5	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 5	Female	Suburban	< 7.5%	0.53	7	24.9	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Female	Suburban	< 7.5%	1.58	38	15.2	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Male	Suburban	< 7.5%	0.92	24	28.4	none	none	Yes	Yes	Lowest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Female	Rural	< 7.5%	0.97	18	19.1	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Female	Rural	< 7.5%	0.99	22	22.4	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Female	Rural	< 7.5%	1.61	31	12	none	none	No	No	Highest quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No
+< 5	Male	Rural	< 7.5%	0.74	12	21.9	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 5	Male	Rural	< 7.5%	0.61	12	32.2	none	none	No	Yes	Middle quartiles	Highest quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Female	Rural	< 7.5%	1.52	35	15.1	none	none	Yes	No	Middle quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No
+< 5	Male	Rural	< 7.5%	0.61	9	24.2	none	none	Yes	No	Middle quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Female	Urban	< 7.5%	1.3	28	16.6	none	none	Yes	No	Middle quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Female	Urban	< 7.5%	1.22	25	16.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 5	Male	Urban	< 7.5%	0.97	16	17	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 5	Female	Urban	< 7.5%	0.92	12	14.2	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Male	Urban	< 7.5%	1.27	40	24.8	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Female	Urban	< 7.5%	1.12	24	19.1	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Male	Urban	< 7.5%	1.22	22	14.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.12	26	20.7	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Female	Urban	< 7.5%	1.12	26	20.7	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Female	Urban	< 7.5%	1.14	22	16.9	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Male	Urban	< 7.5%	1.04	18	16.6	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Male	Urban	< 7.5%	1.52	40	17.3	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Male	Urban	< 7.5%	1.32	35	20.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Female	Urban	< 7.5%	1.3	35	20.7	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Female	Urban	< 7.5%	1.37	40	21.3	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Male	Urban	< 7.5%	1.22	27	18.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Male	Urban	< 7.5%	0.92	18	21.3	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+> 15	Male	Urban	< 7.5%	1.55	64	26.6	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 5	Male	Urban	< 7.5%	0.79	16	25.6	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.3	40	23.7	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Female	Urban	< 7.5%	1.67	48	17.2	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Male	Urban	< 7.5%	1.35	50	27.4	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Female	Urban	< 7.5%	0.92	25	29.5	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Male	Suburban	< 7.5%	1.25	35	22.4	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Female	Suburban	< 7.5%	1.3	22	13	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Male	Urban	< 7.5%	1.17	30	21.9	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Female	Urban	< 7.5%	1.35	35	19.2	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 5	Male	Suburban	< 7.5%	0.61	11	29.6	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Male	Urban	< 7.5%	1.48	38	17.3	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Male	Urban	< 7.5%	1.22	23	15.5	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Female	Urban	< 7.5%	1.58	45	18	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Male	Urban	< 7.5%	0.61	15	40.3	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Male	Suburban	< 7.5%	1.63	48	18.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Female	Rural	< 7.5%	1.25	25	16	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+> 15	Male	Urban	< 7.5%	1.7	54	18.7	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Female	Urban	< 7.5%	1.17	26	19	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Male	Urban	< 7.5%	1.27	28	17.4	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Female	Urban	< 7.5%	0.97	25	26.6	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Male	Urban	< 7.5%	0.98	40	41.6	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 5	Male	Rural	< 7.5%	0.65	18	42.6	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 11	Male	Suburban	< 7.5%	1.05	35	31.7	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 11	Male	Suburban	< 7.5%	0.96	20	21.7	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 5	Male	Suburban	< 7.5%	0.61	10	26.9	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 5	Female	Suburban	< 7.5%	0.82	12	17.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Female	Rural	< 7.5%	0.76	25	43.3	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Female	Rural	< 7.5%	0.92	30	35.4	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 15	Female	Urban	< 7.5%	1.32	45	25.8	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+> 15	Male	Suburban	< 7.5%	1.67	60	21.5	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+> 15	Male	Suburban	< 7.5%	1.67	55	19.7	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Female	Suburban	< 7.5%	1.22	40	26.9	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Male	Rural	< 7.5%	1.27	40	24.8	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 5	Female	Suburban	< 7.5%	0.61	20	53.7	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 11	Male	Urban	< 7.5%	1.12	32	25.5	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No
+< 11	Female	Urban	< 7.5%	1.25	25	16	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Male	Urban	< 7.5%	1.42	30	14.9	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Male	Urban	< 7.5%	1.5	43	19.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Female	Urban	< 7.5%	1.3	28	16.6	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No
+< 11	Male	Urban	< 7.5%	0.74	15	27.4	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Female	Urban	< 7.5%	1.48	40	18.3	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+> 15	Female	Urban	< 7.5%	1.43	35	17.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 15	Female	Urban	< 7.5%	1.63	45	16.9	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Female	Urban	< 7.5%	1.52	46	19.9	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Male	Urban	< 7.5%	1.58	50	20	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Female	Urban	< 7.5%	0.92	18	21.3	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Female	Urban	< 7.5%	0.74	15	27.4	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 5	Male	Urban	< 7.5%	0.44	12	62	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 5	Male	Urban	< 7.5%	0.61	12	32.2	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Male	Urban	< 7.5%	0.74	14	25.6	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 15	Female	Urban	< 7.5%	1.43	35	17.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Female	Urban	< 7.5%	1.22	15	10.1	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 5	Male	Urban	< 7.5%	0.74	7	12.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Male	Urban	< 7.5%	1.01	12	11.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 11	Female	Suburban	< 7.5%	0.92	12	14.2	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 5	Female	Suburban	< 7.5%	0.61	7	18.8	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No
+< 11	Female	Suburban	< 7.5%	0.92	12	14.2	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No
+< 5	Female	Urban	< 7.5%	0.61	5	13.4	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No
