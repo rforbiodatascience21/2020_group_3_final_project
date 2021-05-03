@@ -42,7 +42,7 @@ p1 <- pca_fit %>%
 
 # define arrow style for plotting
 arrow_style <- arrow(
-  angle = 20, ends = "first", type = "closed", length = grid::unit(8, "pt")
+  angle = 20, ends = "first", type = "closed", length = grid::unit(18, "pt")
 )
 
 # Plotting the directions
