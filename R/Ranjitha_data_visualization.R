@@ -68,6 +68,7 @@ Scatter2 <- my_data_clean_aug %>%
         labs(title="More than ONE accompanying disease", x="Age (Range: Years)", y="Weight (Kgs)")
 Scatter2
 
+
 # Scatter Plot 3
 
 Scatter3 <- my_data_clean_aug %>% 
@@ -79,8 +80,9 @@ Scatter3 <- my_data_clean_aug %>%
   geom_point() +
   theme_cowplot(12)+
   scale_color_discrete(name = "Disease Category") +
+
   theme(plot.title = element_text(hjust = 0.5))+
-  labs(title="More than TWO accompanying diseases", x="Age (Range: Years)", y="Weight (Kgs)")
+        labs(title="More than TWO accompanying diseases", x="Age (Range: Years)", y="Weight (Kgs)")
 Scatter3
 
 # Patchwork
