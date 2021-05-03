@@ -142,6 +142,7 @@ pca_fit %>%
 
 
 # Visualise data ----------------------------------------------------------
+# Box Plot
 my_data_clean_aug %>% ggplot(
   aes(x = BMI,
       y = Weight )) +
