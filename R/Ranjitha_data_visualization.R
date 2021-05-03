@@ -1,8 +1,12 @@
+library("ggrepel")
+library("patchwork")
+
 # Load data
 my_data_clean_aug <- read_tsv(file = "data/03_my_data_clean_aug.tsv")
 
-# Scatter Plot
+
 # Creating binary values for accompanying diseases
+
 my_data_clean_aug <- my_data_clean_aug %>%
   mutate(other_disease_binary = case_when(first_disease == "none" ~ 0,
                                           first_disease != "none" ~ 1,
@@ -10,12 +14,34 @@ my_data_clean_aug <- my_data_clean_aug %>%
                                           second_disease != "none" ~ 1,
                                           third_disease == "none" ~ 0,
                                           third_disease != "none" ~ 1,))
-my_data_clean_aug
+
+# Using the right spelling and categories for second disease
+
+my_data_clean_aug <- my_data_clean_aug %>%
+  mutate(second_disease_categories = case_when(second_disease == "Allergic problem" ~ "Allergies",
+                                              second_disease == "allergic problem" ~ "Allergies",
+                                              second_disease == "body" ~ "Body Pain",
+                                              second_disease == "pain problem" ~ "Body Pain",
+                                              second_disease == "eye problem" ~ "Optical Issues",
+                                              second_disease == "eye" ~ "Optical Issues",
+                                              second_disease == "screen problem" ~ "Optical Issues",
+                                              second_disease == "ear problem" ~ "Ear Issues",
+                                              second_disease == "head problem" ~ "Headache",
+                                              second_disease == "head pain" ~ "Headache",
+                                              second_disease == "none" ~ "none"))
+
+# Using the right spelling and categories for third disease
+
+my_data_clean_aug <- my_data_clean_aug %>%
+  mutate(third_disease_categories = case_when(third_disease == "hormon" ~ "Hormone Irregularities",
+                                              third_disease == "none" ~ "none"))
+
+# Scatter Plot 1
 
 Scatter1 <- my_data_clean_aug %>% 
   filter(Dur_disease != "0")%>%
   ggplot(mapping = aes(x= Dur_disease,
-                       y= Height,
+                       y= BMI,
                        fill = Sex,
                        color = Sex))+
   
@@ -24,8 +50,44 @@ Scatter1 <- my_data_clean_aug %>%
   geom_jitter(alpha = 0.5) +
   theme_cowplot(12)+
   theme(plot.title = element_text(hjust = 0.5))+
-  labs(title="Duration of Disease w.r.t variables Height and Sex", x="Disease Duration (Days)", y="Height (m)")
+  labs(title="Duration of Disease w.r.t variables Height and Sex", x="Disease Duration (Days)", y="BMI")
 Scatter1
 
-#write_tsv(...)
+# Scatter Plot 2
+
+Scatter2 <- my_data_clean_aug %>% 
+  filter(second_disease_categories != "none") %>%
+  ggplot(mapping = aes(x= Age,
+                       y= Weight,
+                       fill = second_disease_categories,
+                       color = second_disease_categories))+
+  geom_text_repel(aes(label = second_disease_categories), size =3)+
+  geom_point() +
+  theme_cowplot(12)+
+  theme(plot.title = element_text(hjust = 0.5))+
+        labs(title="More than ONE accompanying disease", x="Age (Range: Years)", y="Weight (Kgs)")
+Scatter2
+
+# Scatter Plot 3
+
+Scatter3 <- my_data_clean_aug %>% 
+  filter(third_disease_categories != "none") %>%
+  ggplot(mapping = aes(x= Age,
+                       y= Weight,
+                       fill = third_disease_categories,
+                       color = third_disease_categories))+
+  geom_text_repel(aes(label = third_disease_categories), size =3)+
+  geom_point() +
+  theme_cowplot(12)+
+  theme(plot.title = element_text(hjust = 0.5))+
+  labs(title="More than TWO accompanying diseases", x="Age (Range: Years)", y="Weight (Kgs)")
+Scatter3
+
+# Patchwork
+
+P <- Scatter2 + Scatter3
+P
+
+#Save_Images(...)
 ggsave(plot = Scatter1, filename = "results/Scatter1.png")
+ggsave(plot = Scatter2+Scatter3, filename = "results/ScatterP.png")
