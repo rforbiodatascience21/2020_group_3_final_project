@@ -79,8 +79,25 @@ my_data_clean_aug <- my_data_clean_aug %>%
                                35 <= BMI & BMI < 40 ~ "severe obesity",
                                40 <= BMI ~ "morbid obesity"))
 
+
+Tibble1 <- my_data_clean_aug %>%
+  select(BMI,`Insulin taken`)
+Tibble2 <- my_data_clean_aug %>%
+  select(BMI, `Impaired glucose metabolism`)
+
+DemonstratingJoin <- full_join(x = Tibble1,
+                               y = Tibble2,
+                               by = "BMI")
+=======
 # Splitting data
 
+
+
+bmi <- my_data_clean_aug %>%
+  select(BMI)
+
+disease_BMI <- full_join(x = diseases,
+                         y = bmi)
 Tibble1 <- my_data_clean_aug %>%
   select(BMI,`Insulin taken`)
 Tibble2 <- my_data_clean_aug %>%
