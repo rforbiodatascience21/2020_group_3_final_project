@@ -14,27 +14,30 @@ source(file = "R/99_project_functions.R")
 # Load data ---------------------------------------------------------------
 my_data_clean_aug <- read_tsv(file = "data/03_my_data_clean_aug.tsv")
 
-# Data wrangling ---------------------------------------------------------------
-
-# Visualise data ----------------------------------------------------------
-# PC analysis
+# Data wrangling ----------------------------------------------------------
 pca_fit <- my_data_clean_aug %>%
   select(-Affected,
          -AffectedBin) %>%
   select(where(is.numeric)) %>%
   prcomp(scale = TRUE)
 
+# Visualise data ----------------------------------------------------------
+
 # Plotting the variance explained by each component
-pca_fit %>%
+p1 <- pca_fit %>%
   tidy(matrix = "eigenvalues") %>%
   ggplot(aes(PC, percent)) +
-  geom_col(fill = "#56B4E9", alpha = 0.8) +
+  geom_col(fill = "red", alpha = 0.5) +
   scale_x_continuous(breaks = 1:19) +
   scale_y_continuous(
     labels = scales::percent_format(),
     expand = expansion(mult = c(0, 0.01))
   ) +
-  theme_minimal_hgrid(12)
+  theme_minimal_hgrid(12) +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  labs(title = "PC variance explained",
+       x = "PC",
+       y = "PERCENT")
 
 # define arrow style for plotting
 arrow_style <- arrow(
@@ -42,7 +45,7 @@ arrow_style <- arrow(
 )
 
 # Plotting the directions
-pca_fit %>%
+p2 <- pca_fit %>%
   tidy(matrix = "rotation") %>%
   pivot_wider(names_from = "PC",
               names_prefix = "PC",
@@ -61,10 +64,10 @@ pca_fit %>%
   coord_fixed() + 
   theme_minimal_grid(12)
 
-pca_fit %>%
+p3 <- pca_fit %>%
   augment(my_data_clean_aug) %>%
-  ggplot(mapping = aes(x = .fittedPC2,
-                       y = .fittedPC7,
+  ggplot(mapping = aes(x = .fittedPC1,
+                       y = .fittedPC2,
                        fill = Affected,
                        color = Affected)) +
   geom_point()
@@ -74,4 +77,7 @@ pca_fit %>%
 
 # Write data --------------------------------------------------------------
 #write_tsv(...)
-#ggsave(...)
+ggsave(plot = p1, filename = "results/05_PCA_varExplained.png")
+ggsave(plot = p2, filename = "results/05_PCA_directions.png")
+ggsave(plot = p3, filename = "results/05_PCA_scatter.png")
+

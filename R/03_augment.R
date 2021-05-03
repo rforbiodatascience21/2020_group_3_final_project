@@ -72,6 +72,8 @@ my_data_clean_aug <- my_data_clean_aug %>%
                                  `pancreatic disease affected in child` == "No" ~ 0),
          AffectedBin = case_when(Affected == "yes" ~ 1,
                                  Affected == "No" ~ 0),
+         HbA1cBin = case_when(HbA1c == "> 7.5%" ~ 1,
+                              HbA1c == "< 7.5%" ~ 0),
          BMI_class = case_when(BMI < 18.5 ~ "underweight",
                                18.5 <= BMI & BMI < 25  ~ "normal weight",
                                25 <= BMI & BMI < 30  ~ "overweight",
@@ -79,25 +81,7 @@ my_data_clean_aug <- my_data_clean_aug %>%
                                35 <= BMI & BMI < 40 ~ "severe obesity",
                                40 <= BMI ~ "morbid obesity"))
 
-
-Tibble1 <- my_data_clean_aug %>%
-  select(BMI,`Insulin taken`)
-Tibble2 <- my_data_clean_aug %>%
-  select(BMI, `Impaired glucose metabolism`)
-
-DemonstratingJoin <- full_join(x = Tibble1,
-                               y = Tibble2,
-                               by = "BMI")
-=======
 # Splitting data
-
-
-
-bmi <- my_data_clean_aug %>%
-  select(BMI)
-
-disease_BMI <- full_join(x = diseases,
-                         y = bmi)
 Tibble1 <- my_data_clean_aug %>%
   select(BMI,`Insulin taken`)
 Tibble2 <- my_data_clean_aug %>%
