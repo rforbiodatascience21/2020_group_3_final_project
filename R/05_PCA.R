@@ -143,13 +143,11 @@ p6
 
 p7 <- ((p3 + p4) / (p5 + p6)) +
   plot_annotation(
-    title = 'The surprising truth about mtcars',
-    subtitle = 'These 3 plots will reveal yet-untold secrets about our beloved data-set',
-    caption = 'Disclaimer: None of these plots are insightful',
-    fill = Affected,
-    color = Affected)
+    title = "PCA - Various components (T1-Diabetes)") +
+  plot_layout(guides = "collect") &
+  theme(legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5))
 p7
-
 
 # Model data
 #my_data_clean_aug %>% ...
@@ -158,5 +156,5 @@ p7
 #write_tsv(...)
 ggsave(plot = p1, filename = "results/05_PCA_varExplained.png")
 ggsave(plot = p2, filename = "results/05_PCA_directions.png")
-ggsave(plot = p3, filename = "results/05_PCA_scatter.png")
+ggsave(plot = p7, filename = "results/05_PCA_scatter.png")
 
