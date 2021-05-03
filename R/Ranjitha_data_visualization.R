@@ -90,4 +90,6 @@ P
 
 #Save_Images(...)
 ggsave(plot = Scatter1, filename = "results/Scatter1.png")
+ggsave(plot = Scatter2, filename = "results/Scatter2.png")
+ggsave(plot = Scatter3, filename = "results/Scatter3.png")
 ggsave(plot = Scatter2+Scatter3, filename = "results/ScatterP.png")
