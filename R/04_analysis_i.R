@@ -29,6 +29,15 @@ my_data_clean_aug %>%
 
 # Model data and Data exploration
 
+#Boxplot of the connection of BMI and diabetes
+
+my_data_clean_aug %>% 
+  ggplot(aes(x=Affected, y=BMI, fill=Affected)) + 
+  geom_boxplot(width=0.5,lwd=0.5)+
+  labs(title="BMI of people with and without diabetes",
+       x="Affected with diabetes?",
+       y="BMI")
+
 # We plot a bar chart of duration of type 1 diabetes and
 
 bar_char_dur_disease_female <- my_data_clean_aug %>%
