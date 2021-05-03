@@ -28,10 +28,9 @@ knitr::include_graphics("/cloud/project/results/05_PCA_varExplained.png")
 ```
 
 ## Results
-```{r, echo=FALSE, fig.cap="A caption", out.width = '100%'}
-knitr::include_graphics("/cloud/project/results/05_PCA_directions.png")
+```{r, echo=FALSE, fig.cap="Data is well seperated so classification seems to be feasible.", out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/05_PCA_scatter.png")
 ```
-
 
 ## Discussion
 ```{r}

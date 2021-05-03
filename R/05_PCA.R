@@ -26,8 +26,8 @@ pca_fit <- my_data_clean_aug %>%
 
 # Plotting the variance explained by each component
 p1 <- pca_fit %>%
-  tidy(matrix = "eigenvalues") %>%
-  ggplot(aes(PC, percent)) +
+  tidy(matrix = "eigenvalues") %>% # getting variance from the the eigenvalues object
+  ggplot(aes(PC, percent)) + # plotting the variance explained by each PC
   geom_col(fill = "red", alpha = 0.5) +
   scale_x_continuous(breaks = 1:19) +
   scale_y_continuous(
@@ -45,15 +45,15 @@ arrow_style <- arrow(
   angle = 20, ends = "first", type = "closed", length = grid::unit(4, "pt")
 )
 
-# Plotting the directions
+# Plotting the directions for PC1,(PC2,PC3,PC4)
 p2a <- pca_fit %>%
-  tidy(matrix = "rotation") %>%
-  pivot_wider(names_from = "PC",
-              names_prefix = "PC",
-              values_from = "value") %>%
-  ggplot(aes(x = PC1,
+  tidy(matrix = "rotation") %>% # getting the eigenvectors eg. PCs
+  pivot_wider(names_from = "PC", # take values from column an create new columns
+              values_from = "value", # take value from another column and use in the newly created columns
+              names_prefix = "PC") %>% # string added to the start of every variable name
+  ggplot(aes(x = PC1, # draw line between points
              y = PC2)) +
-  geom_segment(xend = 0,
+  geom_segment(xend = 0, # draw line between points
                yend = 0,
                arrow = arrow_style) +
   geom_text(
@@ -66,7 +66,9 @@ p2a <- pca_fit %>%
   xlim(-.6, .6) + ylim(-.5, .5) +
   coord_fixed() + 
   theme_minimal_grid(12)
+
 p2a
+
 p2b <- pca_fit %>%
   tidy(matrix = "rotation") %>%
   pivot_wider(names_from = "PC",
@@ -86,7 +88,9 @@ p2b <- pca_fit %>%
   xlim(-.6, .6) + ylim(-.5, .5) +
   coord_fixed() + 
   theme_minimal_grid(12)
+
 p2b
+
 p2c <- pca_fit %>%
   tidy(matrix = "rotation") %>%
   pivot_wider(names_from = "PC",
@@ -126,14 +130,17 @@ p2d <- pca_fit %>%
   xlim(-.6, .6) + ylim(-.5, .5) +
   coord_fixed() + 
   theme_minimal_grid(12)
+
 p2d
+
 p2e <- ((p2a + p2b) / (p2c + p2d)) +
   plot_annotation(
     title = "PCA - Directions (T1-Diabetes)") +
-  plot_layout(guides = "collect") &
+  plot_layout(guides = "collect") & # moving legend to the bottom 
   theme(legend.position = "bottom",
         plot.title = element_text(hjust = 0.5))
 p2e
+
 
 p3 <- pca_fit %>%
   augment(my_data_clean_aug) %>%
@@ -154,6 +161,7 @@ p3 <- pca_fit %>%
         legend.position ="none")  +
   labs(x = "PC1",
        y = "PC2")
+
 p3
 
 p4 <- pca_fit %>%
@@ -191,7 +199,9 @@ p5 <- pca_fit %>%
         legend.position ="none") +
   labs(x = "PC1",
        y = "PC4")
+
 p5
+
 p6 <- pca_fit %>%
   augment(my_data_clean_aug) %>%
   ggplot(mapping = aes(x = .fittedPC1,
@@ -211,6 +221,7 @@ p6 <- pca_fit %>%
        y = "PC5")
 p6
 
+# Creating one plot with all for subplots. Data projected onto PC1,(PC2,PC3,PC4)
 p7 <- ((p3 + p4) / (p5 + p6)) +
   plot_annotation(
     title = "PCA - Various components (T1-Diabetes)") +
@@ -220,7 +231,7 @@ p7 <- ((p3 + p4) / (p5 + p6)) +
 p7
 
 # Model data
-#my_data_clean_aug %>% ...
+
 
 # Write data --------------------------------------------------------------
 #write_tsv(...)
