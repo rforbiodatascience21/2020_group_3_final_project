@@ -7,6 +7,7 @@ library(tidyverse)
 library(broom)
 library(vroom)
 library(cowplot)
+library(patchwork)
 
 # Define functions --------------------------------------------------------
 source(file = "R/99_project_functions.R")
@@ -70,7 +71,85 @@ p3 <- pca_fit %>%
                        y = .fittedPC2,
                        fill = Affected,
                        color = Affected)) +
-  geom_point()
+  geom_point() +
+  stat_ellipse(mapping = aes(x = .fittedPC1,
+                             y = .fittedPC2,
+                             fill = Affected,
+                             color = Affected),
+               geom="polygon", level=0.95, alpha=0.2) +
+  guides(fill = FALSE) + 
+  theme(axis.text.x=element_text(angle =0,
+                                 vjust=1,
+                                 hjust=1),
+        legend.position ="none")  +
+  labs(x = "PC1",
+       y = "PC2")
+p3
+
+p4 <- pca_fit %>%
+  augment(my_data_clean_aug) %>%
+  ggplot(mapping = aes(x = .fittedPC1,
+                       y = .fittedPC3,
+                       fill = Affected,
+                       color = Affected)) +
+  geom_point() +
+  stat_ellipse(mapping = aes(x = .fittedPC1,
+                             y = .fittedPC3,
+                             fill = Affected,
+                             color = Affected),
+               geom="polygon", level=0.95, alpha=0.2) +
+  guides(fill = FALSE) +
+  theme(axis.text.x=element_text(angle =0, vjust=1, hjust=1),
+        legend.position ="none") +
+  labs(x = "PC1",
+       y = "PC3")
+
+p5 <- pca_fit %>%
+  augment(my_data_clean_aug) %>%
+  ggplot(mapping = aes(x = .fittedPC1,
+                       y = .fittedPC4,
+                       fill = Affected,
+                       color = Affected)) +
+  geom_point() +
+  stat_ellipse(mapping = aes(x = .fittedPC1,
+                             y = .fittedPC4,
+                             fill = Affected,
+                             color = Affected),
+               geom="polygon", level=0.95, alpha=0.2) +
+  guides(fill = FALSE) +
+  theme(axis.text.x=element_text(angle =0, vjust=1, hjust=1),
+        legend.position ="none") +
+  labs(x = "PC1",
+       y = "PC4")
+p5
+p6 <- pca_fit %>%
+  augment(my_data_clean_aug) %>%
+  ggplot(mapping = aes(x = .fittedPC1,
+                       y = .fittedPC5,
+                       fill = Affected,
+                       color = Affected)) +
+  geom_point() +
+  stat_ellipse(mapping = aes(x = .fittedPC1,
+                             y = .fittedPC5,
+                             fill = Affected,
+                             color = Affected),
+               geom="polygon", level=0.95, alpha=0.2) +
+  guides(fill = FALSE) +
+  theme(axis.text.x=element_text(angle =0, vjust=1, hjust=1),
+        legend.position ="None") +
+  labs(x = "PC1",
+       y = "PC5")
+p6
+
+p7 <- ((p3 + p4) / (p5 + p6)) +
+  plot_annotation(
+    title = 'The surprising truth about mtcars',
+    subtitle = 'These 3 plots will reveal yet-untold secrets about our beloved data-set',
+    caption = 'Disclaimer: None of these plots are insightful',
+    fill = Affected,
+    color = Affected)
+p7
+
 
 # Model data
 #my_data_clean_aug %>% ...
