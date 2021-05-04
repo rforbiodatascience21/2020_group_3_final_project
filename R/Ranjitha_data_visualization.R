@@ -87,7 +87,7 @@ Scatter3
 
 # Patchwork
 
-P <- Scatter2 + Scatter3
+P <- Scatter2 / Scatter3
 P
 
 #Save_Images(...)
