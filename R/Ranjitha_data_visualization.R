@@ -62,10 +62,10 @@ Scatter2 <- my_data_clean_aug %>%
                        color = second_disease_categories))+
   geom_text_repel(aes(label = second_disease_categories), size =3)+
   geom_point() +
-  scale_color_discrete(name = "Disease Category") +
+  scale_color_discrete(name = "Diseases") +
   theme_cowplot(12)+
   theme(plot.title = element_text(hjust = 0.5))+
-        labs(title="More than ONE accompanying disease", x="Age (Range: Years)", y="Weight (Kgs)")
+        labs(title="2 accompanying diseases", x="Age (Range: Years)", y="Weight (Kgs)")
 Scatter2
 
 
@@ -79,10 +79,10 @@ Scatter3 <- my_data_clean_aug %>%
   geom_text_repel(aes(label = third_disease_categories), size =3)+
   geom_point() +
   theme_cowplot(12)+
-  scale_color_discrete(name = "Disease Category") +
+  scale_color_discrete(name = "Diseases") +
 
   theme(plot.title = element_text(hjust = 0.5))+
-        labs(title="More than TWO accompanying diseases", x="Age (Range: Years)", y="Weight (Kgs)")
+        labs(title="3 accompanying diseases", x="Age (Range: Years)", y="Weight (Kgs)")
 Scatter3
 
 # Patchwork
@@ -94,4 +94,4 @@ P
 ggsave(plot = Scatter1, filename = "results/Scatter1.png")
 ggsave(plot = Scatter2, filename = "results/Scatter2.png")
 ggsave(plot = Scatter3, filename = "results/Scatter3.png")
-ggsave(plot = Scatter2+Scatter3, filename = "results/ScatterP.png")
+ggsave(plot = Scatter2+Scatter3, filename = "results/ScatterPatch.png")
