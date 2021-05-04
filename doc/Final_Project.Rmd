@@ -1,5 +1,5 @@
 ---
-title: 'Analysis of T1-Diabetes Data Set'
+title: 'Analysis of Data Set <br> T1 - Diabetes'
 author: Group 3 <br> <br> August Ehlers s164487 <br> Holger Ehlers s182521 <br> Kiara Szakter s202504 <br> Ranjitha Sekhar s210271
 output:
   ioslides_presentation: default
