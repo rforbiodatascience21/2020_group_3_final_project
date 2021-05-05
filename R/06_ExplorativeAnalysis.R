@@ -113,8 +113,8 @@ p3
 
 # Write data --------------------------------------------------------------
 ggsave(plot = p1, filename = "results/06_ExplorativeAnalysis_Histogram.png")
-ggsave(plot = p1, filename = "results/06_ExplorativeAnalysis_Density.png")
-ggsave(plot = p1, filename = "results/06_ExplorativeAnalysis_TilePlot.png")
+ggsave(plot = p2, filename = "results/06_ExplorativeAnalysis_Density.png")
+ggsave(plot = p3, filename = "results/06_ExplorativeAnalysis_TilePlot.png")
 
 
 
