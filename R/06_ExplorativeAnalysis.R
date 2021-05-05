@@ -95,8 +95,6 @@ p3 <- ggplot(data = my_data_clean_aug,
   labs(x="First disease", y="BMI class")
 p3
 
-
-
 # Model data
 #my_data_clean_aug %>% ...
 
