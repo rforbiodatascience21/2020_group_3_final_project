@@ -9,7 +9,10 @@ library("tidyr")
 
 
 # Define functions --------------------------------------------------------
-source(file = "R/01_load.R")
+source(file = "R/99_project_functions.R")
+
+# Load data ---------------------------------------------------------------
+my_data <- read_tsv(file = "data/01_my_data_load.tsv")
 
 # Wrangle data ------------------------------------------------------------
 my_data_clean <- my_data %>%
