@@ -38,9 +38,9 @@ my_data_clean_aug <- my_data_clean_aug %>%
            sep = ",") %>%
   # Converting "no" values to "none" values
   mutate(first_disease = case_when(first_disease == "no" ~ "none",
-                                   first_disease != "no" ~ first_disease),
-         second_disease = replace_na(second_disease, "none"),
-         third_disease = replace_na(third_disease, "none")) %>%
+                                   first_disease != "no" ~ str_squish(str_to_lower(first_disease))),
+         second_disease = str_squish(replace_na(second_disease, "none")),
+         third_disease = str_squish(replace_na(third_disease, "none"))) %>%
   # We binarize some of the variables and group BMI
   mutate(genderBin = case_when(Sex == "Male" ~ 0,
                                Sex == "Female" ~ 1),
