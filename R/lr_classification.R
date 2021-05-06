@@ -1,30 +1,29 @@
-# lr model
+# Clear workspace ---------------------------------------------------------
+rm(list = ls())
 
-library("tidyverse")
-
-table <- read.table(file = '/cloud/project/data/nhgh.tsv', sep = '\t', header = TRUE) 
-
-
-table_clean <- table %>%
-  drop_na()
-
-#machine learning
-#install.packages("tidymodels")
+# Load libraries ----------------------------------------------------------
 library(tidymodels)
 library(tidyverse)
 library(workflows)
 library(tune)
 library(ranger)
 
-#instead of 0 and 1 we put factors
-table_clean <- table_clean %>% 
-  mutate(diabetes = case_when(dx == 0 ~ "not diabetes",
-                              dx == 1 ~ "diabetes"
-  ))
+
+# Load data ---------------------------------------------------------------
+my_data_clean_aug <- read_tsv(file = "data/03_my_data_clean_aug.tsv")
+View(my_data_clean_aug)
+# Data wrangling ----------------------------------------------------------
+lr_fit <- my_data_clean_aug %>%
+  mutate(Affected = case_when(Affected == 0 ~ "No",
+                              Affected == 1 ~ "yes"))
+View(my_data_clean_aug)
+
+
+# Model data --------------------------------------------------------------
 
 set.seed(234589)
 # split the data into trainng (75%) and testing (25%)
-diabetes_split <- initial_split(table_clean, 
+t1_diabetes_split <- initial_split(lr_fit, 
                                 prop = 3/4)
 
 diabetes_train <- training(diabetes_split)
@@ -100,3 +99,5 @@ new_example <- tribble(~age, ~wt, ~gh, ~tri, ~bmi,
 new_example
 
 predict(final_model, new_data = new_example)
+
+# Visualise data ----------------------------------------------------------
