@@ -48,7 +48,7 @@ p1 <- my_data_clean_aug %>%
   theme(legend.position = "bottom",
         plot.title = element_text(hjust = 0.5)) +
   labs(title = "Distribution of duration of based on residency",
-       x = "Duration of T1 diabetes",
+       x = "Duration of T1 diabetes (days)",
        y = "Number of individuals")
 p1
 
