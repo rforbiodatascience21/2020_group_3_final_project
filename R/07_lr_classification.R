@@ -10,13 +10,28 @@ library(ranger)
 library(dplyr)
 library(purrr)
 library(broom)
+library(yardstick)
 
 # Load data ---------------------------------------------------------------
 my_data_clean_aug <- read_tsv(file = "data/03_my_data_clean_aug.tsv")
+
 # Data wrangling ----------------------------------------------------------
-lr_fit <- my_data_clean_aug %>%
-  mutate(Affected = factor(case_when(Affected == 0 ~ "No",
-                                     Affected == 1 ~ "yes")))
+lr_fit_data <- my_data_clean_aug %>% 
+  mutate(Affected_factor = case_when(Affected == "No" ~ 0,
+                              Affected == "yes" ~ 1)) 
+
+
+
+glm.fit <- glm(Affected_factor ~ Height + Weight + BMI + Dur_disease,
+               data = lr_fit_data,
+               family = binomial)
+
+summary(glm.fit)
+
+
+glm.probs <- predict(glm.fit,type = "response")
+glm.probs[1:5]
+
 
 
 
@@ -35,7 +50,13 @@ log_fit <- log_mod %>%
 log_fit
 
 
+
+
+
+
+
 set.seed(234589)
+
 # split the data into trainng (75%) and testing (25%)
 t1_diabetes_split <- initial_split(lr_fit, 
                                 prop = 3/4)
