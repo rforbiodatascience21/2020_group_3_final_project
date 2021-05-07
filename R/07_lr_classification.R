@@ -28,9 +28,20 @@ glm.fit <- glm(Affected_factor ~ Height + Weight + BMI + Dur_disease,
 
 summary(glm.fit)
 
-
 glm.probs <- predict(glm.fit,type = "response")
-glm.probs[1:5]
+glm.probs
+
+
+lr_fit_data %>%
+  mutate(prob = glm.probs) %>%
+  ggplot(aes(Affected_factor, prob)) +
+  geom_point(alpha = 0.2) +
+  geom_smooth(method = "glm", method.args = list(family = "binomial")) +
+  labs(
+    title = "Logistic Regression Model", 
+    x = "Affected with T1 diabetes",
+    y = "Probability of having T1 diabetes"
+  )
 
 
 
@@ -48,10 +59,6 @@ log_fit <- log_mod %>%
   fit(Affected ~ Height + Weight + BMI + Dur_disease + genderBin,
       data = lr_fit)
 log_fit
-
-
-
-
 
 
 
