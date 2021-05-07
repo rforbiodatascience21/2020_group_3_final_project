@@ -92,7 +92,7 @@ test_predictions
 final_model <- fit(rf_workflow, table)
 
 new_example <- tribble(~genderBin, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
-                       0, 58, 1.48, 1, 1)
+                       0, 73, 1.65, 0, 0)
 new_example
 
 predict(final_model, new_data = new_example)
