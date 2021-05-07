@@ -11,7 +11,9 @@
 # Load R packages
 library(shiny)
 library(shinythemes)
+library(caret)
 
+my_model <- load('/cloud/project/machinelearning.rda')
 
 # Define UI
 ui <- fluidPage(theme = shinytheme("cerulean"),
@@ -21,15 +23,17 @@ ui <- fluidPage(theme = shinytheme("cerulean"),
                   tabPanel("Navbar 1",
                            sidebarPanel(
                              tags$h3("Input:"),
-                             textInput("txt1", "Given Name:", ""),
-                             textInput("txt2", "Surname:", ""),
-                             
+                             numericInput("txt1", "Gender: (1 = female, 0 = male)", ""),
+                             numericInput("txt2", "Weight in kilograms:", ""),
+                             numericInput("txt3", "Height in meters:", ""),
+                             numericInput("txt4", "Family history of type 1 diabetes?", ""),
+                             numericInput("txt5", "Family history of type 2 diabetes?", "")
                            ), # sidebarPanel
                            mainPanel(
                              h1("Header 1"),
                              
                              h4("Output 1"),
-                             verbatimTextOutput("txtout"),
+                             textOutput("Pred"),
                              
                            ) # mainPanel
                            
@@ -43,10 +47,21 @@ ui <- fluidPage(theme = shinytheme("cerulean"),
 
 # Define server function  
 server <- function(input, output) {
-  
-  output$txtout <- renderText({
-    paste( input$txt1, input$txt2, sep = " " )
+  data <- reactive({
+    req(input$genderBin)
+    data.frame(genderBin=input$txt1,
+               Weight=input$txt2,
+               Height=input$txt3,
+               FamHistT1DBin=input$txt4,
+               FamHistT2DBin=input$txt5,
+               )
   })
+  
+  pred <- reactive({
+    predict(my_model,data())
+  })
+  
+  output$Pred <- renderText(pred())
 } # server
 
 
