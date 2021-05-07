@@ -90,6 +90,7 @@ test_predictions <- rf_fit %>% collect_predictions()
 test_predictions
 
 final_model <- fit(rf_workflow, table)
+save(final_model , file = 'machinelearning.rda')
 
 new_example <- tribble(~genderBin, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
                        0, 73, 1.65, 0, 0)
