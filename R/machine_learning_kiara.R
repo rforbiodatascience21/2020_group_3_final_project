@@ -2,11 +2,8 @@
 
 library("tidyverse")
 
-table <- read.table(file = '/cloud/project/data/nhgh.tsv', sep = '\t', header = TRUE) 
+table <- read.table(file = '/cloud/project/data/03_my_data_clean_aug.tsv', sep = '\t', header = TRUE) 
 
-
-table_clean <- table %>%
-  drop_na()
 
 #machine learning
 #install.packages("tidymodels")
@@ -16,15 +13,12 @@ library(workflows)
 library(tune)
 library(ranger)
 
-#instead of 0 and 1 we put factors
-table_clean <- table_clean %>% 
-  mutate(diabetes = case_when(dx == 0 ~ "not diabetes",
-                              dx == 1 ~ "diabetes"
-  ))
+table <- table %>%
+  drop_na()
 
 set.seed(234589)
 # split the data into trainng (75%) and testing (25%)
-diabetes_split <- initial_split(table_clean, 
+diabetes_split <- initial_split(table, 
                                 prop = 3/4)
 
 diabetes_train <- training(diabetes_split)
@@ -35,8 +29,8 @@ diabetes_cv <- vfold_cv(diabetes_train)
 
 # define the recipe, we can always add more recipes
 diabetes_recipe <- 
-  recipe(diabetes ~ age + wt + gh + tri + bmi, 
-         data = table_clean) %>%
+  recipe(Affected ~ genderBin + Weight + Height + FamHistT1DBin + FamHistT2DBin, 
+         data = table) %>%
   # and some pre-processing steps
   step_normalize(all_numeric()) %>%
   step_impute_knn(all_predictors())
@@ -67,7 +61,7 @@ rf_workflow <- workflow() %>%
   add_model(rf_model)
 
 # specify which values eant to try
-rf_grid <- expand.grid(mtry = c(3, 4, 5))
+rf_grid <- expand.grid(mtry = c(2, 3, 4))
 # extract results
 rf_tune_results <- rf_workflow %>%
   tune_grid(resamples = diabetes_cv, #CV object
@@ -95,10 +89,10 @@ test_performance
 test_predictions <- rf_fit %>% collect_predictions()
 test_predictions
 
-final_model <- fit(rf_workflow, table_clean)
+final_model <- fit(rf_workflow, table)
 
-new_example <- tribble(~age, ~wt, ~gh, ~tri, ~bmi,
-                       60.16667, 116.8, 6.0, 29.6, 42.39)
+new_example <- tribble(~genderBin, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
+                       0, 58, 1.48, 1, 1)
 new_example
 
 predict(final_model, new_data = new_example)
