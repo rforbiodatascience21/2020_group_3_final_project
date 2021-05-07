@@ -28,7 +28,8 @@ my_data_clean_aug <- my_data_clean_aug %>%
                                               second_disease == "ear problem" ~ "Ear Issues",
                                               second_disease == "head problem" ~ "Headache",
                                               second_disease == "head pain" ~ "Headache",
-                                              second_disease == "none" ~ "none"))
+                                              second_disease == "none" ~ "none",
+                                              second_disease == NA ~ "none"))
 
 # Using the right spelling and categories for third disease
 
