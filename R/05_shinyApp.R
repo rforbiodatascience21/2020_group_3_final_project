@@ -48,8 +48,7 @@ ui <- fluidPage(theme = shinytheme("cerulean"),
 # Define server function  
 server <- function(input, output) {
   data <- reactive({
-    req(input$genderBin)
-    data.frame(genderBin=input$txt1,
+    tribble(genderBin=input$txt1,
                Weight=input$txt2,
                Height=input$txt3,
                FamHistT1DBin=input$txt4,
