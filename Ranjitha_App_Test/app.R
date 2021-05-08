@@ -1,49 +1,64 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
+####################################
+#    R for Bio Data ScienceGroup3  #
+#              Group 3             #
+####################################
 
+#this is a comment
+
+# Concepts about Reactive programming used by Shiny, 
+# https://shiny.rstudio.com/articles/reactivity-overview.html
+
+# Load R packages
 library(shiny)
 
-# Define UI for application that draws a histogram
-ui <- fluidPage(
 
-    # Application title
-    titlePanel("Old Faithful Geyser Data"),
+my_model <- load('/cloud/project/machinelearning.rda')
 
-    # Sidebar with a slider input for number of bins 
-    sidebarLayout(
-        sidebarPanel(
-            sliderInput("bins",
-                        "Number of bins:",
-                        min = 1,
-                        max = 50,
-                        value = 30)
-        ),
+# Define UI
+ui <- fluidPage(theme = shinytheme("cosmo"),
+                navbarPage(
+                    
+                    "DiaPredict",
+                    tabPanel("Ver1.0",
+                             sidebarPanel(
+                                 tags$h3("Input Parameters"),
+                                 numericInput("int1", "Gender (1 = Female, 0 = Male)", "", "0", "1"),
+                                 numericInput("int2", "Weight (Kilograms)", "", "0"),
+                                 numericInput("int3", "Height (Meters)", "", "0"),
+                                 numericInput("int4", "Family History of Type 1 Diabetes?", "", "0", "1"),
+                                 numericInput("int5", "Family History of Type 2 Diabetes?", "", "0", "1"),
+                                 
+                                 actionButton("submitbutton", "Submit", 
+                                              class = "btn btn-primary")
+                             ), # sidebarPanel
+                             mainPanel(
+                                 h1("Are you likely to be Diabetic?"),
+                                 
+                                 textOutput('Pred')
+                                 
+                             ))))
+# fluidPage
 
-        # Show a plot of the generated distribution
-        mainPanel(
-           plotOutput("distPlot")
-        )
-    )
-)
 
-# Define server logic required to draw a histogram
+# Define server function  
 server <- function(input, output) {
-
-    output$distPlot <- renderPlot({
-        # generate bins based on input$bins from ui.R
-        x    <- faithful[, 2]
-        bins <- seq(min(x), max(x), length.out = input$bins + 1)
-
-        # draw the histogram with the specified number of bins
-        hist(x, breaks = bins, col = 'darkgray', border = 'white')
+    data <- reactive({
+     req(input$genderBin)
+        data.frame(genderBin=input$txt1,
+                   Weight=input$txt2,
+                   Height=input$txt3,
+                   FamHistT1DBin=input$txt4,
+                   FamHistT2DBin=input$txt5)
+                })
+    
+    
+    pred <- reactive({
+        predict(get(my_model),data)
     })
-}
+    
+    output$Pred <- renderText(pred())
+} # server
 
-# Run the application 
+
+# Create Shiny object
 shinyApp(ui = ui, server = server)

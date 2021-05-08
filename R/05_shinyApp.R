@@ -44,6 +44,7 @@ ui <- fluidPage(theme = shinytheme("cerulean"),
 
 
 # Define server function  
+<<<<<<< HEAD
 server <- function(input, output, session) 
   {
   new_data <- eventReactive(
@@ -51,6 +52,17 @@ server <- function(input, output, session)
     {
     tribble(~genderBin, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin, 
            input$txt1, input$txt2, input$txt3, input$txt4, input$txt5)
+=======
+server <- function(input, output) {
+  data <- reactive({
+    req(input$genderBin)
+    data.frame(genderBin=input$txt1,
+               Weight=input$txt2,
+               Height=input$txt3,
+               FamHistT1DBin=input$txt4,
+               FamHistT2DBin=input$txt5,
+               )
+>>>>>>> 19290217ac6bee92e68828c52bb07f84f3b47706
   })
   
  pred <- reactive({
