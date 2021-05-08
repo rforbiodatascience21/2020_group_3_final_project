@@ -108,9 +108,6 @@ p3 <- ggplot(data = my_data_clean_aug,
   labs(x="First disease", y="BMI class")
 p3
 
-# Model data
-#my_data_clean_aug %>% ...
-
 # Write data --------------------------------------------------------------
 ggsave(plot = p1, filename = "results/06_ExplorativeAnalysis_Histogram.png")
 ggsave(plot = p2, filename = "results/06_ExplorativeAnalysis_Density.png")

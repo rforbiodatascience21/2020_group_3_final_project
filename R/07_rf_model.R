@@ -108,10 +108,11 @@ test_performance
 test_predictions <- rf_fit %>% collect_predictions()
 test_predictions
 
-final_model <- fit(rf_workflow, table)
+# Extracting confusion matrix
+test_predictions %>% 
+  conf_mat(truth = Affected, estimate = .pred_class)
 
-# Saving model
-save(final_model , file = 'results/machinelearning.rda')
+final_model <- fit(rf_workflow, table)
 
 # Inventing a fake person to see what the model predicts
 new_example <- tribble(~genderBin, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
@@ -119,3 +120,19 @@ new_example <- tribble(~genderBin, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2D
 new_example
 
 predict(final_model, new_data = new_example)
+
+# Visualization ----------------------------------------------------------
+p1 <- test_predictions %>%
+  ggplot() +
+  geom_density(aes(x = .pred_yes, fill = Affected), 
+               alpha = 0.5) +
+  labs(title = "Predicted probability distribution",
+       x = "Yes/No prediction",
+       y = "Density") +
+  theme(legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5))
+p1
+
+# Write data --------------------------------------------------------------
+save(final_model , file = 'results/machinelearning.rda')
+ggsave(plot = p1, filename = "results/07_densityPredictions.png")
