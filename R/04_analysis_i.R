@@ -26,6 +26,7 @@ dim(my_data_clean_aug)
 my_data_clean_aug %>%
   count(my_data_clean_aug)
 
+# Visualise data ----------------------------------------------------------
 
 # Model data and Data exploration
 
@@ -68,7 +69,7 @@ bar_char_dur_disease_male <- my_data_clean_aug %>%
 
 bar_char_dur_disease_male
 # Using patchwork to show both plots.
-bar_char_dur_disease_female/bar_char_dur_disease_male
+bar_char_dur_disease_female / bar_char_dur_disease_male
 
 # Simple linear regression duration of disease and BMI
 ggplot(data = my_data_clean_aug,
@@ -76,15 +77,8 @@ ggplot(data = my_data_clean_aug,
                      y = BMI,
                      color = `Area of Residence`)) +
   geom_point() +
-  geom_smooth(method='lm', formula= y~x, se=F) +
+  geom_smooth(method='glm', formula= y~x, se=F) +
   labs(x="Duration of type 1 diabetes", y="BMI")
-
-# Visualise data ----------------------------------------------------------
-# Box Plot
-my_data_clean_aug %>% ggplot(
-  aes(x = BMI,
-      y = Weight )) +
-  geom_boxplot()
 
 # Write data --------------------------------------------------------------
 write_tsv(...)

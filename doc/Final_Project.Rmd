@@ -2,17 +2,35 @@
 title: 'Analysis of Data Set <br> T1 - Diabetes'
 author: Group 3 <br> <br> August Ehlers s164487 <br> Holger Ehlers s182521 <br> Kiara Szakter s202504 <br> Ranjitha Sekhar s210271
 output:
-  ioslides_presentation: default
-  slidy_presentation: default
+  ioslides_presentation: 
+    css: style.css
+    slidy_presentation: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+## Outline
+- Introduction
+
+- Materials and Methods
+
+- Results 
+
+- Discussion
+
+- Conclusion
+
+
 
 ## Introduction
+- Data set of Diabetes Type1 | Detecting Diabetes of Rural People of Bangladesh
 
+- Contains 306 data points and 22 variables
 
+- Exploratory Data Analysis
+
+- Classify T1 Diabetes children and explore important variables for T1 diabetes
 
 ```{r}
 ```
