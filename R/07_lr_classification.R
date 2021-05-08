@@ -19,10 +19,14 @@ my_data_clean_aug <- read_tsv(file = "data/03_my_data_clean_aug.tsv")
 lr_fit_data <- my_data_clean_aug %>% 
   mutate(Affected_factor = case_when(Affected == "No" ~ 0,
                               Affected == "yes" ~ 1)) 
+lr_fit_data <- lr_fit_data %>% mutate_if(is.double, as.factor) %>% 
+  mutate_if(is.character, as.factor)
+
+lr_fit_data
 
 
-
-glm.fit <- glm(Affected_factor ~ Height + Weight + BMI + Dur_disease,
+glm.fit <- glm(Affected_factor ~ Height + Weight + BMI + Dur_disease + genderBin +
+                 Above15 + Betw5_11 + Betw11_15,
                data = lr_fit_data,
                family = binomial)
 
