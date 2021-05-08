@@ -18,8 +18,6 @@ table <- read.table(file = '/cloud/project/data/03_my_data_clean_aug.tsv',
                     sep = '\t',
                     header = TRUE) 
 
-
-
 # Data wrangling ----------------------------------------------------------
 table <- table %>%
   drop_na()
@@ -111,6 +109,8 @@ test_predictions <- rf_fit %>% collect_predictions()
 test_predictions
 
 final_model <- fit(rf_workflow, table)
+
+# Saving model
 save(final_model , file = 'results/machinelearning.rda')
 
 # Inventing a fake person to see what the model predicts
