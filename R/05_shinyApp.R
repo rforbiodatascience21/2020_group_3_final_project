@@ -1,3 +1,13 @@
+####################################
+#    R for Bio Data ScienceGroup3  #
+#              Group 3             #
+####################################
+
+#this is a comment
+
+# Concepts about Reactive programming used by Shiny, 
+# https://shiny.rstudio.com/articles/reactivity-overview.html
+
 # Load R packages
 library(shiny)
 library(shinythemes)
