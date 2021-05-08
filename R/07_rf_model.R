@@ -144,7 +144,7 @@ p1
 
 p2 <- test_predictions %>%
   ggplot(mapping = aes(x = AffectedBin + 1,
-                       y = .pred_yes + 1,
+                       y = .pred_yes,
                        color = `Predicted class`,
                        fill = `Predicted class`)) + 
   geom_point(alpha = 0.5) + 
