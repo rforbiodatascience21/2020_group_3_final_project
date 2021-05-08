@@ -13,7 +13,7 @@ library(shiny)
 library(shinythemes)
 library(caret)
 
-my_model <- load('/cloud/project/machinelearning.rda')
+load('/cloud/project/machinelearning.rda')
 
 # Define UI
 ui <- fluidPage(theme = shinytheme("cerulean"),
@@ -26,16 +26,14 @@ ui <- fluidPage(theme = shinytheme("cerulean"),
                              numericInput("txt1", "Gender: (1 = female, 0 = male)", ""),
                              numericInput("txt2", "Weight in kilograms:", ""),
                              numericInput("txt3", "Height in meters:", ""),
-                             numericInput("txt4", "Family history of type 1 diabetes?", ""),
-                             numericInput("txt5", "Family history of type 2 diabetes?", "")
+                             numericInput("txt4", "Family history of type 1 diabetes? (1 = yes, 0 = no)", ""),
+                             numericInput("txt5", "Family history of type 2 diabetes? (1 = yes, 0 = no)", ""),
+                             actionButton("enter", label = "Enter Values")
                            ), # sidebarPanel
-                           mainPanel(
-                             h1("Header 1"),
-                             
-                             h4("Output 1"),
-                             textOutput("Pred"),
-                             
-                           ) # mainPanel
+              
+                             mainPanel(renderTable("Pred"))
+                           
+                            # mainPanel
                            
                   ), # Navbar 1, tabPanel
                   tabPanel("Navbar 2", "This panel is intentionally left blank"),
@@ -46,22 +44,35 @@ ui <- fluidPage(theme = shinytheme("cerulean"),
 
 
 # Define server function  
+<<<<<<< HEAD
+server <- function(input, output, session) 
+  {
+  new_data <- eventReactive(
+    input$enter, 
+    {
+    tribble(~genderBin, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin, 
+           input$txt1, input$txt2, input$txt3, input$txt4, input$txt5)
+=======
 server <- function(input, output) {
   data <- reactive({
-    tribble(genderBin=input$txt1,
+    req(input$genderBin)
+    data.frame(genderBin=input$txt1,
                Weight=input$txt2,
                Height=input$txt3,
                FamHistT1DBin=input$txt4,
                FamHistT2DBin=input$txt5,
                )
+>>>>>>> 19290217ac6bee92e68828c52bb07f84f3b47706
   })
   
-  pred <- reactive({
-    predict(my_model,data())
-  })
+ pred <- reactive({
+   predict(final_model, new_data())
+   withProgress(message = 'Predictions in progress. Please wait ...')
+ })
   
-  output$Pred <- renderText(pred())
-} # server
+  output$Pred <- renderTable(pred())
+ }
+# server
 
 
 # Create Shiny object

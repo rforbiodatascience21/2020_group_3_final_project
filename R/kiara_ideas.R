@@ -1,75 +1,71 @@
 library("tidyverse")
 library("dplyr")
 library("tidyr")
-my_data <- read_csv2(file = "/cloud/project/data/untidy_t1_diabetes.csv")
-my_data_clean <- my_data %>%
-  mutate(Age = case_when(Age == "greater then 15" ~ "> 15",
-                         Age == "Less then 11" ~ "< 11",
-                         Age == "Less then 15" ~"< 15",
-                         Age == "Less then 5" ~ "< 5"),
-         HbA1c = case_when(HbA1c == "Over 7.5%" ~"> 7.5%",
-                           HbA1c == "Less then 7.5%" ~"< 7.5%"),
-         BMI = round(BMI,1))
-
-# Wrangle data ------------------------------------------------------------
 my_data_clean_aug <- my_data_clean %>%
   mutate(Dur_disease = str_extract(`Duration of disease`,"\\d+\\.?\\d*"),
          unit = str_replace(`Duration of disease`, Dur_disease,"")) %>%
   select(-`Duration of disease`)
 
 # Converting duration to days for every value
-my_data_clean_aug <- my_data_clean %>%
+my_data_clean_aug <- my_data_clean_aug %>%
   mutate(Dur_disease = as.numeric(Dur_disease)) %>%
   mutate(Dur_disease = case_when(unit == "d" ~ Dur_disease,
                                  unit == "w" ~ Dur_disease * 7,
                                  unit == "m" ~ Dur_disease * 30,
-                                 unit == "y" ~ Dur_disease * 365)) %>%
+                                 unit == "y" ~ Dur_disease * 365),
+         Dur_disease = replace_na(Dur_disease, 0)) %>%
+  # We do not need the unit column anymore
+  select(-unit) %>%
+  # Separating "Other diease" column into three
   separate(`Other diease`,
            into = c("first_disease",
                     "second_disease",
                     "third_disease"),
            sep = ",") %>%
+  # Converting "no" values to "none" values
   mutate(first_disease = case_when(first_disease == "no" ~ "none",
-                                   first_disease != "no" ~ first_disease),
-         second_disease = replace_na(second_disease, "none"),
-         third_disease = replace_na(third_disease, "none")) %>%
-  select(-unit)
-
-# Splitting data
-diseases <- my_data_clean_aug %>%
-  select(first_disease,
-         second_disease,
-         third_disease)
-
-data <- my_data_clean_aug %>%
-  select(-first_disease,
-         -second_disease,
-         -third_disease)
-
-Tibble1 <- my_data_clean_aug %>%
-  select(BMI,`Insulin taken`)
-Tibble2 <- my_data_clean_aug %>%
-  select(BMI, `Impaired glucose metabolism`)
-
-DemonstratingJoin <- full_join(x = Tibble1,
-                               y = Tibble2,
-                               by = "BMI")
-
-#average BMI of people with diabetes
-my_data_clean_aug %>%
-  filter(Affected == 'yes') %>%
-  summarise(mean(BMI))
-  
-#number of people with untreated diabetes 
-my_data_clean_aug %>%
-  filter(Affected == 'yes') %>%
-  filter(`Insulin taken` == 'No') %>%
-  count()
-#everybody is treated
-
-my_data_clean_aug <- my_data_clean_aug %>%
-  mutate(Diabetes = case_when(Affected == 'yes' ~ '1',
-                              Affected == 'No' ~ '0'))
+                                   first_disease != "no" ~ str_squish(str_to_lower(first_disease))),
+         second_disease = str_squish(replace_na(second_disease, "none")),
+         third_disease = str_squish(replace_na(third_disease, "none"))) %>%
+  # We binarize some of the variables and group BMI
+  mutate(genderBin = factor(case_when(Sex == "Male" ~ 0,
+                                      Sex == "Female" ~ 1)),
+         Above15 = factor(case_when(Age == "> 15" ~ 1,
+                                    Age != "> 15" ~ 0)),
+         Betw5_11 = factor(case_when(Age == "< 11" ~ 1,
+                                     Age != "< 11" ~ 0)),
+         Betw11_15 = factor(case_when(Age == "< 15" ~ 1,
+                                      Age != "< 15" ~ 0)),
+         Below5 = factor(case_when(Age == "< 5" ~ 1,
+                                   Age != "< 5" ~ 0)),
+         AdeqNutrBin = factor(case_when(`Adequate Nutrition` == "Yes" ~ 1,
+                                        `Adequate Nutrition` == "No" ~ 0)),
+         EducMotherBin = factor(case_when(`Education of Mother` == "Yes" ~ 1,
+                                          `Education of Mother` == "No" ~ 0)),
+         AutoAB_bin = factor(case_when(Autoantibodies == "Yes" ~ 1,
+                                       Autoantibodies == "No" ~ 0)),
+         ImpairedGMBin = factor(case_when(`Impaired glucose metabolism` == "Yes" ~ 1,
+                                          `Impaired glucose metabolism` == "No" ~ 0)),
+         InsulinTakenBin = factor(case_when(`Insulin taken` == "Yes" ~ 1,
+                                            `Insulin taken` == "No" ~ 0)),
+         FamHistT1DBin = factor(case_when(`Family History affected in Type 1 Diabetes` == "Yes" ~ 1,
+                                          `Family History affected in Type 1 Diabetes` == "No" ~ 0)),
+         FamHistT2DBin = factor(case_when(`Family History affected in Type 2 Diabetes` == "Yes" ~ 1,
+                                          `Family History affected in Type 2 Diabetes` == "No" ~ 0)),
+         HypoglycemisBin = factor(case_when(Hypoglycemis == "Yes" ~ 1,
+                                            Hypoglycemis == "No" ~ 0)),
+         PancreasBin = factor(case_when(`pancreatic disease affected in child` == "Yes" ~ 1,
+                                        `pancreatic disease affected in child` == "No" ~ 0)),
+         AffectedBin = factor(case_when(Affected == "yes" ~ 1,
+                                        Affected == "No" ~ 0)),
+         HbA1cBin = factor(case_when(HbA1c == "> 7.5%" ~ 1,
+                                     HbA1c == "< 7.5%" ~ 0)),
+         BMI_class = case_when(BMI < 18.5 ~ "underweight",
+                               18.5 <= BMI & BMI < 25  ~ "normal weight",
+                               25 <= BMI & BMI < 30  ~ "overweight",
+                               30 <= BMI & BMI < 35 ~ "obese",
+                               35 <= BMI & BMI < 40 ~ "severe obesity",
+                               40 <= BMI ~ "morbid obesity"))
 
 my_data_clean_aug %>% 
   ggplot(aes(x=Affected, y=BMI, fill=Affected)) + 
@@ -78,28 +74,27 @@ my_data_clean_aug %>%
        x="Affected with diabetes?",
        y="BMI")
 
-my_data_clean_aug <- my_data_clean_aug %>%
-  mutate(BMI_class = case_when(BMI < 18.5 ~ "underweight",
-                               18.5 <= BMI & BMI < 25  ~ "normal weight",
-                               25 <= BMI & BMI < 30  ~ "overweight",
-                               30 <= BMI & BMI < 35 ~ "obese",
-                               35 <= BMI & BMI < 40 ~ "severe obesity",
-                               40 <= BMI ~ "morbid obesity"))
 #BMI Class distribution among diabetic people
 my_data_clean_aug %>%
-  filter(Diabetes == "1") %>%
-  ggplot(aes(x = Sex, fill=factor(BMI_class, levels=c("Underweight","Normal weight", "Overweight","Obese", "Severe obesity", "Morbid obesity")))) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  labs(fill = "Categories")
+  ggplot(mapping= aes(x=))
 
-#normal range for the hemoglobin A1c level is between 4% and 5.6%. Hemoglobin A1c levels between 5.7% and 6.4% mean you have a higher chance of getting diabetes. Levels of 6.5% or higher mean you have diabetes.
-#Table displaying basic statistics (mean, std, percentiles) 
 
-#the average age, weight, BMI and glycohemoglobin for people with diabetes
-#table_clean %>%
- # filter(dx == '1') %>%
- # summarize(average_age = mean(age), average_weight = mean(wt), 
-     #       average_BMI = mean(BMI), average_gh = mean(gh))
+p6 <- my_data_clean_aug %>%
+  ggplot(mapping = aes(x = Weight,
+                       y = Height,
+                       fill = Affected,
+                       color = Affected)) +
+  geom_point() +
+  stat_ellipse(mapping = aes(x = Weight,
+                             y = Height,
+                             fill = Affected,
+                             color = Affected),
+               geom="polygon", level=0.95, alpha=0.2) +
+  guides(fill = FALSE) +
+  theme(axis.text.x=element_text(angle =0, vjust=1, hjust=1)) +
+  labs(x = "Weight",
+       y = "Height")
+p6
 
 
 
