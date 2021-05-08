@@ -121,11 +121,20 @@ new_example
 
 predict(final_model, new_data = new_example)
 
+# Binarizing predictions
+test_predictions <- test_predictions %>%
+  mutate(pred_classBin = case_when(.pred_class == "yes" ~ 1,
+                                   .pred_class == "No" ~ 0),
+         AffectedBin = case_when(Affected == "yes" ~ 1,
+                                 Affected == "No" ~ 0)) %>%
+  rename(`Predicted class` = .pred_class)
+
 # Visualization ----------------------------------------------------------
 p1 <- test_predictions %>%
-  ggplot() +
-  geom_density(aes(x = .pred_yes, fill = Affected), 
-               alpha = 0.5) +
+  ggplot(mapping = aes(x = .pred_yes,
+                       fill = Affected,
+                       color = Affected)) +
+  geom_density(alpha = 0.5) +
   labs(title = "Predicted probability distribution",
        x = "Yes/No prediction",
        y = "Density") +
@@ -133,6 +142,20 @@ p1 <- test_predictions %>%
         plot.title = element_text(hjust = 0.5))
 p1
 
+p2 <- test_predictions %>%
+  ggplot(mapping = aes(x = AffectedBin + 1,
+                       y = .pred_yes + 1,
+                       color = `Predicted class`,
+                       fill = `Predicted class`)) + 
+  geom_point(alpha = 0.5) + 
+  scale_x_discrete(limits = c("No", "Yes")) +
+  labs(title = "Predicted class vs True class",
+       x = "Affected with T1 diabetes (Yes/No)",
+       y = "Predicted class") +
+  theme(legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5))
+p2
 # Write data --------------------------------------------------------------
 save(final_model , file = 'results/machinelearning.rda')
 ggsave(plot = p1, filename = "results/07_densityPredictions.png")
+ggsave(plot = p2, filename = "results/07_scatterPredictedVSTrueClass.png")
