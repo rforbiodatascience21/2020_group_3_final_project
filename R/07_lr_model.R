@@ -34,7 +34,7 @@ diabetes_test <- testing(diabetes_split)
 diabetes_cv <- vfold_cv(diabetes_train)
 
 # define the recipe, we can always add more recipes (we define which columns
-# the rf model should use for prediction)
+# the lr model should use for prediction)
 diabetes_recipe <- 
   recipe(Affected ~ genderBin + Weight + Height + FamHistT1DBin + FamHistT2DBin, 
          data = table) %>%
@@ -53,66 +53,74 @@ diabetes_train_preprocessed
 
 # Model data ----------------------------------------------------------
 
-# Defining the RF model
-rf_model <- 
-  # Random forest model
-  rand_forest() %>%
-  # mtry parameter to be tuned
-  set_args(mtry = tune()) %>%
-  # selecting the ranger package which is needed for the rf model
-  set_engine("ranger", importance = "impurity") %>%
-  # Specifying that we want to do classification
+# Defining the lr model
+#lr_model <- 
+#  # Random forest model
+#  rand_forest() %>%
+#  # mtry parameter to be tuned
+#  set_args(mtry = tune()) %>%
+#  # selecting the ranger package which is needed for the lr model
+#  set_engine("ranger", importance = "impurity") %>%
+#  # Specifying that we want to do classification
+#  set_mode("classification") 
+
+lr_model <- 
+  # specify that the model is logistic regression
+  logistic_reg() %>%
+  # select the engine/package that underlies the model
+  set_engine("glm") %>%
+  # choose either the continuous regression or binary classification mode
   set_mode("classification") 
 
 # Creating workflow
-rf_workflow <- workflow() %>%
+lr_workflow <- workflow() %>%
   # add the created recipe
   add_recipe(diabetes_recipe) %>%
   # and add the model
-  add_model(rf_model)
+  add_model(lr_model)
 
 # Parameter tuning - we specify parameters we want to try
-rf_grid <- expand.grid(mtry = c(2, 3, 4, 5, 6, 7, 8, 9, 10))
+lr_grid <- expand.grid(mtry = c(2, 3, 4, 5, 6, 7, 8, 9, 10))
 
 # Extracting results
-rf_tune_results <- rf_workflow %>%
+lr_tune_results <- lr_workflow %>%
   tune_grid(resamples = diabetes_cv, #CV object
-            grid = rf_grid, # grid of values to try
+            grid = lr_grid, # grid of values to try
             metrics = metric_set(accuracy, roc_auc) # metrics we care about
   )
 
 # Displaying results
-rf_tune_results %>%
+lr_tune_results %>%
   collect_metrics()
 
 # Extracting the best result from the training
-param_final <- rf_tune_results %>%
+param_final <- lr_tune_results %>%
   select_best(metric = "accuracy")
 param_final
 
 # We add the optimal parameter to the workflow
-rf_workflow <- rf_workflow %>%
+lr_workflow <- lr_workflow %>%
   finalize_workflow(param_final)
 
 # Testing the optimal training model on the test set
-rf_fit <- rf_workflow %>%
+lr_fit <- lr_workflow %>%
   # fit on the training set and evaluate on test set
   last_fit(diabetes_split)
-rf_fit
+lr_fit
 
-# Extracting the final performance on the test set
-test_performance <- rf_fit %>% collect_metrics()
-test_performance
+# Extracting the final pelrormance on the test set
+test_pelrormance <- lr_fit %>% collect_metrics()
+test_pelrormance
 
 # # Showing the predictions
-test_predictions <- rf_fit %>% collect_predictions()
+test_predictions <- lr_fit %>% collect_predictions()
 test_predictions
 
 # Extracting confusion matrix
 test_predictions %>% 
   conf_mat(truth = Affected, estimate = .pred_class)
 
-final_model <- fit(rf_workflow, table)
+final_model <- fit(lr_workflow, table)
 
 # Inventing a fake person to see what the model predicts
 new_example <- tribble(~genderBin, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
