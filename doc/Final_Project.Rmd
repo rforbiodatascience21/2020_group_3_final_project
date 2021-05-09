@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ## Introduction
-- Data set of Diabetes Type1 | Detecting Diabetes of Rural People of Bangladesh
+- Data set of Rural People from Bangladesh with or without T1-Diabetes 
 
 - Contains 306 data points and 22 variables
 
@@ -36,13 +36,61 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Materials and Methods
+- Obtain data set
+
+- Data Wrangling
+
+- EDA
+
+- Analysis and Modeling
+
+- RF model
+
+- Shiny App
+
+- Working collaboratively using RStudio Cloud and Github
+
+## Results: Data wrangling
+```{r message=FALSE}
+# Load libraries ----------------------------------------------------------
+library("tidyverse")
+
+# Load data ---------------------------------------------------------------
+my_data_clean <- read_tsv(file = "/cloud/project/data/02_my_data_clean.tsv")
 
 
-## Data Visualisation
+# Wrangle data ------------------------------------------------------------
+my_data_clean_aug <- my_data_clean %>%
+  mutate(Dur_disease = str_extract(`Duration of disease`,"\\d+\\.?\\d*"),
+  unit = str_replace(`Duration of disease`, Dur_disease,"")) %>%
+  select(-`Duration of disease`)
+```
+## Results: Data Wrangling
+```{r message=FALSE}
+# Converting duration to days for every value
+my_data_clean_aug <- my_data_clean_aug %>%
+  mutate(Dur_disease = as.numeric(Dur_disease)) %>%
+  mutate(Dur_disease = case_when(unit == "d" ~ Dur_disease,
+                                 unit == "w" ~ Dur_disease * 7,
+                                 unit == "m" ~ Dur_disease * 30,
+                                 unit == "y" ~ Dur_disease * 365),
+         Dur_disease = replace_na(Dur_disease, 0)) %>%
+  # We do not need the unit column anymore
+  select(-unit) %>%
+  # Separating "Other diease" column into three
+  separate(`Other diease`,
+           into = c("first_disease",
+                    "second_disease",
+                    "third_disease"),
+           sep = ",")
+## Results: Data Visualisation
+```
+
+## Results: EDA
 ```{r, echo=FALSE, fig.cap="Fig A", out.width = '100%'}
 knitr::include_graphics("/cloud/project/results/Scatter1.png")
 ```
-## Data Visualisation
+## Results: EDA
 ```{r, echo=FALSE, fig.cap="A caption", out.width = '100%'}
 knitr::include_graphics("/cloud/project/results/ScatterPatch.png")
 ```
@@ -50,16 +98,20 @@ knitr::include_graphics("/cloud/project/results/ScatterPatch.png")
 
 
 
-## Results
+## Results: Analysis and Modeling
 ```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
 knitr::include_graphics("/cloud/project/results/05_PCA_varExplained.png")
 ```
 
-## Results
+## Results: Analysis and Modeling
 ```{r, echo=FALSE, fig.cap="Data is well seperated so classification seems to be feasible.", out.width = '100%'}
 knitr::include_graphics("/cloud/project/results/05_PCA_scatter.png")
 ```
 
 ## Discussion
+```{r}
+```
+
+## Conclusion
 ```{r}
 ```
