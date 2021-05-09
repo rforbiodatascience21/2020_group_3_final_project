@@ -47,6 +47,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Results: Data wrangling
 
+<<<<<<< HEAD
 ```{r, message=FALSE, fig.cap="Fig A", out.width = '200%'}
 
 # Load libraries
@@ -55,6 +56,11 @@ library("tidyverse")
 my_data_clean <- read_tsv(file = "/cloud/project/data/02_my_data_clean.tsv")
 #mutate column 
 my_data_clean <- my_data_clean %>%
+=======
+# Load data ---------------------------------------------------------------
+my_data <- read_tsv(file = "data/01_my_data_load.tsv")
+my_data_clean <- my_data %>%
+>>>>>>> 3d3b245318b3ba137bae3347b3562919a6e07124
   mutate(Age = case_when(Age == "greater then 15" ~ "> 15",
                          Age == "Less then 11" ~ "< 11",
                          Age == "Less then 15" ~"< 15",
@@ -71,8 +77,16 @@ knitr::include_graphics("/cloud/project/data/_raw/augment_data.png")
 ```
 
 ## Results: Data wrangling
+<<<<<<< HEAD
 ```{r, echo=TRUE, out.width = '200%'}
 # Wrangle data
+=======
+```{r message=FALSE}
+# Load data ---------------------------------------------------------------
+my_data_clean <- read_tsv(file = "/cloud/project/data/02_my_data_clean.tsv")
+
+# Wrangle data ------------------------------------------------------------
+>>>>>>> 3d3b245318b3ba137bae3347b3562919a6e07124
 my_data_clean_aug <- my_data_clean %>%
   mutate(Dur_disease = str_extract(`Duration of disease`,"\\d+\\.?\\d*"),
   unit = str_replace(`Duration of disease`, Dur_disease,"")) %>%
