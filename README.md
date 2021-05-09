@@ -10,4 +10,4 @@ We are going to look into relationships between type 1 diabetes and different ch
 
 ## Analytical framewrok
 
-We use R (mostly tidyverse) to do the entire data analysis. Furthermore, the entire project is reproducible by executing the 00doit.R file in the folder name R. 
+We use R (mostly tidyverse) to do the entire data analysis. Furthermore, the entire project is reproducible by executing the 00_doit.R file in the folder name R. 
