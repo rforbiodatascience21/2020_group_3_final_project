@@ -129,6 +129,8 @@ knitr::include_graphics("/cloud/project/results/05_PCA_scatter.png")
 ## Conclusion
 - It was feasible to do data analysis and obtain biological insights about our data set
 
-- We conclude that height and weight are important indicators of T1 diabetes
+- We conclude that height and weight are important indicators of T1 diabetes 
+
+- We expected family history to be more important
 
 - More descriptive data would have made it easier to conclude and test hypotheses
