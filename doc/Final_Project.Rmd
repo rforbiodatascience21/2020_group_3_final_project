@@ -76,7 +76,6 @@ library("tidyverse")
 # Load data ---------------------------------------------------------------
 my_data_clean <- read_tsv(file = "/cloud/project/data/02_my_data_clean.tsv")
 
-my_data_clean <- read_tsv(file = "/Users/holgerthehulk/Desktop/Universitet/DTU/Bioinformatik_og_System_Biologi/1.Semester/R_for_BioScience/2020_group_3_final_project/data/02_my_data_clean.tsv")
 # Wrangle data ------------------------------------------------------------
 my_data_clean_aug <- my_data_clean %>%
   mutate(Dur_disease = str_extract(`Duration of disease`,"\\d+\\.?\\d*"),
@@ -113,9 +112,6 @@ knitr::include_graphics("/cloud/project/results/Scatter1.png")
 knitr::include_graphics("/cloud/project/results/ScatterPatch.png")
 ```
 
-
-
-
 ## Results: Analysis and Modeling
 ```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
 knitr::include_graphics("/cloud/project/results/05_PCA_varExplained.png")
@@ -131,5 +127,8 @@ knitr::include_graphics("/cloud/project/results/05_PCA_scatter.png")
 ```
 
 ## Conclusion
-```{r}
-```
+- It was feasible to do data analysis and obtain biological insights about our data set
+
+- We conclude that height and weight are important indicators of T1 diabetes
+
+- More descriptive data would have made it easier to conclude and test hypotheses
