@@ -6,42 +6,42 @@ library(caret)
 my_model <- load('/cloud/project/results/machinelearning.rda')
 # DataTables example
 shinyApp(
-  ui = fluidPage(theme = shinytheme("cerulean"),
+  ui = fluidPage(theme = shinytheme("cosmo"),
                  navbarPage(
-                   # theme = "cerulean",  # <--- To use a theme, uncomment this
-                   "My first app",
-                   tabPanel("Navbar 1",
+                   "DiaPredict",
+                   tabPanel("Ver.1.0",
                             sidebarPanel(
-                              tags$h3("Input:"),
-                              numericInput("Var1", "Gender: (1 = female, 0 = male)", ""),
-                              numericInput("Var2", "Weight in kilograms:", ""),
-                              numericInput("Var3", "Height in meters:", ""),
-                              numericInput("Var4", "Family history of type 1 diabetes?", ""),
-                              numericInput("Var5", "Family history of type 2 diabetes?", "")
-                            ), # sidebarPanel
+                              tags$h3("Input Parameters"),
+                              numericInput("Var1", "Gender", "", "0", "1"),
+                              numericInput("Var2", "Weight (Kilograms)", ""),
+                              numericInput("Var3", "Height (Meters)", ""),
+                              numericInput("Var4", "Family History of Type 1 Diabetes?", "", "0", "1"),
+                              numericInput("Var5", "Family History of Type 2 Diabetes?", "", "0", "1"), 
+                              actionButton("submitbutton", "Submit",
+                                            class = "btn btn-primary")), # sidebarPanel
                             mainPanel(
-                              h1("Header 1"),
-                              
-                              h4("Output 1"),
-                              dataTableOutput("Pred"),
+                              h1("Are you likely to be Diabetic?"),
+                              h2("Instructions:"),
+                              h4("Select 1 for Female or 0 for Male and Select 1 for Yes or 0 for No"),
+                              verbatimTextOutput("Pred"),
                               
                             ) # mainPanel
                             
                    )
                  ), # navbarPage
-                 dataTableOutput('table')
+                 verbatimTextOutput('')
   ),
   
   server = function(input, output) {
-    data_user <- reactive({tribble(~genderBin, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
-                                   input$Var1, input$Var2, input$Var3, input$Var4, input$Var5)})
-    output$table <- renderDataTable(data_user(),
-                                    options = list(searching = FALSE),
-    )
+    data_user <- eventReactive(input$submitbutton,
+                               {tribble(~genderBin, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
+                                        input$Var1, input$Var2, input$Var3, input$Var4, input$Var5)})
+    output$table <- renderPrint(data_user())
+    
     pred <- reactive({
-      predict(get(my_model),new_data = data_user())
+      predict(get(my_model),data_user())
     })
     
-    output$Pred <- renderDataTable(pred())
+    output$Pred <- renderPrint(pred())
   }
 )
