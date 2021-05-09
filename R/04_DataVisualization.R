@@ -6,7 +6,7 @@ my_data_clean_aug <- read_tsv(file = "data/03_my_data_clean_aug.tsv")
 
 
 # Creating binary values for accompanying diseases
-
+# Move these into cleaning
 my_data_clean_aug <- my_data_clean_aug %>%
   mutate(other_disease_binary = case_when(first_disease == "none" ~ 0,
                                           first_disease != "none" ~ 1,

@@ -6,18 +6,17 @@ rm(list = ls())
 library("tidyverse")
 
 
-# Define functions --------------------------------------------------------
-source(file = "R/99_project_functions.R")
-
-
 # Load data ---------------------------------------------------------------
 my_data_clean <- read_tsv(file = "data/02_my_data_clean.tsv")
 
 
 # Wrangle data ------------------------------------------------------------
 my_data_clean_aug <- my_data_clean %>%
-  mutate(Dur_disease = str_extract(`Duration of disease`,"\\d+\\.?\\d*"),
-  unit = str_replace(`Duration of disease`, Dur_disease,"")) %>%
+  mutate(Dur_disease = str_extract(`Duration of disease`,
+                                   "\\d+\\.?\\d*"),
+  unit = str_replace(`Duration of disease`,
+                     Dur_disease,
+                     "")) %>%
   select(-`Duration of disease`)
 
 # Converting duration to days for every value
@@ -27,7 +26,8 @@ my_data_clean_aug <- my_data_clean_aug %>%
                                  unit == "w" ~ Dur_disease * 7,
                                  unit == "m" ~ Dur_disease * 30,
                                  unit == "y" ~ Dur_disease * 365),
-         Dur_disease = replace_na(Dur_disease, 0)) %>%
+         Dur_disease = replace_na(Dur_disease,
+                                  0)) %>%
   # We do not need the unit column anymore
   select(-unit) %>%
   # Separating "Other diease" column into three
@@ -35,8 +35,7 @@ my_data_clean_aug <- my_data_clean_aug %>%
            into = c("first_disease",
                     "second_disease",
                     "third_disease"),
-           sep = ",") %>%
-  # Converting "no" values to "none" values
+           sep = ",") %>%                 # Converting no to "none and removing excess space 
   mutate(first_disease = case_when(first_disease == "no" ~ "none",
                                    first_disease != "no" ~ str_squish(str_to_lower(first_disease))),
          second_disease = str_squish(replace_na(second_disease, "none")),
@@ -74,6 +73,12 @@ my_data_clean_aug <- my_data_clean_aug %>%
                                  Affected == "No" ~ 0)),
          HbA1cBin = factor(case_when(HbA1c == "> 7.5%" ~ 1,
                               HbA1c == "< 7.5%" ~ 0)),
+         other_disease_binary = case_when(first_disease == "none" ~ 0,
+                                          first_disease != "none" ~ 1,
+                                          second_disease == "none" ~ 0,
+                                          second_disease != "none" ~ 1,
+                                          third_disease == "none" ~ 0,
+                                          third_disease != "none" ~ 1,),
          BMI_class = case_when(BMI < 18.5 ~ "underweight",
                                18.5 <= BMI & BMI < 25  ~ "normal weight",
                                25 <= BMI & BMI < 30  ~ "overweight",
@@ -81,7 +86,7 @@ my_data_clean_aug <- my_data_clean_aug %>%
                                35 <= BMI & BMI < 40 ~ "severe obesity",
                                40 <= BMI ~ "morbid obesity"))
 
-# Splitting data
+# This is not necessary but demonstrating the use of joining
 Tibble1 <- my_data_clean_aug %>%
   select(BMI,`Insulin taken`)
 Tibble2 <- my_data_clean_aug %>%
@@ -94,4 +99,3 @@ DemonstratingJoin <- full_join(x = Tibble1,
 # Write data --------------------------------------------------------------
 write_tsv(x = my_data_clean_aug,
           file = "data/03_my_data_clean_aug.tsv")
-
