@@ -36,7 +36,7 @@ diabetes_cv <- vfold_cv(diabetes_train)
 # define the recipe, we can always add more recipes (we define which columns
 # the lr model should use for prediction)
 diabetes_recipe <- 
-  recipe(Affected ~ genderBin + Weight + Height + FamHistT1DBin + FamHistT2DBin, 
+  recipe(Affected ~ other_disease_binary + PancreasBin + Weight + Height + FamHistT1DBin + FamHistT2DBin, 
          data = table) %>%
   # Normalizing and imputing data using KNN.
   step_normalize(all_numeric()) %>%
@@ -52,18 +52,6 @@ diabetes_train_preprocessed <- diabetes_recipe %>%
 diabetes_train_preprocessed
 
 # Model data ----------------------------------------------------------
-
-# Defining the lr model
-#lr_model <- 
-#  # Random forest model
-#  rand_forest() %>%
-#  # mtry parameter to be tuned
-#  set_args(mtry = tune()) %>%
-#  # selecting the ranger package which is needed for the lr model
-#  set_engine("ranger", importance = "impurity") %>%
-#  # Specifying that we want to do classification
-#  set_mode("classification") 
-
 lr_model <- 
   # specify that the model is logistic regression
   logistic_reg() %>%
@@ -109,8 +97,8 @@ lr_fit <- lr_workflow %>%
 lr_fit
 
 # Extracting the final pelrormance on the test set
-test_pelrormance <- lr_fit %>% collect_metrics()
-test_pelrormance
+test_performance <- lr_fit %>% collect_metrics()
+test_performance
 
 # # Showing the predictions
 test_predictions <- lr_fit %>% collect_predictions()
@@ -123,8 +111,8 @@ test_predictions %>%
 final_model <- fit(lr_workflow, table)
 
 # Inventing a fake person to see what the model predicts
-new_example <- tribble(~genderBin, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
-                       0, 73, 1.65, 0, 0)
+new_example <- tribble(~other_disease_binary,~PancreasBin, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
+                       0, 0, 45, 1.2, 0, 0)
 new_example
 
 predict(final_model, new_data = new_example)
