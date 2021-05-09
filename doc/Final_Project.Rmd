@@ -51,7 +51,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library("tidyverse")
 
 # Load data ---------------------------------------------------------------
-my_data_clean <- read_tsv(file = "/cloud/project/data/02_my_data_clean.tsv")
+my_data <- read_tsv(file = "data/01_my_data_load.tsv")
 my_data_clean <- my_data %>%
   mutate(Age = case_when(Age == "greater then 15" ~ "> 15",
                          Age == "Less then 11" ~ "< 11",
@@ -70,6 +70,9 @@ knitr::include_graphics("/cloud/project/data/_raw/augment_data.png")
 
 ## Results: Data wrangling
 ```{r message=FALSE}
+# Load data ---------------------------------------------------------------
+my_data_clean <- read_tsv(file = "/cloud/project/data/02_my_data_clean.tsv")
+
 # Wrangle data ------------------------------------------------------------
 my_data_clean_aug <- my_data_clean %>%
   mutate(Dur_disease = str_extract(`Duration of disease`,"\\d+\\.?\\d*"),
