@@ -21,8 +21,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - Conclusion
 
-
-
 ## Introduction
 - Data set of Rural People from Bangladesh with or without T1-Diabetes 
 
@@ -31,9 +29,6 @@ knitr::opts_chunk$set(echo = TRUE)
 - Exploratory Data Analysis
 
 - Classify T1 Diabetes children and explore important variables for T1 diabetes
-
-```{r}
-```
 
 ## Materials and Methods
 - Obtain data set
@@ -52,6 +47,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Results: Data wrangling
 ```{r message=FALSE}
+# Load libraries ----------------------------------------------------------
+library("tidyverse")
+
+# Load data ---------------------------------------------------------------
+my_data_clean <- read_tsv(file = "/cloud/project/data/02_my_data_clean.tsv")
 my_data_clean <- my_data %>%
   mutate(Age = case_when(Age == "greater then 15" ~ "> 15",
                          Age == "Less then 11" ~ "< 11",
@@ -64,18 +64,12 @@ my_data_clean <- my_data %>%
 ```
 
 ## Results: Data wrangling
-```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+```{r, echo=FALSE, fig.cap="Fig A", out.width = '100%'}
 knitr::include_graphics("/cloud/project/data/_raw/augment_data.png")
 ```
 
 ## Results: Data wrangling
 ```{r message=FALSE}
-# Load libraries ----------------------------------------------------------
-library("tidyverse")
-
-# Load data ---------------------------------------------------------------
-my_data_clean <- read_tsv(file = "/cloud/project/data/02_my_data_clean.tsv")
-
 # Wrangle data ------------------------------------------------------------
 my_data_clean_aug <- my_data_clean %>%
   mutate(Dur_disease = str_extract(`Duration of disease`,"\\d+\\.?\\d*"),
