@@ -84,7 +84,21 @@ my_data_clean_aug <- my_data_clean_aug %>%
                                25 <= BMI & BMI < 30  ~ "overweight",
                                30 <= BMI & BMI < 35 ~ "obese",
                                35 <= BMI & BMI < 40 ~ "severe obesity",
-                               40 <= BMI ~ "morbid obesity"))
+                               40 <= BMI ~ "morbid obesity"),
+         second_disease_categories = case_when(second_disease == "Allergic problem" ~ "Allergies",
+                                               second_disease == "allergic problem" ~ "Allergies",
+                                               second_disease == "body" ~ "Body Pain",
+                                               second_disease == "pain problem" ~ "Body Pain",
+                                               second_disease == "eye problem" ~ "Optical Issues",
+                                               second_disease == "eye" ~ "Optical Issues",
+                                               second_disease == "screen problem" ~ "Optical Issues",
+                                               second_disease == "ear problem" ~ "Ear Issues",
+                                               second_disease == "head problem" ~ "Headache",
+                                               second_disease == "head pain" ~ "Headache",
+                                               second_disease == "none" ~ "none",
+                                               second_disease == NA ~ "none"),
+         third_disease_categories = case_when(third_disease == "hormon" ~ "Hormone Irregularities",
+                                              third_disease == "none" ~ "none"))
 
 # This is not necessary but demonstrating the use of joining
 Tibble1 <- my_data_clean_aug %>%

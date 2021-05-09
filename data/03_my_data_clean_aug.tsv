@@ -1,307 +1,307 @@
-Age	Sex	Area of Residence	HbA1c	Height	Weight	BMI	first_disease	second_disease	third_disease	Adequate Nutrition	Education of Mother	Standardized growth-rate in infancy	Standardized birth weight	Autoantibodies	Impaired glucose metabolism	Insulin taken	How Taken	Family History affected in Type 1 Diabetes	Family History affected in Type 2 Diabetes	Hypoglycemis	pancreatic disease affected in child	Affected	Dur_disease	genderBin	Above15	Betw5_11	Betw11_15	Below5	AdeqNutrBin	EducMotherBin	AutoAB_bin	ImpairedGMBin	InsulinTakenBin	FamHistT1DBin	FamHistT2DBin	HypoglycemisBin	PancreasBin	AffectedBin	HbA1cBin	other_disease_binary	BMI_class
-> 15	Female	Suburban	> 7.5%	1.5	56	24.9	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	Yes	No	Yes	Yes	yes	1460	1	1	0	0	0	0	0	1	1	1	1	0	1	1	1	1	0	normal weight
-> 15	Female	Suburban	> 7.5%	1.48	58	26.5	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	7	1	1	0	0	0	0	0	1	0	1	1	1	1	1	1	1	0	overweight
-< 11	Female	Urban	> 7.5%	1.2	46	31.9	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	No	No	yes	9	1	0	1	0	0	1	0	1	0	1	1	0	0	0	1	1	0	obese
-< 15	Female	Suburban	> 7.5%	1.65	50	18.4	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	No	No	yes	7	1	0	0	1	0	1	0	0	0	1	0	1	0	0	1	1	0	underweight
-< 15	Female	Suburban	> 7.5%	1.61	59	22.8	liver problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	30	1	0	0	1	0	1	1	1	0	1	1	1	0	0	1	1	1	normal weight
-< 15	Male	Rural	> 7.5%	1.32	26	14.9	heart	head problem	none	No	No	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	547.5	0	0	0	1	0	0	0	1	0	1	0	0	1	0	1	1	1	underweight
-> 15	Female	Rural	> 7.5%	1.4	45	23	ear problem	none	none	No	No	Lowest quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	5840	1	1	0	0	0	0	0	0	0	1	0	0	1	1	1	1	1	normal weight
-> 15	Female	Rural	> 7.5%	1.55	50	20.8	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	2190	1	1	0	0	0	1	0	0	0	1	0	0	1	1	1	1	0	normal weight
-> 15	Female	Suburban	> 7.5%	1.61	54	20.8	leg problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	1	1	0	0	0	1	1	0	0	1	0	1	1	1	1	1	1	normal weight
-> 15	Female	Suburban	> 7.5%	1.59	50	19.8	eye problem	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	3650	1	1	0	0	0	1	0	0	0	1	0	0	1	0	1	1	1	normal weight
-> 15	Male	Suburban	> 7.5%	1.62	52	19.8	none	none	none	Yes	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	No	yes	2920	0	1	0	0	0	1	0	0	0	1	1	0	1	0	1	1	0	normal weight
-> 15	Female	Suburban	< 7.5%	1.64	52	19.3	none	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	3285	1	1	0	0	0	1	0	1	0	1	0	0	1	1	1	0	0	normal weight
-> 15	Male	Suburban	< 7.5%	1.71	52	17.8	none	none	none	Yes	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	2190	0	1	0	0	0	1	0	0	0	1	0	0	1	1	1	0	0	underweight
-> 15	Female	Rural	< 7.5%	1.59	53	21	eye problem	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	2920	1	1	0	0	0	0	1	1	0	1	1	1	1	0	1	0	1	normal weight
-< 11	Male	Rural	> 7.5%	1.5	48	21.3	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	Yes	yes	1460	0	0	1	0	0	1	0	0	0	1	1	0	0	1	1	1	0	normal weight
-> 15	Female	Suburban	> 7.5%	1.62	60	22.9	thyroid problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	912.5	1	1	0	0	0	1	1	1	0	1	0	1	1	0	1	1	1	normal weight
-< 15	Female	Suburban	> 7.5%	1.58	69	27.6	allergic problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	No	yes	1095	1	0	0	1	0	1	1	0	0	1	1	0	1	0	1	1	1	overweight
-> 15	Male	Rural	> 7.5%	1.61	49	18.9	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	Yes	yes	2190	0	1	0	0	0	1	0	0	0	1	1	0	1	1	1	1	0	normal weight
-> 15	Female	Suburban	< 7.5%	1.44	55	26.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	2555	1	1	0	0	0	1	1	0	0	1	0	1	1	0	1	0	0	overweight
-> 15	Male	Suburban	> 7.5%	1.63	53	19.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	No	yes	730	0	1	0	0	0	1	1	0	0	1	1	1	1	0	1	1	0	normal weight
-> 15	Male	Suburban	> 7.5%	1.61	46	17.7	body pain	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	730	0	1	0	0	0	0	0	1	0	1	1	1	1	0	1	1	1	underweight
-> 15	Female	Urban	> 7.5%	1.53	68	29	thyroid problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes	4015	1	1	0	0	0	1	1	0	0	1	0	1	1	1	1	1	1	overweight
-> 15	Female	Urban	> 7.5%	1.57	47	19.1	kidney	head pain	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	1642.5	1	1	0	0	0	1	0	0	0	1	1	1	1	1	1	1	1	normal weight
-< 11	Female	Suburban	> 7.5%	1.29	34	20.4	heartbeat problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	240	1	0	1	0	0	1	1	0	0	1	0	0	1	0	1	1	1	normal weight
-> 15	Female	Suburban	> 7.5%	1.52	46	19.9	belly problem	none	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	Yes	yes	5840	1	1	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	normal weight
-< 5	Female	Suburban	< 7.5%	1.32	40	23	heart problem	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	No	Yes	yes	547.5	1	0	0	0	1	1	0	0	0	1	0	1	0	1	1	0	1	normal weight
-> 15	Female	Suburban	> 7.5%	1.59	60	23.7	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	1277.5	1	1	0	0	0	1	1	1	0	1	1	1	1	0	1	1	0	normal weight
-> 15	Female	Suburban	< 7.5%	1.63	58	21.8	none	none	none	Yes	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	No	yes	2190	1	1	0	0	0	1	0	0	0	1	1	1	0	0	1	0	0	normal weight
-> 15	Female	Rural	> 7.5%	1.5	49	21.8	body pain	none	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	No	yes	1277.5	1	1	0	0	0	0	0	0	0	1	1	0	0	0	1	1	1	normal weight
-> 15	Female	Urban	> 7.5%	1.37	30	16	allergic problem	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	No	No	yes	1095	1	1	0	0	0	1	0	1	1	1	0	0	0	0	1	1	1	underweight
-< 11	Female	Suburban	> 7.5%	1.39	39	20.2	gastic	body pain	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	365	1	0	1	0	0	1	1	1	0	1	0	1	1	1	1	1	1	normal weight
-> 15	Male	Rural	< 7.5%	1.58	62	24.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	No	yes	2920	0	1	0	0	0	1	1	0	0	1	1	1	0	0	1	0	0	normal weight
-> 15	Female	Suburban	> 7.5%	1.58	62	24.8	head pain	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	2190	1	1	0	0	0	1	1	1	0	1	1	1	0	0	1	1	1	normal weight
-> 15	Female	Suburban	> 7.5%	1.63	50	18.8	body pain	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes	2920	1	1	0	0	0	1	0	1	0	1	0	1	0	0	1	1	1	normal weight
-> 15	Female	Suburban	> 7.5%	1.53	63	26.9	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	4745	1	1	0	0	0	1	0	0	0	1	0	0	1	0	1	1	0	overweight
-> 15	Male	Suburban	< 7.5%	1.76	60	19.4	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	Yes	No	No	yes	730	0	1	0	0	0	1	1	1	1	1	0	1	0	0	1	0	0	normal weight
-< 15	Male	Suburban	< 7.5%	1.49	53	23.9	none	none	none	No	Yes	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	Yes	No	No	yes	365	0	0	0	1	0	0	1	0	1	1	1	1	0	0	1	0	0	normal weight
-< 15	Male	Rural	< 7.5%	1.42	55	27.3	none	none	none	No	No	Middle quartiles	Lowest quartiles	No	Yes	Yes	Injection	Yes	Yes	Yes	Yes	yes	547.5	0	0	0	1	0	0	0	0	1	1	1	1	1	1	1	0	0	overweight
-> 15	Male	Suburban	> 7.5%	1.61	42	16.2	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	Yes	yes	1460	0	1	0	0	0	1	0	0	0	1	1	0	0	1	1	1	0	underweight
-> 15	Male	Rural	> 7.5%	1.71	57	19.5	none	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	No	yes	1460	0	1	0	0	0	1	0	1	0	1	0	0	0	0	1	1	0	normal weight
-< 15	Female	Rural	> 7.5%	1.53	44	18.8	eye problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	1460	1	0	0	1	0	1	1	1	0	1	0	1	1	0	1	1	1	normal weight
-> 15	Female	Suburban	> 7.5%	1.55	56	23.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	2190	1	1	0	0	0	1	1	0	0	1	0	1	1	0	1	1	0	normal weight
-< 15	Female	Rural	> 7.5%	1.31	34	19.8	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	Yes	yes	7	1	0	0	1	0	0	0	1	0	1	0	0	0	1	1	1	0	normal weight
-< 15	Female	Rural	> 7.5%	1.3	45	26.6	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	Yes	Yes	Yes	No	yes	2555	1	0	0	1	0	0	0	1	1	1	1	1	1	0	1	1	0	overweight
-< 5	Male	Rural	> 7.5%	1.01	14	13.7	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	150	0	0	0	0	1	1	0	1	0	1	0	0	1	0	1	1	0	underweight
-< 15	Male	Rural	> 7.5%	1.49	42	18.9	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	210	0	0	0	1	0	1	0	1	0	1	0	0	1	0	1	1	0	normal weight
-> 15	Male	Urban	> 7.5%	1.42	53	26.3	birth defects	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	16	0	1	0	0	0	1	1	1	0	1	0	1	1	0	1	1	1	overweight
-> 15	Male	Rural	> 7.5%	1.53	47	20.1	eye problem	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	1825	0	1	0	0	0	0	0	1	0	1	0	0	1	1	1	1	1	normal weight
-> 15	Female	Rural	< 7.5%	1.68	50	17.7	none	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	No	No	yes	1825	1	1	0	0	0	1	0	1	0	1	1	0	0	0	1	0	0	underweight
-> 15	Male	Suburban	< 7.5%	1.78	59	18.6	none	none	none	No	No	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	4380	0	1	0	0	0	0	0	1	0	1	0	1	1	0	1	0	0	normal weight
-> 15	Female	Rural	< 7.5%	1.78	59	18.6	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes	150	1	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	normal weight
-< 15	Female	Urban	> 7.5%	1.45	41	19.5	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	2920	1	0	0	1	0	0	1	1	0	1	1	1	1	0	1	1	0	normal weight
-< 15	Male	Rural	> 7.5%	1.64	64	23.8	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	Yes	yes	365	0	0	0	1	0	1	0	0	0	1	1	0	1	1	1	1	0	normal weight
-< 15	Male	Rural	> 7.5%	1.58	38	15.2	head pain	none	none	Yes	No	Middle quartiles	Lowest quartiles	Yes	No	Yes	Injection	No	Yes	No	Yes	yes	365	0	0	0	1	0	1	0	1	0	1	0	1	0	1	1	1	1	underweight
-< 11	Male	Suburban	> 7.5%	1.22	22	14.8	eye problem	none	none	No	No	Middle quartiles	Lowest quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	1825	0	0	1	0	0	0	0	1	0	1	0	0	1	1	1	1	1	underweight
-> 15	Male	Suburban	> 7.5%	1.32	45	25.8	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	3285	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	1	0	overweight
-> 15	Male	Rural	> 7.5%	1.58	45	18	eye problem	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	2555	0	1	0	0	0	1	0	0	0	1	0	0	1	1	1	1	1	underweight
-< 15	Female	Suburban	> 7.5%	1.57	62	25.2	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	Yes	yes	30	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	0	overweight
-> 15	Male	Suburban	> 7.5%	1.5	49	21.8	none	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	2190	0	1	0	0	0	1	0	1	0	1	1	1	0	0	1	1	0	normal weight
-> 15	Female	Rural	> 7.5%	1.42	49	24.3	none	none	none	No	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	2555	1	1	0	0	0	0	1	1	0	1	1	1	1	0	1	1	0	normal weight
-> 15	Female	Rural	> 7.5%	1.43	53	25.9	head pain	none	none	No	No	Middle quartiles	Highest quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	1	1	0	0	0	0	0	0	0	1	0	1	1	1	1	1	1	overweight
-> 15	Female	Urban	> 7.5%	1.6	60	23.4	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	1460	1	1	0	0	0	0	1	1	0	1	0	1	1	0	1	1	0	normal weight
-> 15	Female	Rural	> 7.5%	1.57	38	15.4	belly problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	1460	1	1	0	0	0	1	1	0	0	1	0	0	1	0	1	1	1	underweight
-> 15	Female	Urban	> 7.5%	1.49	36	16.2	belly problem	none	none	No	Yes	Middle quartiles	Lowest quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	1	1	0	0	0	0	1	0	0	1	0	1	1	1	1	1	1	underweight
-> 15	Male	Rural	> 7.5%	1.55	65	27.1	none	none	none	Yes	No	Middle quartiles	Lowest quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	1825	0	1	0	0	0	1	0	0	0	1	0	1	1	0	1	1	0	overweight
-> 15	Female	Suburban	< 7.5%	1.45	42	20	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	2190	1	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	normal weight
-< 15	Female	Rural	< 7.5%	1.55	46	19.1	none	none	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	No	No	yes	210	1	0	0	1	0	0	1	0	0	1	0	1	0	0	1	0	0	normal weight
-> 15	Male	Rural	> 7.5%	1.35	45	24.7	fiver problem	none	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	No	yes	1825	0	1	0	0	0	0	0	0	0	1	0	0	0	0	1	1	1	normal weight
-> 15	Female	Urban	< 7.5%	1.52	35	15.1	head	body pain	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	1095	1	1	0	0	0	1	1	1	0	1	0	1	1	0	1	0	1	underweight
-> 15	Female	Urban	< 7.5%	1.53	39	16.7	body pain	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	1642.5	1	1	0	0	0	1	1	0	0	1	0	1	1	0	1	0	1	underweight
-> 15	Male	Rural	< 7.5%	1.68	45	15.9	head pain	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	Yes	No	yes	2555	0	1	0	0	0	1	0	1	0	1	1	0	1	0	1	0	1	underweight
-> 15	Female	Rural	< 7.5%	1.55	57	23.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	2190	1	1	0	0	0	1	1	0	0	1	0	0	1	0	1	0	0	normal weight
-> 15	Female	Rural	< 7.5%	1.52	85	36.8	none	none	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	4745	1	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	severe obesity
-> 15	Male	Rural	> 7.5%	1.63	40	15.1	none	none	none	No	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	2920	0	1	0	0	0	0	0	0	0	1	1	1	1	1	1	1	0	underweight
-> 15	Female	Rural	> 7.5%	1.4	30	15.3	eye	health loss	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	5475	1	1	0	0	0	0	0	0	0	1	0	0	1	1	1	1	1	underweight
-> 15	Female	Urban	< 7.5%	1.51	55	24.1	pressure problem	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	No	yes	912.5	1	1	0	0	0	1	0	1	0	1	0	0	0	0	1	0	1	normal weight
-> 15	Male	Suburban	< 7.5%	1.63	62	23.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	Yes	yes	912.5	0	1	0	0	0	1	1	0	0	1	1	1	0	1	1	0	0	normal weight
-< 11	Female	Rural	< 7.5%	1.5	46	20.4	none	none	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	365	1	0	1	0	0	0	1	0	0	1	0	0	1	0	1	0	0	normal weight
-< 11	Female	Rural	< 7.5%	1.46	40	18.8	none	none	none	No	No	Lowest quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	No	yes	1460	1	0	1	0	0	0	0	0	0	1	0	0	0	0	1	0	0	normal weight
-< 15	Female	Suburban	> 7.5%	1.83	85	25.4	none	none	none	No	Yes	Highest quartiles	Highest quartiles	Yes	Yes	Yes	Injection	Yes	Yes	No	No	yes	1460	1	0	0	1	0	0	1	1	1	1	1	1	0	0	1	1	0	overweight
-> 15	Female	Suburban	> 7.5%	1.58	78	31.2	head pain	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	2555	1	1	0	0	0	0	0	1	0	1	1	1	1	1	1	1	1	obese
-< 11	Male	Suburban	< 7.5%	1.27	26	16.1	fever	none	none	No	Yes	Middle quartiles	Highest quartiles	No	No	Yes	Injection	No	Yes	No	Yes	yes	365	0	0	1	0	0	0	1	0	0	1	0	1	0	1	1	0	1	underweight
-> 15	Male	Rural	> 7.5%	1.65	60	22	fever	none	none	No	No	Middle quartiles	Lowest quartiles	Yes	No	Yes	Injection	Yes	Yes	No	Yes	yes	365	0	1	0	0	0	0	0	1	0	1	1	1	0	1	1	1	1	normal weight
-< 15	Female	Rural	> 7.5%	1.42	51	25.3	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	2920	1	0	0	1	0	0	0	1	0	1	0	0	1	0	1	1	0	overweight
-< 11	Female	Rural	< 7.5%	1.21	32	21.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	30	1	0	1	0	0	1	1	1	0	1	0	1	1	0	1	0	0	normal weight
-> 15	Female	Urban	> 7.5%	1.32	26	14.9	thalassemia	none	none	No	Yes	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	90	1	1	0	0	0	0	1	1	0	1	1	1	1	0	1	1	1	underweight
-< 15	Female	Urban	> 7.5%	1.46	53	24.9	convulsion	none	none	No	No	Middle quartiles	Lowest quartiles	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	365	1	0	0	1	0	0	0	0	0	1	1	1	1	1	1	1	1	normal weight
-> 15	Female	Urban	> 7.5%	1.62	85	32.4	head pain	none	none	No	No	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	Yes	No	Yes	yes	1825	1	1	0	0	0	0	0	1	1	1	0	1	0	1	1	1	1	obese
-< 15	Female	Suburban	> 7.5%	1.68	61	21.6	none	none	none	Yes	No	Highest quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	Yes	No	No	yes	365	1	0	0	1	0	1	0	0	1	1	1	1	0	0	1	1	0	normal weight
-< 15	Male	Suburban	> 7.5%	1.58	69	27.6	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	2190	0	0	0	1	0	0	1	1	0	1	0	1	1	0	1	1	0	overweight
-< 15	Female	Suburban	> 7.5%	1.44	46	22.2	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes	300	1	0	0	1	0	1	0	1	0	1	0	1	0	0	1	1	0	normal weight
-> 15	Female	Suburban	> 7.5%	1.58	57	22.8	eye	pain problem	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	No	yes	330	1	1	0	0	0	0	0	0	0	1	1	0	0	0	1	1	1	normal weight
-< 15	Female	Rural	> 7.5%	1.48	48	21.9	body	head pain	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	730	1	0	0	1	0	0	1	1	0	1	0	1	1	0	1	1	1	normal weight
-> 15	Male	Urban	< 7.5%	1.62	64	24.4	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	No	No	yes	1825	0	1	0	0	0	0	1	1	0	1	1	0	0	0	1	0	0	normal weight
-< 15	Female	Urban	> 7.5%	1.5	77	34.2	none	none	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	No	yes	1460	1	0	0	1	0	0	1	0	0	1	1	1	0	0	1	1	0	obese
-> 15	Female	Rural	< 7.5%	1.2	40	27.8	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	730	1	1	0	0	0	1	0	1	0	1	1	1	1	0	1	0	0	overweight
-> 15	Male	Suburban	> 7.5%	1.58	43	17.2	belly problem	none	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	Yes	yes	2555	0	1	0	0	0	0	0	0	0	1	0	0	0	1	1	1	1	underweight
-< 15	Female	Urban	< 7.5%	1.45	61	29	belly problem	none	none	No	Yes	Middle quartiles	Highest quartiles	Yes	Yes	Yes	Injection	No	Yes	No	No	yes	270	1	0	0	1	0	0	1	1	1	1	0	1	0	0	1	0	1	overweight
-> 15	Female	Urban	> 7.5%	1.55	66	27.5	none	none	none	No	Yes	Middle quartiles	Highest quartiles	No	Yes	Yes	Injection	No	Yes	No	No	yes	730	1	1	0	0	0	0	1	0	1	1	0	1	0	0	1	1	0	overweight
-> 15	Male	Suburban	> 7.5%	1.65	55	20.2	none	none	none	No	No	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	2190	0	1	0	0	0	0	0	1	0	1	0	0	1	1	1	1	0	normal weight
-> 15	Female	Urban	> 7.5%	1.46	34	16	none	none	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	No	yes	3285	1	1	0	0	0	0	1	0	0	1	1	1	1	0	1	1	0	underweight
-< 15	Male	Rural	> 7.5%	1.36	28	15.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	730	0	0	0	1	0	1	1	0	0	1	0	1	1	0	1	1	0	underweight
-> 15	Male	Suburban	> 7.5%	1.6	45	17.6	none	none	none	No	No	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	No	yes	730	0	1	0	0	0	0	0	1	0	1	0	0	0	0	1	1	0	underweight
-< 5	Female	Urban	> 7.5%	1.07	18	15.7	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes	730	1	0	0	0	1	0	1	1	0	1	0	1	0	0	1	1	0	underweight
-> 15	Female	Rural	< 7.5%	1.5	46	20.4	none	none	none	No	Yes	Lowest quartiles	Lowest quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	730	1	1	0	0	0	0	1	1	0	1	1	1	0	0	1	0	0	normal weight
-> 15	Female	Rural	> 7.5%	1.56	60	24.7	eye problem	none	none	No	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	730	1	1	0	0	0	0	1	1	0	1	1	1	0	0	1	1	1	normal weight
-> 15	Male	Suburban	< 7.5%	1.39	45	23.3	ear problem	none	none	No	Yes	Lowest quartiles	unkhown	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	1095	0	1	0	0	0	0	1	0	0	1	1	1	1	1	1	0	1	normal weight
-< 15	Female	Rural	> 7.5%	1.56	51	21	none	none	none	No	Yes	Middle quartiles	unkhown	No	Yes	Yes	Injection	Yes	No	Yes	Yes	yes	730	1	0	0	1	0	0	1	0	1	1	1	0	1	1	1	1	0	normal weight
-< 15	Female	Rural	> 7.5%	1.38	23	12.1	none	none	none	Yes	No	Lowest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes	365	1	0	0	1	0	1	0	1	1	1	0	0	1	1	1	1	0	underweight
-> 15	Female	Suburban	> 7.5%	1.52	55	23.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	1095	1	1	0	0	0	1	1	0	0	1	0	1	1	0	1	1	0	normal weight
-> 15	Female	Rural	> 7.5%	1.51	44	19.3	none	none	none	Yes	No	Middle quartiles	unkhown	No	Yes	Yes	Injection	Yes	Yes	Yes	Yes	yes	1825	1	1	0	0	0	1	0	0	1	1	1	1	1	1	1	1	0	normal weight
-< 11	Female	Rural	> 7.5%	1.48	32	14.6	none	none	none	No	No	Middle quartiles	unkhown	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes	365	1	0	1	0	0	0	0	1	1	1	0	0	1	1	1	1	0	underweight
-> 15	Male	Urban	> 7.5%	1.6	45	17.6	fever problem	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	0	1	0	0	0	0	1	1	0	1	0	1	1	1	1	1	1	underweight
-> 15	Female	Rural	< 7.5%	1.35	45	24.7	none	none	none	Yes	No	Lowest quartiles	Highest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	2190	1	1	0	0	0	1	0	1	0	1	0	1	1	1	1	0	0	normal weight
-> 15	Male	Urban	> 7.5%	1.65	55	20.2	skin problem	none	none	Yes	Yes	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	1095	0	1	0	0	0	1	1	1	0	1	0	0	1	1	1	1	1	normal weight
-< 11	Female	Urban	> 7.5%	1.32	35	20.1	eye	cyrocities	none	No	Yes	Middle quartiles	Highest quartiles	No	Yes	Yes	Injection	No	Yes	Yes	Yes	yes	240	1	0	1	0	0	0	1	0	1	1	0	1	1	1	1	1	1	normal weight
-> 15	Male	Suburban	> 7.5%	1.55	45	18.7	leg pain	none	none	Yes	Yes	Lowest quartiles	Lowest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	730	0	1	0	0	0	1	1	1	0	1	0	1	1	1	1	1	1	normal weight
-< 11	Female	Suburban	> 7.5%	1.43	41	20	none	none	none	Yes	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	730	1	0	1	0	0	1	0	1	0	1	1	1	1	1	1	1	0	normal weight
-> 15	Female	Rural	< 7.5%	1.56	45	18.5	eye	screen problem	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	3650	1	1	0	0	0	0	1	0	0	1	0	0	1	1	1	0	1	normal weight
-> 15	Male	Rural	< 7.5%	1.46	32	15	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	Yes	Yes	yes	365	0	1	0	0	0	1	0	1	0	1	1	0	1	1	1	0	0	underweight
-> 15	Female	Suburban	> 7.5%	1.48	35	16	fever problem	none	none	No	No	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	No	Yes	No	yes	2555	1	1	0	0	0	0	0	0	1	1	1	0	1	0	1	1	1	underweight
-> 15	Female	Rural	> 7.5%	1.46	38	17.8	none	none	none	Yes	No	Middle quartiles	unkhown	No	Yes	Yes	Injection	No	Yes	Yes	Yes	yes	365	1	1	0	0	0	1	0	0	1	1	0	1	1	1	1	1	0	underweight
-> 15	Male	Rural	< 7.5%	1.6	87	34	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	No	Yes	Yes	Yes	yes	4015	0	1	0	0	0	1	0	0	1	1	0	1	1	1	1	0	0	obese
-> 15	Male	Rural	> 7.5%	1.61	52	20.1	none	none	none	No	No	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	Yes	No	No	Yes	yes	1095	0	1	0	0	0	0	0	1	1	1	1	0	0	1	1	1	0	normal weight
-> 15	Male	Urban	> 7.5%	1.72	53	17.9	leg pain	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	No	yes	3285	0	1	0	0	0	1	1	0	0	1	0	0	0	0	1	1	1	underweight
-> 15	Male	Rural	> 7.5%	1.68	48	17	brain	eye	hormon	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	5475	0	1	0	0	0	0	0	1	0	1	0	0	1	1	1	1	1	underweight
-< 11	Male	Urban	< 7.5%	1.32	27	15.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	Yes	Yes	yes	1460	0	0	1	0	0	1	1	1	0	1	1	0	1	1	1	0	0	underweight
-> 15	Male	Rural	> 7.5%	1.43	52	25.4	teeth	eye problem	none	No	No	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	Yes	Yes	Yes	yes	2920	0	1	0	0	0	0	0	0	1	1	1	1	1	1	1	1	1	overweight
-< 11	Male	Rural	> 7.5%	1.3	20	11.8	fever problem	none	none	No	No	Lowest quartiles	Lowest quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	1095	0	0	1	0	0	0	0	0	0	1	0	0	1	0	1	1	1	underweight
-< 15	Male	Suburban	> 7.5%	1.5	36	16	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	No	Yes	yes	30	0	0	0	1	0	1	0	1	1	1	0	0	0	1	1	1	0	underweight
-> 15	Female	Rural	> 7.5%	1.53	48	20.5	skin problem	none	none	Yes	Yes	Highest quartiles	Highest quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	1825	1	1	0	0	0	1	1	1	0	1	1	1	1	1	1	1	1	normal weight
-> 15	Male	Suburban	> 7.5%	1.68	63	22.3	skin problem	none	none	No	Yes	Middle quartiles	unkhown	Yes	No	Yes	Injection	Yes	Yes	No	Yes	yes	240	0	1	0	0	0	0	1	1	0	1	1	1	0	1	1	1	1	normal weight
-< 5	Male	Suburban	> 7.5%	1.5	50	22.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	60	0	0	0	0	1	1	1	1	0	1	1	1	1	1	1	1	0	normal weight
-> 15	Female	Rural	> 7.5%	1.63	50	18.8	none	none	none	No	No	Lowest quartiles	unkhown	Yes	No	Yes	Injection	No	Yes	No	Yes	yes	3650	1	1	0	0	0	0	0	1	0	1	0	1	0	1	1	1	0	normal weight
-< 11	Male	Rural	> 7.5%	1.56	50	20.5	none	none	none	Yes	No	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	150	0	0	1	0	0	1	0	1	0	1	0	0	1	1	1	1	0	normal weight
-> 15	Female	Urban	< 7.5%	1.47	70	32.4	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	4745	1	1	0	0	0	0	1	1	0	1	0	0	1	1	1	0	0	obese
-< 11	Female	Rural	> 7.5%	1.24	20	13	none	none	none	Yes	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	Yes	No	Yes	Yes	yes	15	1	0	1	0	0	1	0	1	0	1	1	0	1	1	1	1	0	underweight
-> 15	Male	Rural	< 7.5%	1.63	50	18.8	none	none	none	Yes	No	Lowest quartiles	unkhown	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	2555	0	1	0	0	0	1	0	1	0	1	0	0	1	1	1	0	0	normal weight
-> 15	Male	Rural	> 7.5%	1.63	44	16.6	none	none	none	No	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	2190	0	1	0	0	0	0	0	1	0	1	0	0	1	1	1	1	0	underweight
-> 15	Female	Suburban	< 7.5%	1.6	56	21.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	Yes	Yes	Yes	yes	3650	1	1	0	0	0	1	1	1	1	1	0	1	1	1	1	0	0	normal weight
-> 15	Female	Urban	< 7.5%	1.52	55	23.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	1095	1	1	0	0	0	1	1	1	0	1	0	1	1	1	1	0	0	normal weight
-> 15	Female	Suburban	> 7.5%	1.52	71	30.7	none	none	none	Yes	No	Lowest quartiles	Lowest quartiles	Yes	No	Yes	Injection	Yes	No	No	Yes	yes	3285	1	1	0	0	0	1	0	1	0	1	1	0	0	1	1	1	0	obese
-> 15	Male	Rural	> 7.5%	1.65	56	20.6	none	none	none	Yes	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	3139	0	1	0	0	0	1	0	1	0	1	0	0	1	1	1	1	0	normal weight
-< 11	Male	Urban	> 7.5%	1.52	35	15.1	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	1460	0	0	1	0	0	1	0	1	0	1	0	0	1	1	1	1	0	underweight
-< 11	Female	Rural	> 7.5%	1.39	29	15	none	none	none	No	Yes	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes	60	1	0	1	0	0	0	1	1	1	1	0	0	1	1	1	1	0	underweight
-> 15	Male	Suburban	> 7.5%	1.6	47	18.4	kidny problem	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	4015	0	1	0	0	0	1	0	1	0	1	0	0	1	1	1	1	1	underweight
-< 11	Female	Suburban	< 7.5%	1.2	28	19.4	eye	ear problem	none	No	Yes	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	1	0	1	0	0	0	1	1	0	1	0	1	1	1	1	0	1	normal weight
-< 11	Male	Suburban	> 7.5%	1.19	21	14.8	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	730	0	0	1	0	0	1	0	1	0	1	0	1	1	1	1	1	0	underweight
-< 15	Female	Rural	< 7.5%	1.47	46	21.3	eye	allergy	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	2190	1	0	0	1	0	1	0	1	0	1	0	0	1	1	1	0	1	normal weight
-< 15	Female	Urban	> 7.5%	1.53	43	18.4	eye problem	none	none	No	Yes	Middle quartiles	Highest quartiles	Yes	Yes	Yes	Injection	Yes	No	Yes	Yes	yes	4015	1	0	0	1	0	0	1	1	1	1	1	0	1	1	1	1	1	underweight
-< 11	Female	Suburban	> 7.5%	1.44	49	23.6	none	none	none	No	Yes	Middle quartiles	Highest quartiles	Yes	Yes	Yes	Injection	No	Yes	No	No	yes	1095	1	0	1	0	0	0	1	1	1	1	0	1	0	0	1	1	0	normal weight
-> 15	Female	Rural	> 7.5%	1.53	42	17.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes	1825	1	1	0	0	0	1	1	1	1	1	0	0	1	1	1	1	0	underweight
-< 11	Female	Urban	< 7.5%	1.14	17	13.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	1	0	1	0	0	1	1	1	0	0	1	0	0	0	0	0	0	underweight
-< 5	Female	Urban	< 7.5%	0.92	10.5	12.4	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	1	0	0	0	1	0	1	1	0	0	1	0	0	0	0	0	0	underweight
-< 5	Male	Urban	< 7.5%	0.92	12	14.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	0	0	1	1	1	1	0	0	1	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.19	15	10.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 5	Male	Urban	< 7.5%	1.07	15	13.1	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	underweight
-< 11	Male	Suburban	< 7.5%	1.25	21	13.4	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	1	0	0	0	1	1	0	0	1	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.32	31	17.8	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.12	18	14.3	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	underweight
-> 15	Male	Urban	< 7.5%	1.75	59	19.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	1	0	0	0	1	1	1	0	0	1	0	0	0	0	0	0	normal weight
-< 11	Male	Urban	< 7.5%	1.14	23	17.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.09	21	17.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	1	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.14	22	16.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.22	29	19.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	0	0	0	0	0	0	normal weight
-< 11	Male	Urban	< 7.5%	1.19	27	19.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight
-< 15	Male	Urban	< 7.5%	1.3	27	16	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.25	31	19.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight
-< 15	Male	Urban	< 7.5%	1.35	29	15.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.22	25	16.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 15	Male	Urban	< 7.5%	1.3	39	23.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	1	0	0	0	0	0	0	normal weight
-< 11	Male	Urban	< 7.5%	1.3	29	17.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	underweight
-< 15	Male	Urban	< 7.5%	1.25	29	18.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	1	0	0	0	0	0	0	normal weight
-< 11	Male	Urban	< 7.5%	1.19	20	14.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.22	22	14.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	1	0	0	0	0	0	0	underweight
-> 15	Male	Urban	< 7.5%	1.65	73	26.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	1	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	overweight
-< 11	Male	Urban	< 7.5%	1.3	31	18.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.17	22	16.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	underweight
-> 15	Male	Urban	< 7.5%	1.52	50	21.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	1	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	normal weight
-> 15	Male	Suburban	< 7.5%	1.65	53	19.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	1	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	normal weight
-< 11	Male	Suburban	< 7.5%	1.17	20	14.6	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	0	1	1	0	0	0	0	0	0	0	0	underweight
-< 15	Male	Suburban	< 7.5%	1.48	39	17.8	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	0	1	0	1	0	1	1	0	0	0	0	0	0	0	0	underweight
-< 11	Male	Suburban	< 7.5%	1.19	30	21.2	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	0	1	1	0	0	0	0	0	0	0	0	normal weight
-< 15	Male	Suburban	< 7.5%	1.37	39	20.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	normal weight
-< 11	Male	Suburban	< 7.5%	1.25	24	15.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	underweight
-< 11	Male	Suburban	< 7.5%	1.14	19	14.6	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	0	1	1	0	0	0	0	0	0	0	0	underweight
-< 11	Male	Suburban	< 7.5%	1.27	25	15.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	1	0	0	0	0	0	0	underweight
-> 15	Male	Suburban	< 7.5%	1.55	51	21.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	1	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	normal weight
-> 15	Male	Suburban	< 7.5%	1.58	58	23.2	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	1	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	normal weight
-< 11	Male	Suburban	< 7.5%	1.3	36	21.3	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	Yes	No	No	No	0	0	0	1	0	0	1	0	1	1	0	1	1	0	0	0	0	0	normal weight
-< 11	Male	Suburban	< 7.5%	1.3	45	26.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	overweight
-< 15	Male	Suburban	< 7.5%	1.48	45	20.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	1	0	0	0	0	0	0	normal weight
-< 11	Male	Urban	< 7.5%	1.22	30	20.2	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	0	1	1	0	1	0	0	0	0	0	0	normal weight
-< 11	Male	Urban	< 7.5%	1.3	32	18.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	1	0	0	0	0	0	0	normal weight
-< 11	Male	Urban	< 7.5%	1.3	32	18.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	normal weight
-< 15	Male	Urban	< 7.5%	1.65	32	11.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	1	0	0	0	0	0	0	underweight
-< 15	Male	Urban	< 7.5%	1.63	56	21.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	normal weight
-< 15	Male	Urban	< 7.5%	1.32	37	21.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	1	0	0	0	0	0	0	normal weight
-< 15	Male	Urban	< 7.5%	1.58	41	16.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.27	25	15.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	1	0	0	0	0	0	underweight
-< 15	Male	Urban	< 7.5%	1.32	30	17.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	1	0	0	0	0	0	0	underweight
-< 15	Male	Urban	< 7.5%	1.25	29	18.6	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	0	1	1	0	0	1	0	0	0	0	0	normal weight
-> 15	Male	Urban	< 7.5%	1.55	45	18.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	1	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight
-< 11	Female	Urban	< 7.5%	1.09	21	17.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.14	20	15.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.22	24	16.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.19	30	21.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight
-< 11	Male	Urban	< 7.5%	1.37	55	29.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight
-< 15	Male	Urban	< 7.5%	1.5	70	31.1	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	obese
-< 11	Male	Urban	< 7.5%	1.09	25	21	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight
-< 11	Male	Urban	< 7.5%	1.25	31	19.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight
-< 11	Male	Urban	< 7.5%	1.25	20	12.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.01	16	15.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	1	0	0	0	0	0	underweight
-< 15	Female	Urban	< 7.5%	1.58	45	18	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.32	35	20.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-< 11	Female	Urban	< 7.5%	1.25	24	15.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 5	Male	Urban	< 7.5%	0.94	14	15.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 11	Female	Rural	< 7.5%	0.97	25	26.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight
-< 5	Female	Rural	< 7.5%	0.74	16	29.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	overweight
-> 15	Female	Rural	< 7.5%	1.52	45	19.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	1	0	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-< 5	Female	Suburban	< 7.5%	0.53	7	24.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-< 15	Female	Suburban	< 7.5%	1.58	38	15.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 11	Male	Suburban	< 7.5%	0.92	24	28.4	none	none	none	Yes	Yes	Lowest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight
-< 11	Female	Rural	< 7.5%	0.97	18	19.1	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	normal weight
-< 11	Female	Rural	< 7.5%	0.99	22	22.4	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	normal weight
-< 15	Female	Rural	< 7.5%	1.61	31	12	none	none	none	No	No	Highest quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	underweight
-< 5	Male	Rural	< 7.5%	0.74	12	21.9	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	normal weight
-< 5	Male	Rural	< 7.5%	0.61	12	32.2	none	none	none	No	Yes	Middle quartiles	Highest quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	0	1	0	1	1	0	0	0	1	0	0	0	0	0	obese
-< 15	Female	Rural	< 7.5%	1.52	35	15.1	none	none	none	Yes	No	Middle quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	underweight
-< 5	Male	Rural	< 7.5%	0.61	9	24.2	none	none	none	Yes	No	Middle quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	normal weight
-< 15	Female	Urban	< 7.5%	1.3	28	16.6	none	none	none	Yes	No	Middle quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	underweight
-< 11	Female	Urban	< 7.5%	1.22	25	16.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 5	Male	Urban	< 7.5%	0.97	16	17	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 5	Female	Urban	< 7.5%	0.92	12	14.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 15	Male	Urban	< 7.5%	1.27	40	24.8	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight
-< 11	Female	Urban	< 7.5%	1.12	24	19.1	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-< 11	Male	Urban	< 7.5%	1.22	22	14.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.12	26	20.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight
-< 11	Female	Urban	< 7.5%	1.12	26	20.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight
-< 15	Female	Urban	< 7.5%	1.14	22	16.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.04	18	16.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 15	Male	Urban	< 7.5%	1.52	40	17.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.32	35	20.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-< 11	Female	Urban	< 7.5%	1.3	35	20.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight
-< 15	Female	Urban	< 7.5%	1.37	40	21.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight
-< 15	Male	Urban	< 7.5%	1.22	27	18.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	0.92	18	21.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-> 15	Male	Urban	< 7.5%	1.55	64	26.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	1	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	overweight
-< 5	Male	Urban	< 7.5%	0.79	16	25.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	overweight
-< 11	Male	Urban	< 7.5%	1.3	40	23.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-< 15	Female	Urban	< 7.5%	1.67	48	17.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 15	Male	Urban	< 7.5%	1.35	50	27.4	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight
-< 11	Female	Urban	< 7.5%	0.92	25	29.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight
-< 11	Male	Suburban	< 7.5%	1.25	35	22.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-< 15	Female	Suburban	< 7.5%	1.3	22	13	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 15	Male	Urban	< 7.5%	1.17	30	21.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-< 11	Female	Urban	< 7.5%	1.35	35	19.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight
-< 5	Male	Suburban	< 7.5%	0.61	11	29.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	overweight
-< 15	Male	Urban	< 7.5%	1.48	38	17.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 15	Male	Urban	< 7.5%	1.22	23	15.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 15	Female	Urban	< 7.5%	1.58	45	18	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	0.61	15	40.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	morbid obesity
-< 15	Male	Suburban	< 7.5%	1.63	48	18.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 15	Female	Rural	< 7.5%	1.25	25	16	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-> 15	Male	Urban	< 7.5%	1.7	54	18.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	1	0	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-< 11	Female	Urban	< 7.5%	1.17	26	19	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-< 15	Male	Urban	< 7.5%	1.27	28	17.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 11	Female	Urban	< 7.5%	0.97	25	26.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight
-< 11	Male	Urban	< 7.5%	0.98	40	41.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	morbid obesity
-< 5	Male	Rural	< 7.5%	0.65	18	42.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	0	0	1	1	1	1	0	0	1	0	0	0	0	0	0	morbid obesity
-< 11	Male	Suburban	< 7.5%	1.05	35	31.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	0	0	0	0	0	0	obese
-< 11	Male	Suburban	< 7.5%	0.96	20	21.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight
-< 5	Male	Suburban	< 7.5%	0.61	10	26.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	0	0	1	1	1	1	0	0	1	0	0	0	0	0	0	overweight
-< 5	Female	Suburban	< 7.5%	0.82	12	17.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 11	Female	Rural	< 7.5%	0.76	25	43.3	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	morbid obesity
-< 11	Female	Rural	< 7.5%	0.92	30	35.4	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	1	0	1	0	0	1	0	1	0	0	1	0	0	0	0	0	0	severe obesity
-< 15	Female	Urban	< 7.5%	1.32	45	25.8	none	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	1	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	overweight
-> 15	Male	Suburban	< 7.5%	1.67	60	21.5	none	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	1	0	0	0	1	0	1	0	0	0	1	0	0	0	0	0	normal weight
-> 15	Male	Suburban	< 7.5%	1.67	55	19.7	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	1	0	0	0	1	0	1	0	0	0	1	0	0	0	0	0	normal weight
-< 15	Female	Suburban	< 7.5%	1.22	40	26.9	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	overweight
-< 15	Male	Rural	< 7.5%	1.27	40	24.8	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	normal weight
-< 5	Female	Suburban	< 7.5%	0.61	20	53.7	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	1	0	0	0	1	0	0	1	0	0	1	0	0	0	0	0	0	morbid obesity
-< 11	Male	Urban	< 7.5%	1.12	32	25.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	0	0	0	0	0	0	overweight
-< 11	Female	Urban	< 7.5%	1.25	25	16	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	underweight
-< 15	Male	Urban	< 7.5%	1.42	30	14.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 15	Male	Urban	< 7.5%	1.5	43	19.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-< 11	Female	Urban	< 7.5%	1.3	28	16.6	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	1	1	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	0.74	15	27.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	overweight
-< 15	Female	Urban	< 7.5%	1.48	40	18.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-> 15	Female	Urban	< 7.5%	1.43	35	17.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	1	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 15	Female	Urban	< 7.5%	1.63	45	16.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 15	Female	Urban	< 7.5%	1.52	46	19.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-< 15	Male	Urban	< 7.5%	1.58	50	20	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-< 11	Female	Urban	< 7.5%	0.92	18	21.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight
-< 11	Female	Urban	< 7.5%	0.74	15	27.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight
-< 5	Male	Urban	< 7.5%	0.44	12	62	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	morbid obesity
-< 5	Male	Urban	< 7.5%	0.61	12	32.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	obese
-< 11	Male	Urban	< 7.5%	0.74	14	25.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight
-< 15	Female	Urban	< 7.5%	1.43	35	17.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight
-< 11	Female	Urban	< 7.5%	1.22	15	10.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 5	Male	Urban	< 7.5%	0.74	7	12.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 11	Male	Urban	< 7.5%	1.01	12	11.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 11	Female	Suburban	< 7.5%	0.92	12	14.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 5	Female	Suburban	< 7.5%	0.61	7	18.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	normal weight
-< 11	Female	Suburban	< 7.5%	0.92	12	14.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight
-< 5	Female	Urban	< 7.5%	0.61	5	13.4	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No	0	1	0	0	0	1	1	0	1	0	0	1	1	0	0	0	0	0	underweight
+Age	Sex	Area of Residence	HbA1c	Height	Weight	BMI	first_disease	second_disease	third_disease	Adequate Nutrition	Education of Mother	Standardized growth-rate in infancy	Standardized birth weight	Autoantibodies	Impaired glucose metabolism	Insulin taken	How Taken	Family History affected in Type 1 Diabetes	Family History affected in Type 2 Diabetes	Hypoglycemis	pancreatic disease affected in child	Affected	Dur_disease	genderBin	Above15	Betw5_11	Betw11_15	Below5	AdeqNutrBin	EducMotherBin	AutoAB_bin	ImpairedGMBin	InsulinTakenBin	FamHistT1DBin	FamHistT2DBin	HypoglycemisBin	PancreasBin	AffectedBin	HbA1cBin	other_disease_binary	BMI_class	second_disease_categories	third_disease_categories
+> 15	Female	Suburban	> 7.5%	1.5	56	24.9	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	Yes	No	Yes	Yes	yes	1460	1	1	0	0	0	0	0	1	1	1	1	0	1	1	1	1	0	normal weight	none	none
+> 15	Female	Suburban	> 7.5%	1.48	58	26.5	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	7	1	1	0	0	0	0	0	1	0	1	1	1	1	1	1	1	0	overweight	none	none
+< 11	Female	Urban	> 7.5%	1.2	46	31.9	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	No	No	yes	9	1	0	1	0	0	1	0	1	0	1	1	0	0	0	1	1	0	obese	none	none
+< 15	Female	Suburban	> 7.5%	1.65	50	18.4	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	No	No	yes	7	1	0	0	1	0	1	0	0	0	1	0	1	0	0	1	1	0	underweight	none	none
+< 15	Female	Suburban	> 7.5%	1.61	59	22.8	liver problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	30	1	0	0	1	0	1	1	1	0	1	1	1	0	0	1	1	1	normal weight	none	none
+< 15	Male	Rural	> 7.5%	1.32	26	14.9	heart	head problem	none	No	No	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	547.5	0	0	0	1	0	0	0	1	0	1	0	0	1	0	1	1	1	underweight	Headache	none
+> 15	Female	Rural	> 7.5%	1.4	45	23	ear problem	none	none	No	No	Lowest quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	5840	1	1	0	0	0	0	0	0	0	1	0	0	1	1	1	1	1	normal weight	none	none
+> 15	Female	Rural	> 7.5%	1.55	50	20.8	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	2190	1	1	0	0	0	1	0	0	0	1	0	0	1	1	1	1	0	normal weight	none	none
+> 15	Female	Suburban	> 7.5%	1.61	54	20.8	leg problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	1	1	0	0	0	1	1	0	0	1	0	1	1	1	1	1	1	normal weight	none	none
+> 15	Female	Suburban	> 7.5%	1.59	50	19.8	eye problem	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	3650	1	1	0	0	0	1	0	0	0	1	0	0	1	0	1	1	1	normal weight	none	none
+> 15	Male	Suburban	> 7.5%	1.62	52	19.8	none	none	none	Yes	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	No	yes	2920	0	1	0	0	0	1	0	0	0	1	1	0	1	0	1	1	0	normal weight	none	none
+> 15	Female	Suburban	< 7.5%	1.64	52	19.3	none	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	3285	1	1	0	0	0	1	0	1	0	1	0	0	1	1	1	0	0	normal weight	none	none
+> 15	Male	Suburban	< 7.5%	1.71	52	17.8	none	none	none	Yes	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	2190	0	1	0	0	0	1	0	0	0	1	0	0	1	1	1	0	0	underweight	none	none
+> 15	Female	Rural	< 7.5%	1.59	53	21	eye problem	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	2920	1	1	0	0	0	0	1	1	0	1	1	1	1	0	1	0	1	normal weight	none	none
+< 11	Male	Rural	> 7.5%	1.5	48	21.3	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	Yes	yes	1460	0	0	1	0	0	1	0	0	0	1	1	0	0	1	1	1	0	normal weight	none	none
+> 15	Female	Suburban	> 7.5%	1.62	60	22.9	thyroid problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	912.5	1	1	0	0	0	1	1	1	0	1	0	1	1	0	1	1	1	normal weight	none	none
+< 15	Female	Suburban	> 7.5%	1.58	69	27.6	allergic problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	No	yes	1095	1	0	0	1	0	1	1	0	0	1	1	0	1	0	1	1	1	overweight	none	none
+> 15	Male	Rural	> 7.5%	1.61	49	18.9	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	Yes	yes	2190	0	1	0	0	0	1	0	0	0	1	1	0	1	1	1	1	0	normal weight	none	none
+> 15	Female	Suburban	< 7.5%	1.44	55	26.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	2555	1	1	0	0	0	1	1	0	0	1	0	1	1	0	1	0	0	overweight	none	none
+> 15	Male	Suburban	> 7.5%	1.63	53	19.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	No	yes	730	0	1	0	0	0	1	1	0	0	1	1	1	1	0	1	1	0	normal weight	none	none
+> 15	Male	Suburban	> 7.5%	1.61	46	17.7	body pain	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	730	0	1	0	0	0	0	0	1	0	1	1	1	1	0	1	1	1	underweight	none	none
+> 15	Female	Urban	> 7.5%	1.53	68	29	thyroid problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes	4015	1	1	0	0	0	1	1	0	0	1	0	1	1	1	1	1	1	overweight	none	none
+> 15	Female	Urban	> 7.5%	1.57	47	19.1	kidney	head pain	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	1642.5	1	1	0	0	0	1	0	0	0	1	1	1	1	1	1	1	1	normal weight	Headache	none
+< 11	Female	Suburban	> 7.5%	1.29	34	20.4	heartbeat problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	240	1	0	1	0	0	1	1	0	0	1	0	0	1	0	1	1	1	normal weight	none	none
+> 15	Female	Suburban	> 7.5%	1.52	46	19.9	belly problem	none	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	Yes	yes	5840	1	1	0	0	0	0	0	0	0	1	1	0	0	1	1	1	1	normal weight	none	none
+< 5	Female	Suburban	< 7.5%	1.32	40	23	heart problem	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	No	Yes	yes	547.5	1	0	0	0	1	1	0	0	0	1	0	1	0	1	1	0	1	normal weight	none	none
+> 15	Female	Suburban	> 7.5%	1.59	60	23.7	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	1277.5	1	1	0	0	0	1	1	1	0	1	1	1	1	0	1	1	0	normal weight	none	none
+> 15	Female	Suburban	< 7.5%	1.63	58	21.8	none	none	none	Yes	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	No	yes	2190	1	1	0	0	0	1	0	0	0	1	1	1	0	0	1	0	0	normal weight	none	none
+> 15	Female	Rural	> 7.5%	1.5	49	21.8	body pain	none	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	No	yes	1277.5	1	1	0	0	0	0	0	0	0	1	1	0	0	0	1	1	1	normal weight	none	none
+> 15	Female	Urban	> 7.5%	1.37	30	16	allergic problem	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	No	No	yes	1095	1	1	0	0	0	1	0	1	1	1	0	0	0	0	1	1	1	underweight	none	none
+< 11	Female	Suburban	> 7.5%	1.39	39	20.2	gastic	body pain	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	365	1	0	1	0	0	1	1	1	0	1	0	1	1	1	1	1	1	normal weight	NA	none
+> 15	Male	Rural	< 7.5%	1.58	62	24.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	No	yes	2920	0	1	0	0	0	1	1	0	0	1	1	1	0	0	1	0	0	normal weight	none	none
+> 15	Female	Suburban	> 7.5%	1.58	62	24.8	head pain	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	2190	1	1	0	0	0	1	1	1	0	1	1	1	0	0	1	1	1	normal weight	none	none
+> 15	Female	Suburban	> 7.5%	1.63	50	18.8	body pain	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes	2920	1	1	0	0	0	1	0	1	0	1	0	1	0	0	1	1	1	normal weight	none	none
+> 15	Female	Suburban	> 7.5%	1.53	63	26.9	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	4745	1	1	0	0	0	1	0	0	0	1	0	0	1	0	1	1	0	overweight	none	none
+> 15	Male	Suburban	< 7.5%	1.76	60	19.4	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	Yes	No	No	yes	730	0	1	0	0	0	1	1	1	1	1	0	1	0	0	1	0	0	normal weight	none	none
+< 15	Male	Suburban	< 7.5%	1.49	53	23.9	none	none	none	No	Yes	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	Yes	No	No	yes	365	0	0	0	1	0	0	1	0	1	1	1	1	0	0	1	0	0	normal weight	none	none
+< 15	Male	Rural	< 7.5%	1.42	55	27.3	none	none	none	No	No	Middle quartiles	Lowest quartiles	No	Yes	Yes	Injection	Yes	Yes	Yes	Yes	yes	547.5	0	0	0	1	0	0	0	0	1	1	1	1	1	1	1	0	0	overweight	none	none
+> 15	Male	Suburban	> 7.5%	1.61	42	16.2	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	Yes	yes	1460	0	1	0	0	0	1	0	0	0	1	1	0	0	1	1	1	0	underweight	none	none
+> 15	Male	Rural	> 7.5%	1.71	57	19.5	none	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	No	yes	1460	0	1	0	0	0	1	0	1	0	1	0	0	0	0	1	1	0	normal weight	none	none
+< 15	Female	Rural	> 7.5%	1.53	44	18.8	eye problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	1460	1	0	0	1	0	1	1	1	0	1	0	1	1	0	1	1	1	normal weight	none	none
+> 15	Female	Suburban	> 7.5%	1.55	56	23.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	2190	1	1	0	0	0	1	1	0	0	1	0	1	1	0	1	1	0	normal weight	none	none
+< 15	Female	Rural	> 7.5%	1.31	34	19.8	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	Yes	yes	7	1	0	0	1	0	0	0	1	0	1	0	0	0	1	1	1	0	normal weight	none	none
+< 15	Female	Rural	> 7.5%	1.3	45	26.6	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	Yes	Yes	Yes	No	yes	2555	1	0	0	1	0	0	0	1	1	1	1	1	1	0	1	1	0	overweight	none	none
+< 5	Male	Rural	> 7.5%	1.01	14	13.7	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	150	0	0	0	0	1	1	0	1	0	1	0	0	1	0	1	1	0	underweight	none	none
+< 15	Male	Rural	> 7.5%	1.49	42	18.9	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	210	0	0	0	1	0	1	0	1	0	1	0	0	1	0	1	1	0	normal weight	none	none
+> 15	Male	Urban	> 7.5%	1.42	53	26.3	birth defects	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	16	0	1	0	0	0	1	1	1	0	1	0	1	1	0	1	1	1	overweight	none	none
+> 15	Male	Rural	> 7.5%	1.53	47	20.1	eye problem	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	1825	0	1	0	0	0	0	0	1	0	1	0	0	1	1	1	1	1	normal weight	none	none
+> 15	Female	Rural	< 7.5%	1.68	50	17.7	none	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	No	No	yes	1825	1	1	0	0	0	1	0	1	0	1	1	0	0	0	1	0	0	underweight	none	none
+> 15	Male	Suburban	< 7.5%	1.78	59	18.6	none	none	none	No	No	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	4380	0	1	0	0	0	0	0	1	0	1	0	1	1	0	1	0	0	normal weight	none	none
+> 15	Female	Rural	< 7.5%	1.78	59	18.6	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes	150	1	1	0	0	0	0	0	1	0	1	0	1	0	0	1	0	0	normal weight	none	none
+< 15	Female	Urban	> 7.5%	1.45	41	19.5	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	2920	1	0	0	1	0	0	1	1	0	1	1	1	1	0	1	1	0	normal weight	none	none
+< 15	Male	Rural	> 7.5%	1.64	64	23.8	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	Yes	Yes	yes	365	0	0	0	1	0	1	0	0	0	1	1	0	1	1	1	1	0	normal weight	none	none
+< 15	Male	Rural	> 7.5%	1.58	38	15.2	head pain	none	none	Yes	No	Middle quartiles	Lowest quartiles	Yes	No	Yes	Injection	No	Yes	No	Yes	yes	365	0	0	0	1	0	1	0	1	0	1	0	1	0	1	1	1	1	underweight	none	none
+< 11	Male	Suburban	> 7.5%	1.22	22	14.8	eye problem	none	none	No	No	Middle quartiles	Lowest quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	1825	0	0	1	0	0	0	0	1	0	1	0	0	1	1	1	1	1	underweight	none	none
+> 15	Male	Suburban	> 7.5%	1.32	45	25.8	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	3285	0	1	0	0	0	0	0	1	0	1	0	0	1	0	1	1	0	overweight	none	none
+> 15	Male	Rural	> 7.5%	1.58	45	18	eye problem	none	none	Yes	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	2555	0	1	0	0	0	1	0	0	0	1	0	0	1	1	1	1	1	underweight	none	none
+< 15	Female	Suburban	> 7.5%	1.57	62	25.2	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	Yes	yes	30	1	0	0	1	0	1	1	1	0	1	1	1	0	1	1	1	0	overweight	none	none
+> 15	Male	Suburban	> 7.5%	1.5	49	21.8	none	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	2190	0	1	0	0	0	1	0	1	0	1	1	1	0	0	1	1	0	normal weight	none	none
+> 15	Female	Rural	> 7.5%	1.42	49	24.3	none	none	none	No	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	2555	1	1	0	0	0	0	1	1	0	1	1	1	1	0	1	1	0	normal weight	none	none
+> 15	Female	Rural	> 7.5%	1.43	53	25.9	head pain	none	none	No	No	Middle quartiles	Highest quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	1	1	0	0	0	0	0	0	0	1	0	1	1	1	1	1	1	overweight	none	none
+> 15	Female	Urban	> 7.5%	1.6	60	23.4	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	1460	1	1	0	0	0	0	1	1	0	1	0	1	1	0	1	1	0	normal weight	none	none
+> 15	Female	Rural	> 7.5%	1.57	38	15.4	belly problem	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	1460	1	1	0	0	0	1	1	0	0	1	0	0	1	0	1	1	1	underweight	none	none
+> 15	Female	Urban	> 7.5%	1.49	36	16.2	belly problem	none	none	No	Yes	Middle quartiles	Lowest quartiles	No	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	1	1	0	0	0	0	1	0	0	1	0	1	1	1	1	1	1	underweight	none	none
+> 15	Male	Rural	> 7.5%	1.55	65	27.1	none	none	none	Yes	No	Middle quartiles	Lowest quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	1825	0	1	0	0	0	1	0	0	0	1	0	1	1	0	1	1	0	overweight	none	none
+> 15	Female	Suburban	< 7.5%	1.45	42	20	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	2190	1	1	0	0	0	0	0	1	0	1	0	0	1	0	1	0	0	normal weight	none	none
+< 15	Female	Rural	< 7.5%	1.55	46	19.1	none	none	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	No	No	yes	210	1	0	0	1	0	0	1	0	0	1	0	1	0	0	1	0	0	normal weight	none	none
+> 15	Male	Rural	> 7.5%	1.35	45	24.7	fiver problem	none	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	No	yes	1825	0	1	0	0	0	0	0	0	0	1	0	0	0	0	1	1	1	normal weight	none	none
+> 15	Female	Urban	< 7.5%	1.52	35	15.1	head	body pain	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	1095	1	1	0	0	0	1	1	1	0	1	0	1	1	0	1	0	1	underweight	NA	none
+> 15	Female	Urban	< 7.5%	1.53	39	16.7	body pain	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	1642.5	1	1	0	0	0	1	1	0	0	1	0	1	1	0	1	0	1	underweight	none	none
+> 15	Male	Rural	< 7.5%	1.68	45	15.9	head pain	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	Yes	No	yes	2555	0	1	0	0	0	1	0	1	0	1	1	0	1	0	1	0	1	underweight	none	none
+> 15	Female	Rural	< 7.5%	1.55	57	23.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	2190	1	1	0	0	0	1	1	0	0	1	0	0	1	0	1	0	0	normal weight	none	none
+> 15	Female	Rural	< 7.5%	1.52	85	36.8	none	none	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	4745	1	1	0	0	0	0	0	0	0	1	0	0	1	0	1	0	0	severe obesity	none	none
+> 15	Male	Rural	> 7.5%	1.63	40	15.1	none	none	none	No	No	Highest quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	2920	0	1	0	0	0	0	0	0	0	1	1	1	1	1	1	1	0	underweight	none	none
+> 15	Female	Rural	> 7.5%	1.4	30	15.3	eye	health loss	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	5475	1	1	0	0	0	0	0	0	0	1	0	0	1	1	1	1	1	underweight	NA	none
+> 15	Female	Urban	< 7.5%	1.51	55	24.1	pressure problem	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	No	yes	912.5	1	1	0	0	0	1	0	1	0	1	0	0	0	0	1	0	1	normal weight	none	none
+> 15	Male	Suburban	< 7.5%	1.63	62	23.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	Yes	yes	912.5	0	1	0	0	0	1	1	0	0	1	1	1	0	1	1	0	0	normal weight	none	none
+< 11	Female	Rural	< 7.5%	1.5	46	20.4	none	none	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	365	1	0	1	0	0	0	1	0	0	1	0	0	1	0	1	0	0	normal weight	none	none
+< 11	Female	Rural	< 7.5%	1.46	40	18.8	none	none	none	No	No	Lowest quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	No	yes	1460	1	0	1	0	0	0	0	0	0	1	0	0	0	0	1	0	0	normal weight	none	none
+< 15	Female	Suburban	> 7.5%	1.83	85	25.4	none	none	none	No	Yes	Highest quartiles	Highest quartiles	Yes	Yes	Yes	Injection	Yes	Yes	No	No	yes	1460	1	0	0	1	0	0	1	1	1	1	1	1	0	0	1	1	0	overweight	none	none
+> 15	Female	Suburban	> 7.5%	1.58	78	31.2	head pain	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	2555	1	1	0	0	0	0	0	1	0	1	1	1	1	1	1	1	1	obese	none	none
+< 11	Male	Suburban	< 7.5%	1.27	26	16.1	fever	none	none	No	Yes	Middle quartiles	Highest quartiles	No	No	Yes	Injection	No	Yes	No	Yes	yes	365	0	0	1	0	0	0	1	0	0	1	0	1	0	1	1	0	1	underweight	none	none
+> 15	Male	Rural	> 7.5%	1.65	60	22	fever	none	none	No	No	Middle quartiles	Lowest quartiles	Yes	No	Yes	Injection	Yes	Yes	No	Yes	yes	365	0	1	0	0	0	0	0	1	0	1	1	1	0	1	1	1	1	normal weight	none	none
+< 15	Female	Rural	> 7.5%	1.42	51	25.3	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	No	yes	2920	1	0	0	1	0	0	0	1	0	1	0	0	1	0	1	1	0	overweight	none	none
+< 11	Female	Rural	< 7.5%	1.21	32	21.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	30	1	0	1	0	0	1	1	1	0	1	0	1	1	0	1	0	0	normal weight	none	none
+> 15	Female	Urban	> 7.5%	1.32	26	14.9	thalassemia	none	none	No	Yes	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	90	1	1	0	0	0	0	1	1	0	1	1	1	1	0	1	1	1	underweight	none	none
+< 15	Female	Urban	> 7.5%	1.46	53	24.9	convulsion	none	none	No	No	Middle quartiles	Lowest quartiles	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	365	1	0	0	1	0	0	0	0	0	1	1	1	1	1	1	1	1	normal weight	none	none
+> 15	Female	Urban	> 7.5%	1.62	85	32.4	head pain	none	none	No	No	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	Yes	No	Yes	yes	1825	1	1	0	0	0	0	0	1	1	1	0	1	0	1	1	1	1	obese	none	none
+< 15	Female	Suburban	> 7.5%	1.68	61	21.6	none	none	none	Yes	No	Highest quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	Yes	No	No	yes	365	1	0	0	1	0	1	0	0	1	1	1	1	0	0	1	1	0	normal weight	none	none
+< 15	Male	Suburban	> 7.5%	1.58	69	27.6	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	2190	0	0	0	1	0	0	1	1	0	1	0	1	1	0	1	1	0	overweight	none	none
+< 15	Female	Suburban	> 7.5%	1.44	46	22.2	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes	300	1	0	0	1	0	1	0	1	0	1	0	1	0	0	1	1	0	normal weight	none	none
+> 15	Female	Suburban	> 7.5%	1.58	57	22.8	eye	pain problem	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	No	No	No	yes	330	1	1	0	0	0	0	0	0	0	1	1	0	0	0	1	1	1	normal weight	Body Pain	none
+< 15	Female	Rural	> 7.5%	1.48	48	21.9	body	head pain	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	No	yes	730	1	0	0	1	0	0	1	1	0	1	0	1	1	0	1	1	1	normal weight	Headache	none
+> 15	Male	Urban	< 7.5%	1.62	64	24.4	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	No	No	yes	1825	0	1	0	0	0	0	1	1	0	1	1	0	0	0	1	0	0	normal weight	none	none
+< 15	Female	Urban	> 7.5%	1.5	77	34.2	none	none	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	No	No	yes	1460	1	0	0	1	0	0	1	0	0	1	1	1	0	0	1	1	0	obese	none	none
+> 15	Female	Rural	< 7.5%	1.2	40	27.8	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	No	yes	730	1	1	0	0	0	1	0	1	0	1	1	1	1	0	1	0	0	overweight	none	none
+> 15	Male	Suburban	> 7.5%	1.58	43	17.2	belly problem	none	none	No	No	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	Yes	yes	2555	0	1	0	0	0	0	0	0	0	1	0	0	0	1	1	1	1	underweight	none	none
+< 15	Female	Urban	< 7.5%	1.45	61	29	belly problem	none	none	No	Yes	Middle quartiles	Highest quartiles	Yes	Yes	Yes	Injection	No	Yes	No	No	yes	270	1	0	0	1	0	0	1	1	1	1	0	1	0	0	1	0	1	overweight	none	none
+> 15	Female	Urban	> 7.5%	1.55	66	27.5	none	none	none	No	Yes	Middle quartiles	Highest quartiles	No	Yes	Yes	Injection	No	Yes	No	No	yes	730	1	1	0	0	0	0	1	0	1	1	0	1	0	0	1	1	0	overweight	none	none
+> 15	Male	Suburban	> 7.5%	1.65	55	20.2	none	none	none	No	No	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	2190	0	1	0	0	0	0	0	1	0	1	0	0	1	1	1	1	0	normal weight	none	none
+> 15	Female	Urban	> 7.5%	1.46	34	16	none	none	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	Yes	Yes	Yes	No	yes	3285	1	1	0	0	0	0	1	0	0	1	1	1	1	0	1	1	0	underweight	none	none
+< 15	Male	Rural	> 7.5%	1.36	28	15.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	730	0	0	0	1	0	1	1	0	0	1	0	1	1	0	1	1	0	underweight	none	none
+> 15	Male	Suburban	> 7.5%	1.6	45	17.6	none	none	none	No	No	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	No	No	yes	730	0	1	0	0	0	0	0	1	0	1	0	0	0	0	1	1	0	underweight	none	none
+< 5	Female	Urban	> 7.5%	1.07	18	15.7	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	No	No	yes	730	1	0	0	0	1	0	1	1	0	1	0	1	0	0	1	1	0	underweight	none	none
+> 15	Female	Rural	< 7.5%	1.5	46	20.4	none	none	none	No	Yes	Lowest quartiles	Lowest quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	730	1	1	0	0	0	0	1	1	0	1	1	1	0	0	1	0	0	normal weight	none	none
+> 15	Female	Rural	> 7.5%	1.56	60	24.7	eye problem	none	none	No	Yes	Highest quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	No	No	yes	730	1	1	0	0	0	0	1	1	0	1	1	1	0	0	1	1	1	normal weight	none	none
+> 15	Male	Suburban	< 7.5%	1.39	45	23.3	ear problem	none	none	No	Yes	Lowest quartiles	unkhown	No	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	1095	0	1	0	0	0	0	1	0	0	1	1	1	1	1	1	0	1	normal weight	none	none
+< 15	Female	Rural	> 7.5%	1.56	51	21	none	none	none	No	Yes	Middle quartiles	unkhown	No	Yes	Yes	Injection	Yes	No	Yes	Yes	yes	730	1	0	0	1	0	0	1	0	1	1	1	0	1	1	1	1	0	normal weight	none	none
+< 15	Female	Rural	> 7.5%	1.38	23	12.1	none	none	none	Yes	No	Lowest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes	365	1	0	0	1	0	1	0	1	1	1	0	0	1	1	1	1	0	underweight	none	none
+> 15	Female	Suburban	> 7.5%	1.52	55	23.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	Yes	Yes	No	yes	1095	1	1	0	0	0	1	1	0	0	1	0	1	1	0	1	1	0	normal weight	none	none
+> 15	Female	Rural	> 7.5%	1.51	44	19.3	none	none	none	Yes	No	Middle quartiles	unkhown	No	Yes	Yes	Injection	Yes	Yes	Yes	Yes	yes	1825	1	1	0	0	0	1	0	0	1	1	1	1	1	1	1	1	0	normal weight	none	none
+< 11	Female	Rural	> 7.5%	1.48	32	14.6	none	none	none	No	No	Middle quartiles	unkhown	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes	365	1	0	1	0	0	0	0	1	1	1	0	0	1	1	1	1	0	underweight	none	none
+> 15	Male	Urban	> 7.5%	1.6	45	17.6	fever problem	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	0	1	0	0	0	0	1	1	0	1	0	1	1	1	1	1	1	underweight	none	none
+> 15	Female	Rural	< 7.5%	1.35	45	24.7	none	none	none	Yes	No	Lowest quartiles	Highest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	2190	1	1	0	0	0	1	0	1	0	1	0	1	1	1	1	0	0	normal weight	none	none
+> 15	Male	Urban	> 7.5%	1.65	55	20.2	skin problem	none	none	Yes	Yes	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	1095	0	1	0	0	0	1	1	1	0	1	0	0	1	1	1	1	1	normal weight	none	none
+< 11	Female	Urban	> 7.5%	1.32	35	20.1	eye	cyrocities	none	No	Yes	Middle quartiles	Highest quartiles	No	Yes	Yes	Injection	No	Yes	Yes	Yes	yes	240	1	0	1	0	0	0	1	0	1	1	0	1	1	1	1	1	1	normal weight	NA	none
+> 15	Male	Suburban	> 7.5%	1.55	45	18.7	leg pain	none	none	Yes	Yes	Lowest quartiles	Lowest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	730	0	1	0	0	0	1	1	1	0	1	0	1	1	1	1	1	1	normal weight	none	none
+< 11	Female	Suburban	> 7.5%	1.43	41	20	none	none	none	Yes	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	730	1	0	1	0	0	1	0	1	0	1	1	1	1	1	1	1	0	normal weight	none	none
+> 15	Female	Rural	< 7.5%	1.56	45	18.5	eye	screen problem	none	No	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	Yes	Yes	yes	3650	1	1	0	0	0	0	1	0	0	1	0	0	1	1	1	0	1	normal weight	Optical Issues	none
+> 15	Male	Rural	< 7.5%	1.46	32	15	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	Yes	Yes	yes	365	0	1	0	0	0	1	0	1	0	1	1	0	1	1	1	0	0	underweight	none	none
+> 15	Female	Suburban	> 7.5%	1.48	35	16	fever problem	none	none	No	No	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	No	Yes	No	yes	2555	1	1	0	0	0	0	0	0	1	1	1	0	1	0	1	1	1	underweight	none	none
+> 15	Female	Rural	> 7.5%	1.46	38	17.8	none	none	none	Yes	No	Middle quartiles	unkhown	No	Yes	Yes	Injection	No	Yes	Yes	Yes	yes	365	1	1	0	0	0	1	0	0	1	1	0	1	1	1	1	1	0	underweight	none	none
+> 15	Male	Rural	< 7.5%	1.6	87	34	none	none	none	Yes	No	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	No	Yes	Yes	Yes	yes	4015	0	1	0	0	0	1	0	0	1	1	0	1	1	1	1	0	0	obese	none	none
+> 15	Male	Rural	> 7.5%	1.61	52	20.1	none	none	none	No	No	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	Yes	No	No	Yes	yes	1095	0	1	0	0	0	0	0	1	1	1	1	0	0	1	1	1	0	normal weight	none	none
+> 15	Male	Urban	> 7.5%	1.72	53	17.9	leg pain	none	none	Yes	Yes	Middle quartiles	Middle quartiles	No	No	Yes	Injection	No	No	No	No	yes	3285	0	1	0	0	0	1	1	0	0	1	0	0	0	0	1	1	1	underweight	none	none
+> 15	Male	Rural	> 7.5%	1.68	48	17	brain	eye	hormon	No	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	5475	0	1	0	0	0	0	0	1	0	1	0	0	1	1	1	1	1	underweight	Optical Issues	Hormone Irregularities
+< 11	Male	Urban	< 7.5%	1.32	27	15.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	No	Yes	Yes	yes	1460	0	0	1	0	0	1	1	1	0	1	1	0	1	1	1	0	0	underweight	none	none
+> 15	Male	Rural	> 7.5%	1.43	52	25.4	teeth	eye problem	none	No	No	Middle quartiles	Middle quartiles	No	Yes	Yes	Injection	Yes	Yes	Yes	Yes	yes	2920	0	1	0	0	0	0	0	0	1	1	1	1	1	1	1	1	1	overweight	Optical Issues	none
+< 11	Male	Rural	> 7.5%	1.3	20	11.8	fever problem	none	none	No	No	Lowest quartiles	Lowest quartiles	No	No	Yes	Injection	No	No	Yes	No	yes	1095	0	0	1	0	0	0	0	0	0	1	0	0	1	0	1	1	1	underweight	none	none
+< 15	Male	Suburban	> 7.5%	1.5	36	16	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	No	Yes	yes	30	0	0	0	1	0	1	0	1	1	1	0	0	0	1	1	1	0	underweight	none	none
+> 15	Female	Rural	> 7.5%	1.53	48	20.5	skin problem	none	none	Yes	Yes	Highest quartiles	Highest quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	1825	1	1	0	0	0	1	1	1	0	1	1	1	1	1	1	1	1	normal weight	none	none
+> 15	Male	Suburban	> 7.5%	1.68	63	22.3	skin problem	none	none	No	Yes	Middle quartiles	unkhown	Yes	No	Yes	Injection	Yes	Yes	No	Yes	yes	240	0	1	0	0	0	0	1	1	0	1	1	1	0	1	1	1	1	normal weight	none	none
+< 5	Male	Suburban	> 7.5%	1.5	50	22.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	Yes	Yes	Yes	Yes	yes	60	0	0	0	0	1	1	1	1	0	1	1	1	1	1	1	1	0	normal weight	none	none
+> 15	Female	Rural	> 7.5%	1.63	50	18.8	none	none	none	No	No	Lowest quartiles	unkhown	Yes	No	Yes	Injection	No	Yes	No	Yes	yes	3650	1	1	0	0	0	0	0	1	0	1	0	1	0	1	1	1	0	normal weight	none	none
+< 11	Male	Rural	> 7.5%	1.56	50	20.5	none	none	none	Yes	No	Lowest quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	150	0	0	1	0	0	1	0	1	0	1	0	0	1	1	1	1	0	normal weight	none	none
+> 15	Female	Urban	< 7.5%	1.47	70	32.4	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	4745	1	1	0	0	0	0	1	1	0	1	0	0	1	1	1	0	0	obese	none	none
+< 11	Female	Rural	> 7.5%	1.24	20	13	none	none	none	Yes	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	Yes	No	Yes	Yes	yes	15	1	0	1	0	0	1	0	1	0	1	1	0	1	1	1	1	0	underweight	none	none
+> 15	Male	Rural	< 7.5%	1.63	50	18.8	none	none	none	Yes	No	Lowest quartiles	unkhown	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	2555	0	1	0	0	0	1	0	1	0	1	0	0	1	1	1	0	0	normal weight	none	none
+> 15	Male	Rural	> 7.5%	1.63	44	16.6	none	none	none	No	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	2190	0	1	0	0	0	0	0	1	0	1	0	0	1	1	1	1	0	underweight	none	none
+> 15	Female	Suburban	< 7.5%	1.6	56	21.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	Yes	Yes	Yes	yes	3650	1	1	0	0	0	1	1	1	1	1	0	1	1	1	1	0	0	normal weight	none	none
+> 15	Female	Urban	< 7.5%	1.52	55	23.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	1095	1	1	0	0	0	1	1	1	0	1	0	1	1	1	1	0	0	normal weight	none	none
+> 15	Female	Suburban	> 7.5%	1.52	71	30.7	none	none	none	Yes	No	Lowest quartiles	Lowest quartiles	Yes	No	Yes	Injection	Yes	No	No	Yes	yes	3285	1	1	0	0	0	1	0	1	0	1	1	0	0	1	1	1	0	obese	none	none
+> 15	Male	Rural	> 7.5%	1.65	56	20.6	none	none	none	Yes	No	Middle quartiles	unkhown	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	3139	0	1	0	0	0	1	0	1	0	1	0	0	1	1	1	1	0	normal weight	none	none
+< 11	Male	Urban	> 7.5%	1.52	35	15.1	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	1460	0	0	1	0	0	1	0	1	0	1	0	0	1	1	1	1	0	underweight	none	none
+< 11	Female	Rural	> 7.5%	1.39	29	15	none	none	none	No	Yes	Highest quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes	60	1	0	1	0	0	0	1	1	1	1	0	0	1	1	1	1	0	underweight	none	none
+> 15	Male	Suburban	> 7.5%	1.6	47	18.4	kidny problem	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	4015	0	1	0	0	0	1	0	1	0	1	0	0	1	1	1	1	1	underweight	none	none
+< 11	Female	Suburban	< 7.5%	1.2	28	19.4	eye	ear problem	none	No	Yes	Middle quartiles	Highest quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	1825	1	0	1	0	0	0	1	1	0	1	0	1	1	1	1	0	1	normal weight	Ear Issues	none
+< 11	Male	Suburban	> 7.5%	1.19	21	14.8	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	Yes	Yes	Yes	yes	730	0	0	1	0	0	1	0	1	0	1	0	1	1	1	1	1	0	underweight	none	none
+< 15	Female	Rural	< 7.5%	1.47	46	21.3	eye	allergy	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	Yes	Injection	No	No	Yes	Yes	yes	2190	1	0	0	1	0	1	0	1	0	1	0	0	1	1	1	0	1	normal weight	NA	none
+< 15	Female	Urban	> 7.5%	1.53	43	18.4	eye problem	none	none	No	Yes	Middle quartiles	Highest quartiles	Yes	Yes	Yes	Injection	Yes	No	Yes	Yes	yes	4015	1	0	0	1	0	0	1	1	1	1	1	0	1	1	1	1	1	underweight	none	none
+< 11	Female	Suburban	> 7.5%	1.44	49	23.6	none	none	none	No	Yes	Middle quartiles	Highest quartiles	Yes	Yes	Yes	Injection	No	Yes	No	No	yes	1095	1	0	1	0	0	0	1	1	1	1	0	1	0	0	1	1	0	normal weight	none	none
+> 15	Female	Rural	> 7.5%	1.53	42	17.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	Yes	Injection	No	No	Yes	Yes	yes	1825	1	1	0	0	0	1	1	1	1	1	0	0	1	1	1	1	0	underweight	none	none
+< 11	Female	Urban	< 7.5%	1.14	17	13.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	1	0	1	0	0	1	1	1	0	0	1	0	0	0	0	0	0	underweight	none	none
+< 5	Female	Urban	< 7.5%	0.92	10.5	12.4	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	1	0	0	0	1	0	1	1	0	0	1	0	0	0	0	0	0	underweight	none	none
+< 5	Male	Urban	< 7.5%	0.92	12	14.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	0	0	1	1	1	1	0	0	1	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.19	15	10.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 5	Male	Urban	< 7.5%	1.07	15	13.1	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Suburban	< 7.5%	1.25	21	13.4	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	1	0	0	0	1	1	0	0	1	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.32	31	17.8	none	none	none	No	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.12	18	14.3	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+> 15	Male	Urban	< 7.5%	1.75	59	19.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	1	0	0	0	1	1	1	0	0	1	0	0	0	0	0	0	normal weight	none	none
+< 11	Male	Urban	< 7.5%	1.14	23	17.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.09	21	17.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	1	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.14	22	16.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.22	29	19.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	0	0	0	0	0	0	normal weight	none	none
+< 11	Male	Urban	< 7.5%	1.19	27	19.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 15	Male	Urban	< 7.5%	1.3	27	16	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.25	31	19.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 15	Male	Urban	< 7.5%	1.35	29	15.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.22	25	16.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 15	Male	Urban	< 7.5%	1.3	39	23.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	1	0	0	0	0	0	0	normal weight	none	none
+< 11	Male	Urban	< 7.5%	1.3	29	17.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	underweight	none	none
+< 15	Male	Urban	< 7.5%	1.25	29	18.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	1	0	0	0	0	0	0	normal weight	none	none
+< 11	Male	Urban	< 7.5%	1.19	20	14.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.22	22	14.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	1	0	0	0	0	0	0	underweight	none	none
+> 15	Male	Urban	< 7.5%	1.65	73	26.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	1	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	overweight	none	none
+< 11	Male	Urban	< 7.5%	1.3	31	18.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.17	22	16.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	underweight	none	none
+> 15	Male	Urban	< 7.5%	1.52	50	21.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	1	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	normal weight	none	none
+> 15	Male	Suburban	< 7.5%	1.65	53	19.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	1	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	normal weight	none	none
+< 11	Male	Suburban	< 7.5%	1.17	20	14.6	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	0	1	1	0	0	0	0	0	0	0	0	underweight	none	none
+< 15	Male	Suburban	< 7.5%	1.48	39	17.8	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	0	1	0	1	0	1	1	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Suburban	< 7.5%	1.19	30	21.2	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	0	1	1	0	0	0	0	0	0	0	0	normal weight	none	none
+< 15	Male	Suburban	< 7.5%	1.37	39	20.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	normal weight	none	none
+< 11	Male	Suburban	< 7.5%	1.25	24	15.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Suburban	< 7.5%	1.14	19	14.6	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	0	1	1	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Suburban	< 7.5%	1.27	25	15.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	1	0	0	0	0	0	0	underweight	none	none
+> 15	Male	Suburban	< 7.5%	1.55	51	21.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	1	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	normal weight	none	none
+> 15	Male	Suburban	< 7.5%	1.58	58	23.2	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	1	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	normal weight	none	none
+< 11	Male	Suburban	< 7.5%	1.3	36	21.3	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	Yes	No	No	No	0	0	0	1	0	0	1	0	1	1	0	1	1	0	0	0	0	0	normal weight	none	none
+< 11	Male	Suburban	< 7.5%	1.3	45	26.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	overweight	none	none
+< 15	Male	Suburban	< 7.5%	1.48	45	20.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	1	0	0	0	0	0	0	normal weight	none	none
+< 11	Male	Urban	< 7.5%	1.22	30	20.2	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	0	1	1	0	1	0	0	0	0	0	0	normal weight	none	none
+< 11	Male	Urban	< 7.5%	1.3	32	18.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	1	0	0	0	0	0	0	normal weight	none	none
+< 11	Male	Urban	< 7.5%	1.3	32	18.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	0	0	0	0	0	0	normal weight	none	none
+< 15	Male	Urban	< 7.5%	1.65	32	11.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	1	0	0	0	0	0	0	underweight	none	none
+< 15	Male	Urban	< 7.5%	1.63	56	21.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	normal weight	none	none
+< 15	Male	Urban	< 7.5%	1.32	37	21.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	1	0	0	0	0	0	0	normal weight	none	none
+< 15	Male	Urban	< 7.5%	1.58	41	16.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.27	25	15.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	1	0	0	1	0	0	0	0	0	underweight	none	none
+< 15	Male	Urban	< 7.5%	1.32	30	17.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	Yes	No	No	Yes	No	No	No	No	0	0	0	0	1	0	1	1	1	1	0	1	0	0	0	0	0	0	underweight	none	none
+< 15	Male	Urban	< 7.5%	1.25	29	18.6	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	Yes	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	0	1	1	0	0	1	0	0	0	0	0	normal weight	none	none
+> 15	Male	Urban	< 7.5%	1.55	45	18.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	1	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 11	Female	Urban	< 7.5%	1.09	21	17.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.14	20	15.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.22	24	16.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.19	30	21.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 11	Male	Urban	< 7.5%	1.37	55	29.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight	none	none
+< 15	Male	Urban	< 7.5%	1.5	70	31.1	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	obese	none	none
+< 11	Male	Urban	< 7.5%	1.09	25	21	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 11	Male	Urban	< 7.5%	1.25	31	19.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 11	Male	Urban	< 7.5%	1.25	20	12.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.01	16	15.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	1	0	0	0	0	0	underweight	none	none
+< 15	Female	Urban	< 7.5%	1.58	45	18	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.32	35	20.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 11	Female	Urban	< 7.5%	1.25	24	15.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 5	Male	Urban	< 7.5%	0.94	14	15.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 11	Female	Rural	< 7.5%	0.97	25	26.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight	none	none
+< 5	Female	Rural	< 7.5%	0.74	16	29.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	overweight	none	none
+> 15	Female	Rural	< 7.5%	1.52	45	19.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	1	0	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 5	Female	Suburban	< 7.5%	0.53	7	24.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 15	Female	Suburban	< 7.5%	1.58	38	15.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 11	Male	Suburban	< 7.5%	0.92	24	28.4	none	none	none	Yes	Yes	Lowest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight	none	none
+< 11	Female	Rural	< 7.5%	0.97	18	19.1	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 11	Female	Rural	< 7.5%	0.99	22	22.4	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 15	Female	Rural	< 7.5%	1.61	31	12	none	none	none	No	No	Highest quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 5	Male	Rural	< 7.5%	0.74	12	21.9	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 5	Male	Rural	< 7.5%	0.61	12	32.2	none	none	none	No	Yes	Middle quartiles	Highest quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	0	1	0	1	1	0	0	0	1	0	0	0	0	0	obese	none	none
+< 15	Female	Rural	< 7.5%	1.52	35	15.1	none	none	none	Yes	No	Middle quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 5	Male	Rural	< 7.5%	0.61	9	24.2	none	none	none	Yes	No	Middle quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 15	Female	Urban	< 7.5%	1.3	28	16.6	none	none	none	Yes	No	Middle quartiles	Highest quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Female	Urban	< 7.5%	1.22	25	16.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 5	Male	Urban	< 7.5%	0.97	16	17	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 5	Female	Urban	< 7.5%	0.92	12	14.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 15	Male	Urban	< 7.5%	1.27	40	24.8	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 11	Female	Urban	< 7.5%	1.12	24	19.1	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 11	Male	Urban	< 7.5%	1.22	22	14.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.12	26	20.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 11	Female	Urban	< 7.5%	1.12	26	20.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 15	Female	Urban	< 7.5%	1.14	22	16.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.04	18	16.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 15	Male	Urban	< 7.5%	1.52	40	17.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.32	35	20.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 11	Female	Urban	< 7.5%	1.3	35	20.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 15	Female	Urban	< 7.5%	1.37	40	21.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 15	Male	Urban	< 7.5%	1.22	27	18.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	0.92	18	21.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+> 15	Male	Urban	< 7.5%	1.55	64	26.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	1	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	overweight	none	none
+< 5	Male	Urban	< 7.5%	0.79	16	25.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	overweight	none	none
+< 11	Male	Urban	< 7.5%	1.3	40	23.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 15	Female	Urban	< 7.5%	1.67	48	17.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 15	Male	Urban	< 7.5%	1.35	50	27.4	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight	none	none
+< 11	Female	Urban	< 7.5%	0.92	25	29.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight	none	none
+< 11	Male	Suburban	< 7.5%	1.25	35	22.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 15	Female	Suburban	< 7.5%	1.3	22	13	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 15	Male	Urban	< 7.5%	1.17	30	21.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 11	Female	Urban	< 7.5%	1.35	35	19.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 5	Male	Suburban	< 7.5%	0.61	11	29.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	overweight	none	none
+< 15	Male	Urban	< 7.5%	1.48	38	17.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 15	Male	Urban	< 7.5%	1.22	23	15.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 15	Female	Urban	< 7.5%	1.58	45	18	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	0.61	15	40.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	morbid obesity	none	none
+< 15	Male	Suburban	< 7.5%	1.63	48	18.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 15	Female	Rural	< 7.5%	1.25	25	16	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+> 15	Male	Urban	< 7.5%	1.7	54	18.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	1	0	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 11	Female	Urban	< 7.5%	1.17	26	19	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 15	Male	Urban	< 7.5%	1.27	28	17.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Female	Urban	< 7.5%	0.97	25	26.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight	none	none
+< 11	Male	Urban	< 7.5%	0.98	40	41.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	morbid obesity	none	none
+< 5	Male	Rural	< 7.5%	0.65	18	42.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	0	0	1	1	1	1	0	0	1	0	0	0	0	0	0	morbid obesity	none	none
+< 11	Male	Suburban	< 7.5%	1.05	35	31.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	0	0	0	0	0	0	obese	none	none
+< 11	Male	Suburban	< 7.5%	0.96	20	21.7	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 5	Male	Suburban	< 7.5%	0.61	10	26.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	0	0	1	1	1	1	0	0	1	0	0	0	0	0	0	overweight	none	none
+< 5	Female	Suburban	< 7.5%	0.82	12	17.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 11	Female	Rural	< 7.5%	0.76	25	43.3	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	1	0	1	0	0	0	0	0	0	0	0	0	morbid obesity	none	none
+< 11	Female	Rural	< 7.5%	0.92	30	35.4	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	1	0	1	0	0	1	0	1	0	0	1	0	0	0	0	0	0	severe obesity	none	none
+< 15	Female	Urban	< 7.5%	1.32	45	25.8	none	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	1	0	0	1	0	1	0	1	0	0	1	0	0	0	0	0	0	overweight	none	none
+> 15	Male	Suburban	< 7.5%	1.67	60	21.5	none	none	none	Yes	No	Highest quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	1	0	0	0	1	0	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+> 15	Male	Suburban	< 7.5%	1.67	55	19.7	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	1	0	0	0	1	0	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 15	Female	Suburban	< 7.5%	1.22	40	26.9	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	overweight	none	none
+< 15	Male	Rural	< 7.5%	1.27	40	24.8	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 5	Female	Suburban	< 7.5%	0.61	20	53.7	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	1	0	0	0	1	0	0	1	0	0	1	0	0	0	0	0	0	morbid obesity	none	none
+< 11	Male	Urban	< 7.5%	1.12	32	25.5	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	1	0	0	0	0	0	0	overweight	none	none
+< 11	Female	Urban	< 7.5%	1.25	25	16	none	none	none	No	No	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 15	Male	Urban	< 7.5%	1.42	30	14.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 15	Male	Urban	< 7.5%	1.5	43	19.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 11	Female	Urban	< 7.5%	1.3	28	16.6	none	none	none	Yes	Yes	Highest quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	1	1	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	0.74	15	27.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	0	0	0	0	0	0	overweight	none	none
+< 15	Female	Urban	< 7.5%	1.48	40	18.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+> 15	Female	Urban	< 7.5%	1.43	35	17.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	1	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 15	Female	Urban	< 7.5%	1.63	45	16.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 15	Female	Urban	< 7.5%	1.52	46	19.9	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 15	Male	Urban	< 7.5%	1.58	50	20	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	1	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 11	Female	Urban	< 7.5%	0.92	18	21.3	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	normal weight	none	none
+< 11	Female	Urban	< 7.5%	0.74	15	27.4	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight	none	none
+< 5	Male	Urban	< 7.5%	0.44	12	62	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	morbid obesity	none	none
+< 5	Male	Urban	< 7.5%	0.61	12	32.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	obese	none	none
+< 11	Male	Urban	< 7.5%	0.74	14	25.6	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	overweight	none	none
+< 15	Female	Urban	< 7.5%	1.43	35	17.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	1	0	1	1	1	0	0	0	0	0	0	0	0	0	underweight	none	none
+< 11	Female	Urban	< 7.5%	1.22	15	10.1	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 5	Male	Urban	< 7.5%	0.74	7	12.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	0	0	1	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 11	Male	Urban	< 7.5%	1.01	12	11.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	0	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 11	Female	Suburban	< 7.5%	0.92	12	14.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 5	Female	Suburban	< 7.5%	0.61	7	18.8	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	No	No	No	No	0	1	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	0	normal weight	none	none
+< 11	Female	Suburban	< 7.5%	0.92	12	14.2	none	none	none	Yes	Yes	Middle quartiles	Middle quartiles	Yes	No	No	No	No	Yes	No	No	No	0	1	0	1	0	0	1	1	1	0	0	0	1	0	0	0	0	0	underweight	none	none
+< 5	Female	Urban	< 7.5%	0.61	5	13.4	none	none	none	Yes	No	Middle quartiles	Middle quartiles	Yes	No	No	No	Yes	Yes	No	No	No	0	1	0	0	0	1	1	0	1	0	0	1	1	0	0	0	0	0	underweight	none	none
