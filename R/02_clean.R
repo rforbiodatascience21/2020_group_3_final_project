@@ -7,10 +7,6 @@ library("tidyverse")
 library("dplyr")
 library("tidyr")
 
-
-# Define functions --------------------------------------------------------
-source(file = "R/99_project_functions.R")
-
 # Load data ---------------------------------------------------------------
 my_data <- read_tsv(file = "data/01_my_data_load.tsv")
 
@@ -22,7 +18,7 @@ my_data_clean <- my_data %>%
                          Age == "Less then 5" ~ "< 5"),
          HbA1c = case_when(HbA1c == "Over 7.5%" ~"> 7.5%",
                            HbA1c == "Less then 7.5%" ~"< 7.5%"),
-         BMI = round(BMI,1))
+         BMI = round(BMI, 1))
 
 # Write data --------------------------------------------------------------
 write_tsv(x = my_data_clean,

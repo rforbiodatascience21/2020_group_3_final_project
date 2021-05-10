@@ -2,46 +2,154 @@
 title: 'Analysis of Data Set <br> T1 - Diabetes'
 author: Group 3 <br> <br> August Ehlers s164487 <br> Holger Ehlers s182521 <br> Kiara Szakter s202504 <br> Ranjitha Sekhar s210271
 output:
-  ioslides_presentation: default
-  slidy_presentation: default
+  ioslides_presentation: 
+    css: style.css
+    slidy_presentation: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+## Outline
+- Introduction
+
+- Materials and Methods
+
+- Results 
+
+- Discussion
+
+- Conclusion
 
 ## Introduction
+- Data set of Rural People from Bangladesh with or without T1-Diabetes 
 
+- Contains 306 data points and 22 variables
 
+- Exploratory Data Analysis
 
-```{r}
-```
+- Classify T1 Diabetes children and explore important variables for T1 diabetes
 
 ## Materials and Methods
+- Obtain data set
+
+- Data Wrangling
+
+- EDA
+
+- Analysis and Modeling
+
+- LR model
+
+- Shiny App
+
+- Working collaboratively using RStudio Cloud and Github
+
+## Results: Data wrangling
 
 
-## Data Visualisation
-```{r, echo=FALSE, fig.cap="Fig A", out.width = '100%'}
+```{r, message=FALSE, out.width = '200%'}
+
+# Load libraries
+library("tidyverse")
+# Load data
+my_data_clean <- read_tsv(file = "/cloud/project/data/02_my_data_clean.tsv")
+#mutate column 
+my_data_clean <- my_data_clean %>%
+  mutate(Age = case_when(Age == "greater then 15" ~ "> 15",
+                         Age == "Less then 11" ~ "< 11",
+                         Age == "Less then 15" ~"< 15",
+                         Age == "Less then 5" ~ "< 5"),
+         HbA1c = case_when(HbA1c == "Over 7.5%" ~"> 7.5%",
+                           HbA1c == "Less then 7.5%" ~"< 7.5%"),
+         BMI = round(BMI, 1))
+
+```
+
+## Results: Data wrangling
+```{r, echo=FALSE }
+knitr::include_graphics("/cloud/project/data/_raw/augment_data.png")
+```
+
+## Results: Data wrangling
+
+```{r, echo=TRUE, out.width = '200%'}
+# Wrangle data 
+my_data_clean_aug <- my_data_clean %>%
+  mutate(Dur_disease = str_extract(`Duration of disease`,"\\d+\\.?\\d*"),
+  unit = str_replace(`Duration of disease`, Dur_disease,"")) %>%
+  select(-`Duration of disease`)
+```
+## Results: Data Wrangling
+```{r,warning=FALSE, out.width = '200%'}
+# Converting duration to days for every value
+my_data_clean_aug <- my_data_clean_aug %>%
+  mutate(Dur_disease = as.numeric(Dur_disease)) %>%
+  mutate(Dur_disease = case_when(unit == "d" ~ Dur_disease,
+                                 unit == "w" ~ Dur_disease * 7,
+                                 unit == "m" ~ Dur_disease * 30,
+                                 unit == "y" ~ Dur_disease * 365),
+         Dur_disease = replace_na(Dur_disease, 0)) %>%
+  
+  # We do not need the unit column anymore
+  select(-unit) %>%
+  
+  # Separating "Other disease" column into three
+  separate(`Other diease`,
+           into = c("first_disease",
+                    "second_disease",
+                    "third_disease"),
+           sep = ",")
+```
+
+## Results: Exploratory Data Analysis
+```{r, echo=FALSE, out.width = '100%'}
 knitr::include_graphics("/cloud/project/results/Scatter1.png")
 ```
-## Data Visualisation
-```{r, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+
+## Results: EDA (contd.)
+```{r, echo=FALSE, out.width = '110%'}
 knitr::include_graphics("/cloud/project/results/ScatterPatch.png")
 ```
 
 
+## Results: EDA (contd.)
+```{r, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/06_ExplorativeAnalysis_Histogram.png")
+```
+
+## Results: EDA (contd.)
+```{r, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/06_ExplorativeAnalysis_Density.png")
+```
 
 
-## Results
-```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+## Results: Analysis and Modeling
+```{r pressure, echo=FALSE, out.width = '100%'}
 knitr::include_graphics("/cloud/project/results/05_PCA_varExplained.png")
 ```
 
-## Results
+## Results: Analysis and Modeling
 ```{r, echo=FALSE, fig.cap="Data is well seperated so classification seems to be feasible.", out.width = '100%'}
 knitr::include_graphics("/cloud/project/results/05_PCA_scatter.png")
 ```
 
 ## Discussion
-```{r}
-```
+
+- Limited by the data set: location, race and habitat of source data limit the global usability of the model
+
+- Unique observation: Family history of diabetes does not impact the likelihood of diabetes
+
+- The accuracy of our model can be increased with added parameters and data points
+
+- Scope for cross platforming and integrated studies 
+
+## Conclusion
+
+- It was feasible to do data analysis and obtain biological insights about our data set
+
+- We conclude that height and weight are important indicators of T1 diabetes 
+
+- We expected family history to be more important
+
+- More descriptive data would have made it easier to conclude and test hypotheses

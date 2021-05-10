@@ -77,15 +77,15 @@ p2 <- ggplot(data = my_data_clean_aug,
         plot.title = element_text(hjust = 0.5)) +
   # adding custom labels and title
   labs(title = "Weight distribution across BMI classes stratified on T1 diabetes",
-       x = "Height",
+       x = "Weight",
        y = "BMI class")
 p2
 # Tile plot - Displaying individuals based on having disease and BMI class
 # and stratifying on affected by T1 diabetes
 p3 <- ggplot(data = my_data_clean_aug,
-             mapping = aes(x = first_disease,
-                           y = BMI_class,
-                           fill = AffectedBin)) +
+             mapping = aes(x = `Area of Residence`,
+                           y = Age,
+                           fill = BMI)) +
   geom_tile(alpha=0.5) +
   # Defining color gradient
   scale_fill_gradient2(low="yellow",
@@ -107,9 +107,6 @@ p3 <- ggplot(data = my_data_clean_aug,
         axis.text.y = element_text(size = 12)) +
   labs(x="First disease", y="BMI class")
 p3
-
-# Model data
-#my_data_clean_aug %>% ...
 
 # Write data --------------------------------------------------------------
 ggsave(plot = p1, filename = "results/06_ExplorativeAnalysis_Histogram.png")

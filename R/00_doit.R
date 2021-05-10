@@ -2,6 +2,11 @@
 source(file = "R/01_load.R")
 source(file = "R/02_clean.R")
 source(file = "R/03_augment.R")
-source(file = "R/04_analysis_i.R")
+source(file = "R/04_DataVisualization.R") # look at explorative analysis and maybe add histogram
+source(file = "R/05_PCA.R")
+source(file = "R/06_lr_model.R")
 
+
+
+# Generate Rmd
 source(file = "doc/Final_Project.Rmd")

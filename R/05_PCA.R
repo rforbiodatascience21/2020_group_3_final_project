@@ -1,16 +1,12 @@
 # Clear workspace ---------------------------------------------------------
 rm(list = ls())
 
-
 # Load libraries ----------------------------------------------------------
 library(tidyverse)
 library(broom)
 library(vroom)
 library(cowplot)
 library(patchwork)
-
-# Define functions --------------------------------------------------------
-source(file = "R/99_project_functions.R")
 
 # Load data ---------------------------------------------------------------
 my_data_clean_aug <- read_tsv(file = "data/03_my_data_clean_aug.tsv")
@@ -28,7 +24,8 @@ pca_fit <- my_data_clean_aug %>%
 p1 <- pca_fit %>%
   tidy(matrix = "eigenvalues") %>% # getting variance from the the eigenvalues object
   ggplot(aes(PC, percent)) + # plotting the variance explained by each PC
-  geom_col(fill = "red", alpha = 0.5) +
+  geom_col(fill = "red",
+           alpha = 0.5) +
   scale_x_continuous(breaks = 1:19) +
   scale_y_continuous(
     labels = scales::percent_format(),
@@ -41,9 +38,10 @@ p1 <- pca_fit %>%
        y = "PERCENT")
 
 # define arrow style for plotting
-arrow_style <- arrow(
-  angle = 20, ends = "first", type = "closed", length = grid::unit(4, "pt")
-)
+arrow_style <- arrow(angle = 20,
+                     ends = "first",
+                     type = "closed",
+                     length = grid::unit(4, "pt"))
 
 # Plotting the directions for PC1,(PC2,PC3,PC4)
 p2a <- pca_fit %>%
@@ -62,7 +60,8 @@ p2a <- pca_fit %>%
     color = "purple",
     size = 3
   ) +
-  geom_text_repel(aes(label = "") , size =3) +
+  geom_text_repel(aes(label = "") ,
+                  size =3) +
   xlim(-.6, .6) + ylim(-.5, .5) +
   coord_fixed() + 
   theme_minimal_grid(12)
@@ -79,16 +78,13 @@ p2b <- pca_fit %>%
   geom_segment(xend = 0,
                yend = 0,
                arrow = arrow_style) +
-  geom_text(
-    aes(label = column),
-    hjust = 1, nudge_x = -0.02, 
-    color = "purple",
-    size = 3
-  ) +
+  geom_text(aes(label = column),
+            hjust = 1, nudge_x = -0.02, 
+            color = "purple",
+            size = 3) +
   xlim(-.6, .6) + ylim(-.5, .5) +
   coord_fixed() + 
   theme_minimal_grid(12)
-
 p2b
 
 p2c <- pca_fit %>%
@@ -101,16 +97,15 @@ p2c <- pca_fit %>%
   geom_segment(xend = 0,
                yend = 0,
                arrow = arrow_style) +
-  geom_text(
-    aes(label = column),
-    hjust = 1, nudge_x = -0.02, 
-    color = "purple",
-    size = 3
-  ) +
+  geom_text(aes(label = column),
+            hjust = 1, nudge_x = -0.02, 
+            color = "purple",
+            size = 3) +
   xlim(-.6, .6) + ylim(-.5, .5) +
   coord_fixed() + 
   theme_minimal_grid(12)
 p2c
+
 p2d <- pca_fit %>%
   tidy(matrix = "rotation") %>%
   pivot_wider(names_from = "PC",
@@ -121,26 +116,21 @@ p2d <- pca_fit %>%
   geom_segment(xend = 0,
                yend = 0,
                arrow = arrow_style) +
-  geom_text(
-    aes(label = column),
-    hjust = 1, nudge_x = -0.02, 
-    color = "purple",
-    size = 3
-  ) +
+  geom_text(aes(label = column),
+            hjust = 1, nudge_x = -0.02, 
+            color = "purple",
+            size = 3) +
   xlim(-.6, .6) + ylim(-.5, .5) +
   coord_fixed() + 
   theme_minimal_grid(12)
-
 p2d
 
 p2e <- ((p2a + p2b) / (p2c + p2d)) +
-  plot_annotation(
-    title = "PCA - Directions (T1-Diabetes)") +
+  plot_annotation(title = "PCA - Directions (T1-Diabetes)") +
   plot_layout(guides = "collect") & # moving legend to the bottom 
   theme(legend.position = "bottom",
         plot.title = element_text(hjust = 0.5))
 p2e
-
 
 p3 <- pca_fit %>%
   augment(my_data_clean_aug) %>%
@@ -153,7 +143,9 @@ p3 <- pca_fit %>%
                              y = .fittedPC2,
                              fill = Affected,
                              color = Affected),
-               geom="polygon", level=0.95, alpha=0.2) +
+               geom="polygon",
+               level=0.95,
+               alpha=0.2) +
   guides(fill = FALSE) + 
   theme(axis.text.x=element_text(angle =0,
                                  vjust=1,
@@ -161,7 +153,6 @@ p3 <- pca_fit %>%
         legend.position ="none")  +
   labs(x = "PC1",
        y = "PC2")
-
 p3
 
 p4 <- pca_fit %>%
@@ -175,12 +166,15 @@ p4 <- pca_fit %>%
                              y = .fittedPC3,
                              fill = Affected,
                              color = Affected),
-               geom="polygon", level=0.95, alpha=0.2) +
+               geom="polygon",
+               level=0.95,
+               alpha=0.2) +
   guides(fill = FALSE) +
   theme(axis.text.x=element_text(angle =0, vjust=1, hjust=1),
         legend.position ="none") +
   labs(x = "PC1",
        y = "PC3")
+p4
 
 p5 <- pca_fit %>%
   augment(my_data_clean_aug) %>%
@@ -193,13 +187,14 @@ p5 <- pca_fit %>%
                              y = .fittedPC4,
                              fill = Affected,
                              color = Affected),
-               geom="polygon", level=0.95, alpha=0.2) +
+               geom="polygon",
+               level=0.95,
+               alpha=0.2) +
   guides(fill = FALSE) +
   theme(axis.text.x=element_text(angle =0, vjust=1, hjust=1),
         legend.position ="none") +
-  labs(x = "PC1",
-       y = "PC4")
-
+  labs(x = "PC2",
+       y = "PC3")
 p5
 
 p6 <- pca_fit %>%
@@ -213,7 +208,9 @@ p6 <- pca_fit %>%
                              y = .fittedPC5,
                              fill = Affected,
                              color = Affected),
-               geom="polygon", level=0.95, alpha=0.2) +
+               geom="polygon",
+               level=0.95,
+               alpha=0.2) +
   guides(fill = FALSE) +
   theme(axis.text.x=element_text(angle =0, vjust=1, hjust=1),
         legend.position ="None") +
