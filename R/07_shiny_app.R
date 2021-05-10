@@ -3,7 +3,7 @@ library(shiny)
 library(shinythemes)
 library(caret)
 
-my_model <- load('/cloud/project/results/machinelearning.rda')
+my_model <- load('/cloud/project/R/machinelearning.rda')
 # DataTables example
 shinyApp(
   ui = fluidPage(theme = shinytheme("cosmo"),
