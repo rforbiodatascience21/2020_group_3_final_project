@@ -34,7 +34,7 @@ my_data_clean_aug <- my_data_clean_aug %>%
 # Using the right spelling and categories for third disease
 
 my_data_clean_aug <- my_data_clean_aug %>%
-  mutate(third_disease_categories = case_when(third_disease == "hormon" ~ "Hormone Irregularities",
+  mutate(third_disease_categories = case_when(third_disease == "hormon" ~ "Hormone Irregularity",
                                               third_disease == "none" ~ "none"))
 
 # Scatter Plot 1
@@ -47,8 +47,6 @@ Scatter1 <- my_data_clean_aug %>%
   
   geom_point() +
   scale_color_discrete(name = "Gender") +
-  #geom_boxplot(alpha = 0) +
-  #geom_jitter(alpha = 0.5) +
   theme_cowplot(12)+
   theme(plot.title = element_text(hjust = 0.5))+
   labs(title="Duration of Disease w.r.t variables Height and Gender", x="Disease Duration (Days)", y="BMI")
@@ -111,7 +109,7 @@ p1 <- my_data_clean_aug %>%
 p1
 
 # Density plot - Distribution of weights across BMI classes stratified on
-# stratified on Age and whether the individuals have T1 diabtes or not
+# stratified on Age and whether the individuals have T1 diabetes or not
 p2 <- ggplot(data = my_data_clean_aug,
              mapping = aes(x = Weight,
                            y = BMI_class,
