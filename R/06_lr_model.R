@@ -36,7 +36,7 @@ diabetes_cv <- vfold_cv(diabetes_train)
 # define the recipe, we can always add more recipes (we define which columns
 # the lr model should use for prediction)
 diabetes_recipe <- 
-  recipe(Affected ~ other_disease_binary + PancreasBin + Weight + Height + FamHistT1DBin + FamHistT2DBin, 
+  recipe(Affected ~ other_disease_binary + Weight + Height + FamHistT1DBin + FamHistT2DBin, 
          data = table) %>%
   # Normalizing and imputing data using KNN.
   step_normalize(all_numeric()) %>%
@@ -111,8 +111,8 @@ test_predictions %>%
 final_model <- fit(lr_workflow, table)
 
 # Inventing a fake person to see what the model predicts
-new_example <- tribble(~other_disease_binary,~PancreasBin, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
-                       0, 0, 45, 1.2, 0, 0)
+new_example <- tribble(~other_disease_binary, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
+                       0, 45, 1.2, 0, 0)
 new_example
 
 predict(final_model, new_data = new_example)
