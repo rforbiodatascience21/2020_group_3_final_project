@@ -47,7 +47,7 @@ Scatter1 <- my_data_clean_aug %>%
   geom_point() +
   scale_color_discrete(name = "Gender") +
   theme_cowplot(12)+
-  theme(plot.title = element_text(hjust = 0.5))+
+  theme(plot.title = element_text(hjust = 0.5)) +
   labs(title="Duration of Disease w.r.t variables Height and Gender", x="Disease Duration (Days)", y="BMI")
 Scatter1
 
@@ -58,12 +58,15 @@ Scatter2 <- my_data_clean_aug %>%
   ggplot(mapping = aes(x= Age,
                        y= Weight,
                        color = second_disease_categories)) +
-  geom_text_repel(aes(label = second_disease_categories), size = 2.5) +
+  geom_text_repel(aes(label = second_disease_categories),
+                  size = 2.5) +
   geom_point() +
   scale_color_discrete(name = "Diseases") +
   theme_cowplot(12) +
   theme(plot.title = element_text(hjust = 0.5)) +
-        labs(title="2 accompanying diseases", x="Age (Range: Years)", y="Weight (Kgs)")
+        labs(title="2 accompanying diseases",
+             x = "Age (Range: Years)",
+             y = "Weight (Kgs)")
 Scatter2
 
 
@@ -73,14 +76,17 @@ Scatter3 <- my_data_clean_aug %>%
   filter(third_disease_categories != "none") %>%
   ggplot(mapping = aes(x= Age,
                        y= Weight,
-                       color = third_disease_categories))+
-  geom_text_repel(aes(label = third_disease_categories), size =3) +
+                       color = third_disease_categories)) +
+  geom_text_repel(aes(label = third_disease_categories),
+                  size =3) +
   geom_point() +
   theme_cowplot(12) +
   scale_color_discrete(name = "Diseases") +
 
-  theme(plot.title = element_text(hjust = 0.5))+
-        labs(title="3 accompanying diseases", x="Age (Range: Years)", y="Weight (Kgs)")
+  theme(plot.title = element_text(hjust = 0.5)) +
+        labs(title = "3 accompanying diseases",
+             x = "Age (Range: Years)",
+             y = "Weight (Kgs)")
 Scatter3
 
 

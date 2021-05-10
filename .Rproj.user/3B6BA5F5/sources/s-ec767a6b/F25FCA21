@@ -1,0 +1,26 @@
+{
+    "id": "F25FCA21",
+    "path": "/cloud/project/R/06_lr_model.R",
+    "project_path": "R/06_lr_model.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1620657546604.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "141,52",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1620655737,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1620655737,
+    "read_only": false,
+    "read_only_alternatives": []
+}

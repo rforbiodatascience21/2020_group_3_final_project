@@ -1,0 +1,130 @@
+---
+title: 'Analysis of Data Set <br> T1 - Diabetes'
+author: Group 3 <br> <br> August Ehlers s164487 <br> Holger Ehlers s182521 <br> Kiara Szakter s202504 <br> Ranjitha Sekhar s210271
+output:
+  ioslides_presentation: 
+    css: style.css
+    slidy_presentation: default
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Outline
+- Introduction
+
+- Materials and Methods
+
+- Results 
+
+- Discussion
+
+- Conclusion
+
+## Introduction
+- Data set of Rural People from Bangladesh with or without T1-Diabetes 
+(source: https://www.kaggle.com/sabbir1996/dataset-of-diabetes-type1)
+```{r, echo=FALSE, out.width = '100%' }
+knitr::include_graphics("/cloud/project/data/_raw/rawdata.png")
+```
+- Contains 306 data points and 22 variables
+- Classify people with T1 diabetes and explore important variables for T1 diabetes
+
+## Materials and Methods
+- Obtain data set 
+
+- Data Wrangling
+
+- Exploratory Data Analysis
+
+- Analysis and PCA Modeling
+
+- Logistic Regression model and Machine Learning
+
+- Shiny App
+
+- Working collaboratively using RStudio Cloud and Github
+
+## Materials and Methods
+- Include flow chart diagram
+
+- Talk about different methods
+
+## Results: Exploratory Data Analysis
+```{r, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/Scatter1.png")
+```
+
+## Results: EDA (contd.)
+```{r, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/06_ExplorativeAnalysis_Histogram.png")
+```
+
+## Results: EDA (contd.)
+```{r, echo=FALSE, out.width = '110%'}
+knitr::include_graphics("/cloud/project/results/ScatterPatch.png")
+```
+
+
+
+
+## Results: EDA (contd.)
+```{r, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/06_ExplorativeAnalysis_Density.png")
+```
+
+
+## Results: Analysis and Modeling
+```{r pressure, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/05_PCA_varExplained.png")
+```
+
+## Results: Analysis and Modeling
+```{r, echo=FALSE, fig.cap="Data is well seperated so classification seems to be feasible.", out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/05_PCA_scatter.png")
+```
+
+## Results: Analysis and Modeling
+- Logistic regression done using tidymodels
+
+- Perform binary classification
+
+- Parameters: other_diseases, height, weight, famHist2DBin, famHist1DBin
+
+- Assessing the predictive ability of the model
+
+```{r}
+
+```
+
+## Results: Analysis and Modeling
+```{r, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/07_densityPredictions.png")
+```
+
+## Results: Analysis and Modeling
+```{r, echo=FALSE, out.width = '65%'}
+
+knitr::include_graphics("/cloud/project/images/shiny.png")
+```
+
+Link (source = https://hcehlers.shinyapps.io/DiaPredict/)
+
+## Discussion
+
+- Limited by the data set: location, race and habitat of source data limit the global usability of the model
+
+- Unique observation: Height seems to impact the likelihood of diabetes
+
+- The accuracy of our model can be increased with added parameters and data points
+
+- Scope for cross platforming and integrated studies 
+
+## Conclusion
+
+- It was feasible to do data analysis and obtain biological insights about our data set
+
+- We conclude that height and weight are important indicators of T1 diabetes 
+
+- We expected family history to be more important
+
+- More descriptive data would have made it easier to conclude and test hypotheses
