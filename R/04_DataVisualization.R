@@ -131,7 +131,6 @@ p2 <- ggplot(data = my_data_clean_aug,
                                   "morbid obesity"))) +
   geom_density_ridges(alpha=0.5) +
   # placing legend at the bottom and centering plot title
-  theme_cowplot(12)+
   theme(legend.position="bottom",
         plot.title = element_text(hjust = 0.5)) +
   # adding custom labels and title
