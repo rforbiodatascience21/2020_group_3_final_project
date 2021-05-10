@@ -117,7 +117,7 @@ Link (source = https://hcehlers.shinyapps.io/DiaPredict/)
 
 - Limited by the data set: location, race and habitat of source data limit the global usability of the model
 
-- Unique observation: Family history of diabetes does not impact the likelihood of diabetes
+- Unique observation: Height seems to impact the likelihood of diabetes
 
 - The accuracy of our model can be increased with added parameters and data points
 
