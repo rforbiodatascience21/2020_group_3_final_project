@@ -150,7 +150,10 @@ knitr::include_graphics("/cloud/project/results/05_PCA_scatter.png")
 knitr::include_graphics("/cloud/project/results/07_densityPredictions.png")
 ```
 ## Results: Analysis and Modeling
+```{r, echo=FALSE, out.width = '100%'}
 
+knitr::include_graphics("/cloud/project/results/.png")
+```
 
 ## Discussion
 
