@@ -28,16 +28,15 @@ knitr::include_graphics("/cloud/project/data/_raw/data_science_cycle.png")
 
 ## Introduction
 - Data set of Rural People from Bangladesh with or without T1-Diabetes 
+(source: https://www.kaggle.com/sabbir1996/dataset-of-diabetes-type1)
 ```{r, echo=FALSE, out.width = '100%' }
 knitr::include_graphics("/cloud/project/data/_raw/rawdata.png")
 ```
 - Contains 306 data points and 22 variables
-
-- Classify T1 Diabetes people and explore important variables for T1 diabetes
+- Classify people with T1 diabetes and explore important variables for T1 diabetes
 
 ## Materials and Methods
 - Obtain data set 
-  (source = https://www.kaggle.com/sabbir1996/dataset-of-diabetes-type1)
 
 - Data Wrangling
 
