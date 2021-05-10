@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - Data set of Rural People from Bangladesh with or without T1-Diabetes 
 (source: https://www.kaggle.com/sabbir1996/dataset-of-diabetes-type1)
 ```{r, echo=FALSE, out.width = '100%' }
-knitr::include_graphics("/cloud/project/data/_raw/rawdata.png")
+knitr::include_graphics("/cloud/project/doc/images/rawdata.png")
 ```
 - Contains 306 data points and 22 variables
 - Classify people with T1 diabetes and explore important variables for T1 diabetes
@@ -45,9 +45,9 @@ knitr::include_graphics("/cloud/project/data/_raw/rawdata.png")
 - Working collaboratively using RStudio Cloud and Github
 
 ## Materials and Methods
-- Include flow chart diagram
-
-- Talk about different methods
+```{r, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("/cloud/project/doc/images/Project_flow_chart.png")
+```
 
 ## Results: Exploratory Data Analysis
 ```{r, echo=FALSE, out.width = '100%'}
@@ -104,10 +104,10 @@ knitr::include_graphics("/cloud/project/results/07_densityPredictions.png")
 ## Results: Analysis and Modeling
 ```{r, echo=FALSE, out.width = '65%'}
 
-knitr::include_graphics("/cloud/project/images/shiny.png")
+knitr::include_graphics("/cloud/project/doc/images/shiny.png")
 ```
 
-Link (source = https://hcehlers.shinyapps.io/DiaPredict/)
+https://hcehlers.shinyapps.io/DiaPredict/
 
 ## Discussion
 
