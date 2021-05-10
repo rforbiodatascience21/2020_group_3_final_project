@@ -45,6 +45,7 @@ p1 <- my_data_clean_aug %>%
   geom_histogram(alpha = 0.5,
                  bins = 25) +
   # repositioning legend to be at the bottom
+  theme_cowplot(12)+
   theme(legend.position = "bottom",
         plot.title = element_text(hjust = 0.5)) +
   labs(title = "Distribution of duration of based on residency",
@@ -73,6 +74,7 @@ p2 <- ggplot(data = my_data_clean_aug,
                               "morbid obesity"))) +
   geom_density_ridges(alpha=0.5) +
   # placing legend at the bottom and centering plot title
+  theme_cowplot(12)+
   theme(legend.position="bottom",
         plot.title = element_text(hjust = 0.5)) +
   # adding custom labels and title
@@ -80,38 +82,10 @@ p2 <- ggplot(data = my_data_clean_aug,
        x = "Weight",
        y = "BMI class")
 p2
-# Tile plot - Displaying individuals based on having disease and BMI class
-# and stratifying on affected by T1 diabetes
-p3 <- ggplot(data = my_data_clean_aug,
-             mapping = aes(x = `Area of Residence`,
-                           y = Age,
-                           fill = BMI)) +
-  geom_tile(alpha=0.5) +
-  # Defining color gradient
-  scale_fill_gradient2(low="yellow",
-                       mid="orange",
-                       high="red",
-                       midpoint = .5) +
-  # redefining the y-label order
-  scale_y_discrete(limits = rev(c("underweight",
-                                  "normal weight",
-                                  "overweight",
-                                  "obese",
-                                  "severe obesity",
-                                  "morbid obesity"))) +
-  # placing legend at the bottom and angling x-labels
-  theme(legend.position="bottom",
-        axis.text.x = element_text(size = 12,
-                                   angle = 45,
-                                   hjust = 1),
-        axis.text.y = element_text(size = 12)) +
-  labs(x="First disease", y="BMI class")
-p3
 
 # Write data --------------------------------------------------------------
 ggsave(plot = p1, filename = "results/06_ExplorativeAnalysis_Histogram.png")
 ggsave(plot = p2, filename = "results/06_ExplorativeAnalysis_Density.png")
-ggsave(plot = p3, filename = "results/06_ExplorativeAnalysis_TilePlot.png")
 
 
 
