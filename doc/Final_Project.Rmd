@@ -23,12 +23,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction
 - Data set of Rural People from Bangladesh with or without T1-Diabetes 
+```{r, echo=FALSE }
+knitr::include_graphics("/cloud/project/data/_raw/rawdata.png")
+```
 
 - Contains 306 data points and 22 variables
 
-- Exploratory Data Analysis
-
-- Classify T1 Diabetes children and explore important variables for T1 diabetes
+- Classify T1 Diabetes people and explore important variables for T1 diabetes
 
 ## Materials and Methods
 - Obtain data set
