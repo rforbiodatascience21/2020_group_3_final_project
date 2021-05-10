@@ -6,7 +6,6 @@ output:
     css: style.css
     slidy_presentation: default
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -22,8 +21,14 @@ knitr::opts_chunk$set(echo = TRUE)
 - Conclusion
 
 ## Introduction
+- Project aim
+```{r, echo=FALSE, out.width = '100%' }
+knitr::include_graphics("/cloud/project/data/_raw/data_science_cycle.png")
+```
+
+## Introduction
 - Data set of Rural People from Bangladesh with or without T1-Diabetes 
-```{r, echo=FALSE }
+```{r, echo=FALSE, out.width = '100%' }
 knitr::include_graphics("/cloud/project/data/_raw/rawdata.png")
 ```
 - Contains 306 data points and 22 variables
@@ -46,9 +51,7 @@ knitr::include_graphics("/cloud/project/data/_raw/rawdata.png")
 
 - Working collaboratively using RStudio Cloud and Github
 
-## Results: Data wrangling
-
-
+## Materials and Methods: Data wrangling
 ```{r, message=FALSE, out.width = '100%'}
 # Load libraries
 library("tidyverse")
@@ -66,7 +69,7 @@ my_data_clean <- my_data_clean %>%
 
 ```
 
-## Results: Data wrangling
+## Materials and Methods: Data wrangling
 ```{r, echo=TRUE, out.width = '200%'}
 # Wrangle data 
 my_data_clean_aug <- my_data_clean %>%
@@ -74,7 +77,8 @@ my_data_clean_aug <- my_data_clean %>%
   unit = str_replace(`Duration of disease`, Dur_disease,"")) %>%
   select(-`Duration of disease`)
 ```
-## Results: Data Wrangling
+
+## Materials and Methods: Data wrangling
 ```{r,warning=FALSE, out.width = '200%'}
 # Converting duration to days for every value
 my_data_clean_aug <- my_data_clean_aug %>%
@@ -102,15 +106,17 @@ knitr::include_graphics("/cloud/project/results/Scatter1.png")
 ```
 
 ## Results: EDA (contd.)
+```{r, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/06_ExplorativeAnalysis_Histogram.png")
+```
+
+## Results: EDA (contd.)
 ```{r, echo=FALSE, out.width = '110%'}
 knitr::include_graphics("/cloud/project/results/ScatterPatch.png")
 ```
 
 
-## Results: EDA (contd.)
-```{r, echo=FALSE, out.width = '100%'}
-knitr::include_graphics("/cloud/project/results/06_ExplorativeAnalysis_Histogram.png")
-```
+
 
 ## Results: EDA (contd.)
 ```{r, echo=FALSE, out.width = '100%'}
@@ -128,6 +134,29 @@ knitr::include_graphics("/cloud/project/results/05_PCA_varExplained.png")
 knitr::include_graphics("/cloud/project/results/05_PCA_scatter.png")
 ```
 
+## Results: Analysis and Modeling
+- Logistic regression done using tidymodels
+
+- Perform classification
+
+- Parameters: other_diseases, height, weight, famHist2DBin, famHist1DBin
+
+```{r}
+
+```
+
+## Results: Analysis and Modeling
+```{r, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/07_densityPredictions.png")
+```
+
+## Results: Analysis and Modeling
+```{r, echo=FALSE, out.width = '100%'}
+
+knitr::include_graphics("/cloud/project/results/shiny.png")
+```
+Link for the Shiny App:
+(source = https://hcehlers.shinyapps.io/DiaPredict/)
 ## Discussion
 
 - Limited by the data set: location, race and habitat of source data limit the global usability of the model
