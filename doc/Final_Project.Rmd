@@ -26,21 +26,21 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r, echo=FALSE }
 knitr::include_graphics("/cloud/project/data/_raw/rawdata.png")
 ```
-
 - Contains 306 data points and 22 variables
 
 - Classify T1 Diabetes people and explore important variables for T1 diabetes
 
 ## Materials and Methods
-- Obtain data set
+- Obtain data set 
+  (source = https://www.kaggle.com/sabbir1996/dataset-of-diabetes-type1)
 
 - Data Wrangling
 
-- EDA
+- Exploratory Data Analysis
 
-- Analysis and Modeling
+- Analysis and PCA Modeling
 
-- LR model
+- Linear Regression model and Machine Learning
 
 - Shiny App
 
