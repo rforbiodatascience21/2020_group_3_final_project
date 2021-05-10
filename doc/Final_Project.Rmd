@@ -49,8 +49,7 @@ knitr::include_graphics("/cloud/project/data/_raw/rawdata.png")
 ## Results: Data wrangling
 
 
-```{r, message=FALSE, out.width = '200%'}
-
+```{r, message=FALSE, out.width = '100%'}
 # Load libraries
 library("tidyverse")
 # Load data
@@ -68,12 +67,6 @@ my_data_clean <- my_data_clean %>%
 ```
 
 ## Results: Data wrangling
-```{r, echo=FALSE }
-knitr::include_graphics("/cloud/project/data/_raw/augment_data.png")
-```
-
-## Results: Data wrangling
-
 ```{r, echo=TRUE, out.width = '200%'}
 # Wrangle data 
 my_data_clean_aug <- my_data_clean %>%
