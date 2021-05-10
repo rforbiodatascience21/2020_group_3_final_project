@@ -50,7 +50,7 @@ knitr::include_graphics("/cloud/project/doc/images/Project_flow_chart.png")
 ```
 
 ## Results: Exploratory Data Analysis
-```{r, echo=FALSE, out.width = '100%'}
+```{r, echo=FALSE, out.width = '60%', fig.align="center"}
 knitr::include_graphics("/cloud/project/results/Scatter1.png")
 ```
 
