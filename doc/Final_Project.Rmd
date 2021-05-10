@@ -53,6 +53,8 @@ knitr::include_graphics("/cloud/project/data/_raw/rawdata.png")
 ## Materials and Methods
 - Include flow chart diagram
 
+- Talk about different methods
+
 ## Results: Exploratory Data Analysis
 ```{r, echo=FALSE, out.width = '100%'}
 knitr::include_graphics("/cloud/project/results/Scatter1.png")
