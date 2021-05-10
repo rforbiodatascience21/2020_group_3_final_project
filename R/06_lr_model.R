@@ -2,16 +2,13 @@
 rm(list = ls())
 
 # Load libraries ----------------------------------------------------------
-#install.packages("tidymodels")
+
 library(tidymodels)
 library(tidyverse)
 library(workflows)
 library(tune)
 library(ranger)
 library("tidyverse")
-
-# Define functions --------------------------------------------------------
-source(file = "R/99_project_functions.R")
 
 # Load data ---------------------------------------------------------------
 table <- read.table(file = '/cloud/project/data/03_my_data_clean_aug.tsv',
