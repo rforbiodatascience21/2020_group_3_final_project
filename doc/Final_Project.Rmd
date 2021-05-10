@@ -55,27 +55,27 @@ knitr::include_graphics("/cloud/project/results/Scatter1.png")
 ```
 
 ## Results: EDA (contd.)
-```{r, echo=FALSE, out.width = '100%'}
+```{r, echo=FALSE, out.width = '60%', fig.align="center"}
 knitr::include_graphics("/cloud/project/results/06_ExplorativeAnalysis_Histogram.png")
 ```
 
 ## Results: EDA (contd.)
-```{r, echo=FALSE, out.width = '105%'}
+```{r, echo=FALSE, out.width = '60%', fig.align="center"}
 knitr::include_graphics("/cloud/project/results/ScatterPatch.png")
 ```
 
 ## Results: EDA (contd.)
-```{r, echo=FALSE, out.width = '100%'}
+```{r, echo=FALSE, out.width = '60%', fig.align="center"}
 knitr::include_graphics("/cloud/project/results/06_ExplorativeAnalysis_Density.png")
 ```
 
 ## Results: Analysis and Modeling
-```{r pressure, echo=FALSE, out.width = '100%'}
+```{r pressure, echo=FALSE, out.width = '60%', fig.align="center"}
 knitr::include_graphics("/cloud/project/results/05_PCA_varExplained.png")
 ```
 
 ## Results: Analysis and Modeling
-```{r, echo=FALSE, fig.cap="Data is well seperated so classification seems to be feasible.", out.width = '100%'}
+```{r, echo=FALSE, fig.cap="Data is well seperated so classification seems to be feasible.", out.width = '60%', fig.align="center"}
 knitr::include_graphics("/cloud/project/results/05_PCA_scatter.png")
 ```
 
@@ -89,7 +89,7 @@ knitr::include_graphics("/cloud/project/results/05_PCA_scatter.png")
 - Assessing the predictive ability of the model
 
 ## Results: Analysis and Modeling
-```{r, echo=FALSE, out.width = '100%'}
+```{r, echo=FALSE, out.width = '60%', fig.align="center"}
 knitr::include_graphics("/cloud/project/results/07_densityPredictions.png")
 ```
 
