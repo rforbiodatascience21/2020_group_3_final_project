@@ -21,6 +21,12 @@ knitr::opts_chunk$set(echo = TRUE)
 - Conclusion
 
 ## Introduction
+- Project aim
+```{r, echo=FALSE }
+knitr::include_graphics("/cloud/project/data/_raw/data_science_cycle.png")
+```
+
+## Introduction
 - Data set of Rural People from Bangladesh with or without T1-Diabetes 
 ```{r, echo=FALSE }
 knitr::include_graphics("/cloud/project/data/_raw/rawdata.png")
@@ -127,10 +133,24 @@ knitr::include_graphics("/cloud/project/results/05_PCA_varExplained.png")
 knitr::include_graphics("/cloud/project/results/05_PCA_scatter.png")
 ```
 
-## Results: PCA
-```{r, echo=FALSE, fig.cap="Data is well seperated so classification seems to be feasible.", out.width = '100%'}
+## Results: Analysis and Modeling
+- Logistic regression done using tidymodels
+
+- Perform classification
+
+- Parameters: other_diseases, height, weight, famHist2DBin, famHist1DBin
+
+```{r}
 
 ```
+
+## Results: Analysis and Modeling
+```{r, echo=FALSE, out.width = '100%'}
+
+knitr::include_graphics("/cloud/project/results/07_densityPredictions.png")
+```
+## Results: Analysis and Modeling
+
 
 ## Discussion
 

@@ -12,7 +12,7 @@ shinyApp(
                    tabPanel("Ver.1.0",
                             sidebarPanel(
                               tags$h3("Input Parameters"),
-                              numericInput("Var1", "Gender", "", "0", "1"),
+                              numericInput("Var1", "Other disease", "", "0", "1"),
                               numericInput("Var2", "Weight (Kilograms)", ""),
                               numericInput("Var3", "Height (Meters)", ""),
                               numericInput("Var4", "Family History of Type 1 Diabetes?", "", "0", "1"),
@@ -22,7 +22,7 @@ shinyApp(
                             mainPanel(
                               h1("Are you likely to be Diabetic?"),
                               h2("Instructions:"),
-                              h4("Select 1 for Female or 0 for Male and Select 1 for Yes or 0 for No"),
+                              h4("Select 1 for Yes or 0 for No"),
                               verbatimTextOutput("Pred"),
                               
                             ) # mainPanel
@@ -34,7 +34,7 @@ shinyApp(
   
   server = function(input, output) {
     data_user <- eventReactive(input$submitbutton,
-                               {tribble(~genderBin, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
+                               {tribble(~other_disease_binary, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
                                         input$Var1, input$Var2, input$Var3, input$Var4, input$Var5)})
     output$table <- renderPrint(data_user())
     
