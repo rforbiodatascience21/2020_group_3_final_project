@@ -1,0 +1,27 @@
+{
+    "id": "73C24EA8",
+    "path": "/cloud/project/R/shiny_app_HE.R",
+    "project_path": "R/shiny_app_HE.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1620474635572.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "42,6",
+        "scrollLine": "27"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1620474667,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1620474667985,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,38 @@
+---
+title: "Final project: Analysis of T1-diabetes data set"
+author: "Group 3 | August Ehlers s164487, Holger Ehlers s182521, Kiara Szakter s202504, Ranjitha Sekhar s210271"
+date: "03/05/2021"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+
+
+```{r}
+```
+
+## Materials and Methods
+
+
+
+
+
+## Results
+```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/05_PCA_varExplained.png")
+```
+
+## Results
+```{r, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/05_PCA_directions.png")
+```
+
+
+## Discussion
+```{r}
+```

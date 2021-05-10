@@ -1,0 +1,155 @@
+# Clear workspace ---------------------------------------------------------
+rm(list = ls())
+
+# Load libraries ----------------------------------------------------------
+
+library(tidymodels)
+library(tidyverse)
+library(workflows)
+library(tune)
+library(ranger)
+library("tidyverse")
+
+# Load data ---------------------------------------------------------------
+table <- read.table(file = '03_my_data_clean_aug.tsv',
+                    sep = '\t',
+                    header = TRUE) 
+
+# Data wrangling ----------------------------------------------------------
+table <- table %>%
+  drop_na()
+
+set.seed(234589)
+# Splitting the data into training (75%) and testing (25%) set
+diabetes_split <- initial_split(table, 
+                                prop = 3/4)
+
+diabetes_train <- training(diabetes_split)
+diabetes_test <- testing(diabetes_split)
+
+# create CV (Monte Carlo) object from training data
+diabetes_cv <- vfold_cv(diabetes_train)
+
+# define the recipe, we can always add more recipes (we define which columns
+# the lr model should use for prediction)
+diabetes_recipe <- 
+  recipe(Affected ~ other_disease_binary + Weight + Height + FamHistT1DBin + FamHistT2DBin, 
+         data = table) %>%
+  # Normalizing and imputing data using KNN.
+  step_normalize(all_numeric()) %>%
+  step_impute_knn(all_predictors())
+
+diabetes_recipe
+
+diabetes_train_preprocessed <- diabetes_recipe %>%
+  # Use the recipe on the training data
+  prep(diabetes_train) %>%
+  # extracting the pre-processed data
+  juice()
+diabetes_train_preprocessed
+
+# Model data ----------------------------------------------------------
+lr_model <- 
+  # specify that the model is logistic regression
+  logistic_reg() %>%
+  # select the engine/package that underlies the model
+  set_engine("glm") %>%
+  # choose either the continuous regression or binary classification mode
+  set_mode("classification") 
+
+# Creating workflow
+lr_workflow <- workflow() %>%
+  # add the created recipe
+  add_recipe(diabetes_recipe) %>%
+  # and add the model
+  add_model(lr_model)
+
+# Parameter tuning - we specify parameters we want to try
+lr_grid <- expand.grid(mtry = c(2, 3, 4, 5, 6, 7, 8, 9, 10))
+
+# Extracting results
+lr_tune_results <- lr_workflow %>%
+  tune_grid(resamples = diabetes_cv, #CV object
+            grid = lr_grid, # grid of values to try
+            metrics = metric_set(accuracy, roc_auc) # metrics we care about
+  )
+
+# Displaying results
+lr_tune_results %>%
+  collect_metrics()
+
+# Extracting the best result from the training
+param_final <- lr_tune_results %>%
+  select_best(metric = "accuracy")
+param_final
+
+# We add the optimal parameter to the workflow
+lr_workflow <- lr_workflow %>%
+  finalize_workflow(param_final)
+
+# Testing the optimal training model on the test set
+lr_fit <- lr_workflow %>%
+  # fit on the training set and evaluate on test set
+  last_fit(diabetes_split)
+lr_fit
+
+# Extracting the final pelrormance on the test set
+test_performance <- lr_fit %>% collect_metrics()
+test_performance
+
+# # Showing the predictions
+test_predictions <- lr_fit %>% collect_predictions()
+test_predictions
+
+# Extracting confusion matrix
+test_predictions %>% 
+  conf_mat(truth = Affected, estimate = .pred_class)
+
+final_model <- fit(lr_workflow, table)
+
+# Inventing a fake person to see what the model predicts
+new_example <- tribble(~other_disease_binary, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
+                       0, 45, 1.2, 0, 0)
+new_example
+
+predict(final_model, new_data = new_example)
+
+# Binarizing predictions
+test_predictions <- test_predictions %>%
+  mutate(pred_classBin = case_when(.pred_class == "yes" ~ 1,
+                                   .pred_class == "No" ~ 0),
+         AffectedBin = case_when(Affected == "yes" ~ 1,
+                                 Affected == "No" ~ 0)) %>%
+  rename(`Predicted class` = .pred_class)
+
+# Visualization ----------------------------------------------------------
+p1 <- test_predictions %>%
+  ggplot(mapping = aes(x = .pred_yes,
+                       fill = Affected,
+                       color = Affected)) +
+  geom_density(alpha = 0.5) +
+  labs(title = "Predicted probability distribution",
+       x = "Yes/No prediction",
+       y = "Density") +
+  theme(legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5))
+p1
+
+p2 <- test_predictions %>%
+  ggplot(mapping = aes(x = AffectedBin + 1,
+                       y = .pred_yes,
+                       color = `Predicted class`,
+                       fill = `Predicted class`)) + 
+  geom_point(alpha = 0.5) + 
+  scale_x_discrete(limits = c("No", "Yes")) +
+  labs(title = "Predicted class vs True class",
+       x = "Affected with T1 diabetes (Yes/No)",
+       y = "Predicted class") +
+  theme(legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5))
+p2
+# Write data --------------------------------------------------------------
+save(final_model , file = 'results/machinelearning.rda')
+ggsave(plot = p1, filename = "results/07_densityPredictions.png")
+ggsave(plot = p2, filename = "results/07_scatterPredictedVSTrueClass.png")
+

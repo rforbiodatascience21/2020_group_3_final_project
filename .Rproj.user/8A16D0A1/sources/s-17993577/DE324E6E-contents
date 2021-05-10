@@ -1,0 +1,41 @@
+# Converting Rdata-file to CSV
+
+# Loading data
+library(tidyverse)
+library(graphite)
+library(org.Hs.eg.db)
+library(hgu95av2.db)
+library(ALL)
+
+load("/cloud/project/data/chiaretti.RData")
+
+#Extracting variables
+x <- chiaretti %>%
+  pluck("x") %>%
+  as_tibble()
+y <- chiaretti %>%
+  pluck("y") %>%
+  as_tibble()
+
+# Merging into one variable
+complete_data <- bind_cols(x,y)
+
+# Writing csv
+write.csv(complete_data,"/cloud/project/data/chiaretti.csv", row.names = FALSE)
+
+View(complete_data)
+
+
+kegg  <- pathways("hsapiens", "kegg")
+graph <- convertIdentifiers(kegg[["Chronic myeloid leukemia"]], "entrez")
+graph <- pathwayGraph(graph)
+genes <- nodes(graph)
+head(genes)
+View(genes)
+data(ALL)
+head(pData(ALL))
+dim(pData(ALL))
+names(pData(ALL))
+summary(pData(ALL))
+
+

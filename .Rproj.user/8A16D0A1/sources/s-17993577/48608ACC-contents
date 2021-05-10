@@ -1,0 +1,10 @@
+# Data visualization
+
+# Loading libraries
+library(readr)
+
+# Loading data and count different features
+leukemia_data <- read_csv("/cloud/project/data/chiaretti.csv")
+
+
+  

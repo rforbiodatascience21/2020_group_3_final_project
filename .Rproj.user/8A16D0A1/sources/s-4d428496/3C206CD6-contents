@@ -1,0 +1,47 @@
+---
+title: 'Analysis of Data Set <br> T1 - Diabetes'
+author: Group 3 <br> <br> August Ehlers s164487 <br> Holger Ehlers s182521 <br> Kiara Szakter s202504 <br> Ranjitha Sekhar s210271
+output:
+  ioslides_presentation: default
+  slidy_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+
+
+```{r}
+```
+
+## Materials and Methods
+
+
+## Data Visualisation
+```{r, echo=FALSE, fig.cap="Fig A", out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/Scatter1.png")
+```
+## Data Visualisation
+```{r, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/ScatterPatch.png")
+```
+
+
+
+
+## Results
+```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/05_PCA_varExplained.png")
+```
+
+## Results
+```{r, echo=FALSE, fig.cap="Data is well seperated so classification seems to be feasible.", out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/05_PCA_scatter.png")
+```
+
+## Discussion
+```{r}
+```

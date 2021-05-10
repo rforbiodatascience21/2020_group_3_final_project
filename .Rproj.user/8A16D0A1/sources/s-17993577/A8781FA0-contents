@@ -1,0 +1,7 @@
+slides > slide.title-slide {
+  background-image: url("/cloud/project/data/_raw/t1_diabetes.jpg"),
+  url("/cloud/project/data/_raw/rural_bangladesh.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 600px 300px, 400px 200px;
+  background-position: right bottom, right top;
+}
