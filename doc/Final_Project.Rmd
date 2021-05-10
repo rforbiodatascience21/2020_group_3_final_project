@@ -136,9 +136,11 @@ knitr::include_graphics("/cloud/project/results/05_PCA_scatter.png")
 ## Results: Analysis and Modeling
 - Logistic regression done using tidymodels
 
-- Perform classification
+- Perform binary classification
 
 - Parameters: other_diseases, height, weight, famHist2DBin, famHist1DBin
+
+- Assessing the predictive ability of the model
 
 ```{r}
 
