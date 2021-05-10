@@ -45,7 +45,7 @@ knitr::include_graphics("/cloud/project/data/_raw/rawdata.png")
 
 - Analysis and PCA Modeling
 
-- Linear Regression model and Machine Learning
+- Logistic Regression model and Machine Learning
 
 - Shiny App
 
