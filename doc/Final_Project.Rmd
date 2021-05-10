@@ -110,7 +110,7 @@ knitr::include_graphics("/cloud/project/results/07_densityPredictions.png")
 ## Results: Analysis and Modeling
 ```{r, echo=FALSE, out.width = '65%'}
 
-knitr::include_graphics("/cloud/project/results/shiny.png")
+knitr::include_graphics("/cloud/project/images/shiny.png")
 ```
 
 Link (source = https://hcehlers.shinyapps.io/DiaPredict/)
