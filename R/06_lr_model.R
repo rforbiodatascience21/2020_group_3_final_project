@@ -103,16 +103,26 @@ test_predictions
 
 # Extracting confusion matrix
 test_predictions %>% 
-  conf_mat(truth = Affected, estimate = .pred_class)
+  conf_mat(truth = Affected,
+           estimate = .pred_class)
 
 final_model <- fit(lr_workflow, table)
 
 # Inventing a fake person to see what the model predicts
-new_example <- tribble(~other_disease_binary, ~Weight, ~Height, ~FamHistT1DBin, ~FamHistT2DBin,
-                       0, 45, 1.2, 0, 0)
+new_example <- tribble(~other_disease_binary,
+                       ~Weight,
+                       ~Height,
+                       ~FamHistT1DBin,
+                       ~FamHistT2DBin,
+                       0,
+                       45,
+                       1.2,
+                       0,
+                       0)
 new_example
 
-predict(final_model, new_data = new_example)
+predict(final_model,
+        new_data = new_example)
 
 # Binarizing predictions
 test_predictions <- test_predictions %>%
@@ -141,7 +151,8 @@ p2 <- test_predictions %>%
                        color = `Predicted class`,
                        fill = `Predicted class`)) + 
   geom_point(alpha = 0.5) + 
-  scale_x_discrete(limits = c("No", "Yes")) +
+  scale_x_discrete(limits = c("No",
+                              "Yes")) +
   labs(title = "Predicted class vs True class",
        x = "Affected with T1 diabetes (Yes/No)",
        y = "Predicted class") +

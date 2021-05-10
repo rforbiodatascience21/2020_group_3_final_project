@@ -7,6 +7,7 @@ library(tidyverse)
 library(ggrepel)
 library(patchwork)
 library(ggridges)
+library(cowplot)
 
 
 # Load data ---------------------------------------------------------------
