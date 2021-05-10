@@ -12,7 +12,7 @@ shinyApp(
                    tabPanel("Ver.1.0",
                             sidebarPanel(
                               tags$h3("Input Parameters"),
-                              numericInput("Var1", "Other disease", "", "0", "1"),
+                              numericInput("Var1", "Other Disease", "", "0", "1"),
                               numericInput("Var2", "Weight (Kilograms)", ""),
                               numericInput("Var3", "Height (Meters)", ""),
                               numericInput("Var4", "Family History of Type 1 Diabetes?", "", "0", "1"),
