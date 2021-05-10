@@ -6,7 +6,6 @@ output:
     css: style.css
     slidy_presentation: default
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -46,9 +45,7 @@ knitr::include_graphics("/cloud/project/data/_raw/rawdata.png")
 
 - Working collaboratively using RStudio Cloud and Github
 
-## Results: Data wrangling
-
-
+## Materials and Methods: Data wrangling
 ```{r, message=FALSE, out.width = '100%'}
 # Load libraries
 library("tidyverse")
@@ -66,7 +63,7 @@ my_data_clean <- my_data_clean %>%
 
 ```
 
-## Results: Data wrangling
+## Materials and Methods: Data wrangling
 ```{r, echo=TRUE, out.width = '200%'}
 # Wrangle data 
 my_data_clean_aug <- my_data_clean %>%
@@ -74,7 +71,7 @@ my_data_clean_aug <- my_data_clean %>%
   unit = str_replace(`Duration of disease`, Dur_disease,"")) %>%
   select(-`Duration of disease`)
 ```
-## Results: Data Wrangling
+## Materials and Methods: Data Wrangling
 ```{r,warning=FALSE, out.width = '200%'}
 # Converting duration to days for every value
 my_data_clean_aug <- my_data_clean_aug %>%
@@ -102,15 +99,17 @@ knitr::include_graphics("/cloud/project/results/Scatter1.png")
 ```
 
 ## Results: EDA (contd.)
+```{r, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("/cloud/project/results/06_ExplorativeAnalysis_Histogram.png")
+```
+
+## Results: EDA (contd.)
 ```{r, echo=FALSE, out.width = '110%'}
 knitr::include_graphics("/cloud/project/results/ScatterPatch.png")
 ```
 
 
-## Results: EDA (contd.)
-```{r, echo=FALSE, out.width = '100%'}
-knitr::include_graphics("/cloud/project/results/06_ExplorativeAnalysis_Histogram.png")
-```
+
 
 ## Results: EDA (contd.)
 ```{r, echo=FALSE, out.width = '100%'}
@@ -126,6 +125,11 @@ knitr::include_graphics("/cloud/project/results/05_PCA_varExplained.png")
 ## Results: Analysis and Modeling
 ```{r, echo=FALSE, fig.cap="Data is well seperated so classification seems to be feasible.", out.width = '100%'}
 knitr::include_graphics("/cloud/project/results/05_PCA_scatter.png")
+```
+
+## Results: PCA
+```{r, echo=FALSE, fig.cap="Data is well seperated so classification seems to be feasible.", out.width = '100%'}
+
 ```
 
 ## Discussion
