@@ -151,12 +151,13 @@ knitr::include_graphics("/cloud/project/results/07_densityPredictions.png")
 ```
 
 ## Results: Analysis and Modeling
-```{r, echo=FALSE, out.width = '100%'}
+```{r, echo=FALSE, out.width = '65%'}
 
 knitr::include_graphics("/cloud/project/results/shiny.png")
 ```
-Link for the Shiny App:
-(source = https://hcehlers.shinyapps.io/DiaPredict/)
+
+Link (source = https://hcehlers.shinyapps.io/DiaPredict/)
+
 ## Discussion
 
 - Limited by the data set: location, race and habitat of source data limit the global usability of the model
